@@ -12,7 +12,7 @@ export const Banner = ({games}: BannerProps) => {
 
     return (
         <>
-        <h1>Game store</h1>
+        <h3>Store creator recommends</h3>
             <div className='banner'>
                 <button onClick={prev}>‹</button>
                 <img src={currentGame.header_image} alt={currentGame.name} />

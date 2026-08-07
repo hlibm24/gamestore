@@ -5,7 +5,7 @@ import {Store, Library, GamePage, Cart} from './pages';
 
 import {Navigation} from './components/Navigation';
 
-import {useGames} from './hooks/newGames'
+import {useGames} from './hooks/useGames'
 
 function App() {
   const {loading} = useGames();

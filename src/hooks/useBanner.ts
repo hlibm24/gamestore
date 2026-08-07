@@ -4,7 +4,6 @@ import { type Game } from '../type/Game';
 export const useBanner = (games: Game[]) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    // useMemo — чтобы featuredGames не пересоздавался на каждый рендер без надобности
     const featuredGames = useMemo(
         () => games.filter((game) => game.isFeatured === true),
         [games]
@@ -12,7 +11,6 @@ export const useBanner = (games: Game[]) => {
 
     const total = featuredGames.length;
 
-    // если список изменился так, что currentIndex вышел за границы — сбрасываем на 0
     useEffect(() => {
         if (currentIndex >= total) {
             setCurrentIndex(0);

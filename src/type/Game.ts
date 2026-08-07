@@ -1,5 +1,5 @@
   export interface Game {
-    id: number,
+    appID: number,
     name: string,
     slug: string,
     isFeatured?: boolean,
