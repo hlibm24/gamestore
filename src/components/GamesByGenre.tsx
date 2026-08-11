@@ -1,4 +1,5 @@
 import { useGamesByGenre } from "../hooks/useGamesByGenre";
+import { GenreRow } from "./GenreRow";
 import {type Game} from '../type/Game';
 
 interface GenreSectionsProps {
@@ -11,17 +12,7 @@ export const GenreSections = ({games}:GenreSectionsProps) => {
     return (
         <>
             {Object.entries(gamesByGenre).map(([genre, genreGames])=> (
-                <section key={genre}>
-                    <h2>{genre}</h2>
-                    <ul className="genre-list">
-                        {genreGames.map((game)=> (
-                            <li key={game.appID}>
-                                <h2>{game.name}</h2>
-                                <img src={game.header_image} alt={game.name} />
-                            </li>
-                        ))}
-                    </ul>
-                </section>
+                <GenreRow key={genre} genre={genre} games={genreGames}/>
             ))}
         </>
     )
