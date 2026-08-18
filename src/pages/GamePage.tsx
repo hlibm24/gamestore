@@ -1,1 +1,20 @@
-export const GamePage = () => <h1>Game page</h1>;
+import {type Game} from '../type/Game';
+import { useParams } from 'react-router-dom';
+
+interface GamePageProps {
+    games: Game[];
+}
+
+export const GamePage = ({games}:GamePageProps) => {
+    const {slug} = useParams();
+    const game = games.find((g)=> g.slug === slug)
+    
+
+    if(!game) return <p>The game not found</p>
+
+    return (
+        <>
+            {game.name}
+        </>
+    )
+}

@@ -1,9 +1,7 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
-// import {useState, useEffect} from 'react';
-import {Store, Library, GamePage, Cart} from './pages';
-// import {type Game} from './type/Game'
+import {BrowserRouter} from 'react-router-dom';
 
 import {Navigation} from './components/Navigation';
+import { AppRoutes } from './components/AppRoutes';
 
 import {useGames} from './hooks/useGames'
 
@@ -18,15 +16,9 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <Navigation/>
-        <Routes>
-          <Route path='/' element={<Store games={games} />} />
-          <Route path='/library' element={<Library/>} />
-          <Route path='/cart' element={<Cart/>} />
-          <Route path='/games/:slug' element={<GamePage/>} />
-        </Routes>
+        <Navigation/>
+        <AppRoutes games={games}/>
       </BrowserRouter>
-
     </>
   )
 }
