@@ -1,6 +1,8 @@
 import {type Game} from '../type/Game';
 import { useBanner } from '../hooks/useBanner';
 
+import {GameCard} from '../components/GameCard';
+
 interface BannerProps {
     games: Game[];
 }
@@ -15,7 +17,7 @@ export const Banner = ({games}: BannerProps) => {
         <h3>Store creator recommends</h3>
             <div className='banner'>
                 <button onClick={prev}>‹</button>
-                <img src={currentGame.header_image} alt={currentGame.name} />
+                <GameCard game={currentGame}/>
                 <button onClick={next}>›</button>
             </div>
         </>

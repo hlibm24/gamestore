@@ -1,9 +1,13 @@
 import { Banner } from "../components/Banner";
 import { GenreSections } from "../components/GamesByGenre";
-import {useGames} from '../hooks/useGames';
+import {type Game} from '../type/Game';
 
-export const Store = () => {
-    const {games} = useGames();
+interface StoreProps {
+    games: Game[];
+}
+
+export const Store = ({games}: StoreProps) => {
+
     return (
         <div>
             <Banner games={games} />

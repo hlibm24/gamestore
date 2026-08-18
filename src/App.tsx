@@ -8,11 +8,11 @@ import {Navigation} from './components/Navigation';
 import {useGames} from './hooks/useGames'
 
 function App() {
-  const {loading} = useGames();
+  const {games, loading} = useGames();
 
 
   if (loading) {
-    return <h1>Загрузка...</h1>;
+    return <h1>Loading...</h1>;
   }
 
   return (
@@ -20,7 +20,7 @@ function App() {
       <BrowserRouter>
       <Navigation/>
         <Routes>
-          <Route path='/' element={<Store/>} />
+          <Route path='/' element={<Store games={games} />} />
           <Route path='/library' element={<Library/>} />
           <Route path='/cart' element={<Cart/>} />
           <Route path='/games/:slug' element={<GamePage/>} />

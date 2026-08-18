@@ -1,6 +1,8 @@
 import {useGenreCarousel} from '../hooks/useGenreCarousel';
 import type { Game } from '../type/Game';
 
+import { GameCard } from './GameCard';
+
 interface GenreRowProps {
     genre: string;
     games: Game[];
@@ -17,8 +19,7 @@ export const GenreRow = ({genre, games}: GenreRowProps) => {
                 <ul>
                     {currentGames.map((game) => (
                         <li key={game.appID}>
-                            {game.name}
-                            <img src={game.header_image} alt={game.name} />
+                            <GameCard game={game}/>
                         </li>
                     ))}
                 </ul>
