@@ -11,8 +11,24 @@
             "required_age": "17",
             "price": 3.99,
             "dlc_count": "22",
-            "detailed_description": "DISCOVER THE STORY BEFORE THE WITCHER IV About the Game ",
+            "detailed_description": "DISCOVER THE STORY BEFORE THE WITCHER IV. About the game: BECOME THE WITCHER - Play as witcher Geralt of Rivia, the ultimate monster slayer with superhuman abilities, as he takes on the most important contract of his life. MASTER DYNAMIC COMBAT - Use the perfect combo of elixirs, witcher magic, and two swords - silver for monsters, steel for humans - to overcome any foe. EXPLORE A DARK FANTASY OPEN WORLD - The morally ambiguous world of the continent is full of delightful and dreadful encounters with complex choices and consequences. TRACK DOWN THE CHILD OF PROPHECY - Ciri is being hunted by The Wild Hunt - a brutal warband of spectral riders - and Geralt must stop them from taking her incredible power for their own. UPDATED FOR MODERN HARDWARE - The Witcher 3: Wild Hunt is Enhanced with numerous visual and technical improvements like ray tracing to take full andvantage of modern hardware.",
             "short_description": "You are Geralt of Rivia, mercenary monster slayer. Before you stands a war-torn, monster-infested continent you can explore at will. Your current contract? Tracking down Ciri — the Child of Prophecy, a living weapon that can alter the shape of the world.",
+            "minimum_requirements": {
+                "OS": "64-bit Windows 7, 64-bit Windows 8 (8.1)",
+                "PROCESSOR": "Intel CPU Core i5-2500K 3.3GHz / AMD A10-5800K APU (3.8GHz)",
+                "MEMORY": "6 GB RAM ",
+                "GRAPHICS": "Nvidia GPU GeForce GTX 660 / AMD GPU Radeon HD 7870",
+                "DIRECTX": "Version 11",
+                "STORAGE": "50 GB available space"
+            },
+            "recommended_requirements": {
+                "OS": "64-bit Windows 10/11",
+                "PROCESSOR": "Intel Core i5-7400 / Ryzen 5 1600",
+                "MEMORY": "8 GB RAM",
+                "GRAPHICS": "Nvidia GTX 1070 / Radeon RX 480",
+                "DIRECTX": "Version 12",
+                "STORAGE": "50 GB available space"
+            },
             "supported_languages": "English,French,Italian,German,Spanish - Spain,Arabic,Czech,Hungarian,Japanese,Korean,Polish,Portuguese - Brazil,Russian,Traditional Chinese,Turkish,Simplified Chinese,Spanish - Latin America",
             "full_audio_languages": "English,French,German,Japanese,Korean,Polish,Portuguese - Brazil,Russian,Simplified Chinese,Spanish - Latin America",
             "reviews": "“ONE OF THE BEST GAMES EVER MADE” 10/10 – GameSpot “AMAZING” 9.3/10 – IGN “ONE OF THE BEST RPGs EVER MADE” 9.8/10 – Game Trailers ",
@@ -39,7 +55,7 @@
             "developers": "CD PROJEKT RED",
             "publishers": "CD PROJEKT RED",
             "categories": "Single-player,Steam Achievements,Steam Trading Cards,Steam Workshop,Adjustable Text Size,Camera Comfort,Color Alternatives,Custom Volume Controls,Adjustable Difficulty,Playable without Timed Input,Save Anytime,Stereo Sound,Surround Sound,Partial Controller Support,Steam Cloud,Remote Play on Tablet,Remote Play on TV,Family Sharing",
-            "genres": "RPG",
+            "genres": "Action,RPG,Open world,Fantasy",
             "tags": "",
             "screenshots": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_5710298af2318afd9aa72449ef29ac4a2ef64d8e.1920x1080.jpg?t=1765462356,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_0901e64e9d4b8ebaea8348c194e7a3644d2d832d.1920x1080.jpg?t=1765462356,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_112b1e176c1bd271d8a565eacb6feaf90f240bb2.1920x1080.jpg?t=1765462356,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_d1b73b18cbcd5e9e412c7a1dead3c5cd7303d2ad.1920x1080.jpg?t=1765462356,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_107600c1337accc09104f7a8aa7f275f23cad096.1920x1080.jpg?t=1765462356,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_64eb760f9a2b67f6731a71cce3a8fb684b9af267.1920x1080.jpg?t=1765462356,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_eda99e7f705a113d04ab2a7a36068f3e7b343d17.1920x1080.jpg?t=1765462356,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_d5b80eb63c12a6484f26796f3e34410651bba068.1920x1080.jpg?t=1765462356,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_b74d60ee215337d765e4d20c8ca6710ae2362cc2.1920x1080.jpg?t=1765462356,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_dc55eeb409d6e187456a8e159018e8da098fa468.1920x1080.jpg?t=1765462356,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_849ec8dcc6f8df1c0b2c509584c9fc9e51f88cfa.1920x1080.jpg?t=1765462356,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_90a33d7764a2d23306091bfcb52265c3506b4fdb.1920x1080.jpg?t=1765462356,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_07812c174bb6b96c29895ddc27404143df7aba6d.1920x1080.jpg?t=1765462356,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_ed23139c916fdb9f6dd23b2a6a01d0fbd2dd1a4f.1920x1080.jpg?t=1765462356,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_dc33eb233555c13fce939ccaac667bc54e3c4a27.1920x1080.jpg?t=1765462356,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_908485cbb1401b1ebf42e3d21a860ddc53517b08.1920x1080.jpg?t=1765462356,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_608af6cfe0eab3f37265550b391732a3e88d1a4f.1920x1080.jpg?t=1765462356,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_8ac1dc847388e59b1be1c5ea5ca592d5861756cc.1920x1080.jpg?t=1765462356",
             "movies": "",
@@ -57,6 +73,22 @@
             "dlc_count": "1",
             "detailed_description": "The second installment in the RPG saga about professional monster slayer Geralt of Rivia, The Witcher 2: Assassins of Kings spins a mature, thought-provoking tale to produce one of the most elaborate and unique role-playing games ever released on PC. A time of untold chaos has come. Mighty forces clash behind the scenes in a struggle for power and influence. The Northern Kingdoms mobilize for war. But armies on the march are not enough to stop a bloody conspiracy... KEY FEATURES IMMERSIVE, MATURE, NON-LINEAR STORY Dive into an immense, emotionally-charged, non-linear story set in a fantasy world unlike any other. Embark on a complex, expansive adventure in which every decision may lead to dire consequences. Engage in over 40 hours of narrative-driven gameplay, featuring 4 different beginnings and 16 different endings. SPECTACULAR, BRUTAL, TACTICAL COMBAT Fight using a combat system that uniquely fuses dynamic action with well-developed RPG mechanics. Use an array of unique witcher weapons, featuring both melee and ranged options. Prepare for battle using a wide array of tactical options: craft potions, set traps and baits, cast magic and sneak up on your foes. REALISTIC, VAST, CONSISTENT GAME WORLD Discover a deep, rich game world where ominous events shape the lives of entire populations while bloodthirsty monsters rage about. Explore numerous, varied locations: from vibrant trading posts, to bustling mining towns, to mighty castles and fortresses; and discover the stories they have to tell and dark secrets they hide. CUTTING-EDGE TECHNOLOGY Experience a believable living and breathing world, featuring beautiful graphics and utilizing sophisticated in-game mechanics made possible thanks to CD PROJEKT RED in-house technology, REDengine. ABOUT THE WITCHER 2 ENHANCED EDITION The Enhanced Edition features lots of new and exciting content. Additional hours of gameplay: New adventures set in previously unseen locations, expanding the story and introducing new characters, mysteries and monsters. New game introduction and cinematics: All new animations and cutscenes, including a new pre-rendered cinematic intro directed by BAFTA Award winner and Academy Award nominee Tomasz Bagiński. All DLCs and improvements introduced in the 2.0 version of the game, including: Arena Mode — an arcade mode that allows players to fight against endless waves of enemies and test their combat skills. A new, extensive tutorial system, gradually and smoothly immersing players in the game world and Geralt’s adventures. Dark Mode — a difficulty level designed for hardcore players, with unique dark-themed items. At this difficulty level, even greater emphasis is placed on battle preparation, defensive maneuvers and opportunistic attacking. The Witcher 2 Enhanced Edition comes with these bonus items: Official soundtrack in MP3 format A map of the game's world A quest handbook for both novice and experienced role-playing fans Game manual “Reasons of State” digital comic book. ",
             "short_description": "A time of untold chaos has come. Mighty forces clash behind the scenes in a struggle for power and influence. The Northern Kingdoms mobilize for war. But armies on the march are not enough to stop a bloody conspiracy...",
+            "minimum_requirements": {
+                "OS": "Windows XP/Vista/7",
+                "PROCESSOR": "Intel or AMD Quad-Core",
+                "MEMORY": "3 GB (Win XP), 4GB (Win Vista/Win 7)",
+                "GRAPHICS": "GeForce 260 (1 GB) or Radeon HD 4850 (1 GB). Resolution: 1440x900.",
+                "DIRECTX": "DirectX 9.29 has to be installed.",
+                "STORAGE": "25GB"
+            },
+            "recommended_requirements": {
+                "OS": "Windows XP/Vista/7",
+                "PROCESSOR": "Intel 2.2 GHz Dual-Core or AMD 2.5 GHz Dual-Core",
+                "MEMORY": "1.5 GB (Win XP), 2GB (Win Vista/Win 7)",
+                "GRAPHICS": "GeForce 8800 (512 MB) or Radeon HD3850 (512 MB). Resolution: 1280x720.",
+                "DIRECTX": "DirectX 9.29 has to be installed.",
+                "STORAGE": "25GB"
+            },
             "supported_languages": "English,German,French,Spanish - Spain,Russian,Czech,Hungarian,Japanese,Polish,Turkish,Traditional Chinese,Italian,Korean,Portuguese - Brazil",
             "full_audio_languages": "English,German,French,Russian,Polish,Portuguese - Brazil",
             "reviews": "",
@@ -83,7 +115,7 @@
             "developers": "CD PROJEKT RED",
             "publishers": "CD PROJEKT RED,1C-SoftClub",
             "categories": "Single-player,Steam Achievements,Steam Trading Cards,Camera Comfort,Color Alternatives,Custom Volume Controls,Adjustable Difficulty,Playable without Timed Input,Save Anytime,Stereo Sound,Surround Sound,Partial Controller Support,Steam Cloud,Steam Leaderboards,Family Sharing",
-            "genres": "RPG",
+            "genres": "Action,RPG,Open world,Fantasy",
             "tags": "",
             "screenshots": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_50472c40c90b4771382458f8e1c691793c63e1b0.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_2bce7b672342632a75cb9a6d225fa0b1d04455d8.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_ba02b1f94ba86e0cac366f72d8aa88a42f0f1e54.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_7c0dc423f1b2c7217f8ce4b7a84c2a444ef61010.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_1c89a98ecd2fdc06cef4b12ca93f85586c01f376.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_87bb8bff1e1b783f799fe07dda01dc250921c594.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_f087fb2b82d8c2523ec4773e186cde4ae970b724.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_967bdeb10e2c2060b21a24bc7a86be36dd84e698.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_7113e666480f25b2e57b1def241d8ac43a4b8ab8.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_342335563e33ac9126a948ecd2422e541c80ec9b.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_4dc6e1e7c215f57615885df7f45bf655267fed20.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_b7f8ffd0916054825361920c5f07a7a0c3db8463.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_aca34edc16916c4f7d47b06029b30891089685e6.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_49c5a5854605dba16ba26e6115c966c9f8feba2b.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_e5b03d03d2e5b6012e0d91bd7dc583a5aae47b81.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_f5b445cc8df274b2d0c295abe73bd96e87bf4514.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_eb2c6784827b1c61fc0f0824c11fb1ff99e47eb5.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_c0f37cfc83ff701a7eeac1b0eb8b6b45fc36cba9.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_de19231726554938a659c7dc74ce8a8752fa2d39.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_b3d7d28e09091777eb1ce18eda147f12b01b6336.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_59cdf1a2b503dd0cd10d983f0bcecd58111e0cc7.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_af2946927dda3873cfebf483605b7164618c7479.1920x1080.jpg?t=1761657279,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/ss_4eea3cb2f151e3d5630008378010f395b0e038a7.1920x1080.jpg?t=1761657279",
             "movies": "",
@@ -101,6 +133,22 @@
             "dlc_count": "1",
             "detailed_description": "Check out other games from CD PROJEKT RED Check out other games from CD PROJEKT RED About the Game The Witcher is a role-playing game set in a dark fantasy world where moral ambiguity reigns. Shattering the line between good and evil, the game emphasizes story and character development, while incorporating a tactically-deep, real-time combat system. Become The Witcher, Geralt of Rivia, and get caught in a web of intrigue woven by forces vying for control of the world. Make difficult decisions and live with the consequences in a game that will immerse you in an extraordinary tale like no other. KEY FEATURES GERALT OF RIVIA: A ONE-OF-A-KIND PROTAGONIST Take on the role of Geralt of Rivia: a charismatic swordmaster and professional monster slayer. Choose from over 250 special abilities, combat skills and magical powers to build a character best suited to your style of play. ORIGINAL FANTASY WORLD DRAWN FROM LITERATURE Enter a harsh fantasy world inspired by the writings of renowned Polish author Andrzej Sapkowski, where nothing is truly black or white, right or wrong. NON-LINEAR STORYLINE Immerse yourself in an epic narrative full of turns, twists and ambiguous moral decisions which have real impact on the storyline. Accomplish quests in a variety of ways and see how the narrative culminates in one of three different endings depending on your actions. STUNNING TACTICAL ACTION Engage in elaborate, yet intuitive real-time combat based on real medieval sword-fighting techniques. Battle using six combat styles, dozens of potions, complex alchemy system, modifiable weapons and powerful magic which all add tactical depth to the fluid real-time experience. Motion capture performed by medieval fighting experts at Frankfurt's renowned Metric Minds studio, resulting in 600 spectacular and authentic in-game combat animations. ABOUT THE WITCHER: ENHANCED EDITION The Witcher: Enhanced Edition takes all of the acclaimed gameplay that garnered the original game more than 90 industry awards and introduces a number of gameplay and technical improvements. Superior dialogue and cutscenes: Over 5000 rewritten and re-recorded lines of dialogue in English, completely redone German language version, as well as over 200 new gesture animations create a more consistent experience and make characters behave more believably in dialogue and cutscenes. Enhanced inventory: A separate sack for alchemy ingredients, as well as a simple sort-and-stack function streamline item organization and usage. Technical improvements: Numerous technical enhancements feature greatly reduced loading times, improved stability, combat responsiveness, faster inventory loading, an option to turn auto-saving on or off, and more. Character differentiation system: The system randomizes the appearance of dozens of in-game models in order to add more variety to monsters and NPCs. The Witcher Enhanced Edition comes with these bonus items: An interactive comic book D'jinni Adventure Editor Two new adventures offering 5+ hours of gameplay Official Soundtrack “Music Inspired by The Witcher” album “Making of” videos Official Game Guide Two maps of The Witcher's world ",
             "short_description": "Become The Witcher, Geralt of Rivia, a legendary monster slayer caught in a web of intrigue woven by forces vying for control of the world. Make difficult decisions and live with the consequences in a game that will immerse you in an extraordinary tale like no other.",
+            "minimum_requirements": {
+                "OS": "Microsoft® Windows® /XP/Vista",
+                "PROCESSOR": "Intel Pentium 4 2.4 GHz or Athlon 64 +2800 (Intel Pentium 4 3.0 GHz or AMD Athlon 64 +3000 recommended). Athlon XP series, such as the Athlon XP +2400, is not supported",
+                "MEMORY": "1 GB RAM (2 GB RAM recommended)",
+                "GRAPHICS": "NVIDIA GeForce 6600 or ATI Radeon 9800 or better (NVIDIA GeForce 7800 GTX or ATI Radeon X1950 XT or better recommended)",
+                "DIRECTX": "DirectX 9.0c (included) or higher",
+                "STORAGE": "15 GB Free"
+            },
+            "recommended_requirements": {
+                "OS": "Microsoft® Windows® /XP/Vista",
+                "PROCESSOR": "Intel Pentium 4 3.0 GHz or AMD Athlon 64 +3000. Athlon XP series, such as the Athlon XP +2400, is not supported",
+                "MEMORY": "2 GB RAM recommended",
+                "GRAPHICS": "NVIDIA GeForce 7800 GTX or ATI Radeon X1950 XT or better",
+                "DIRECTX": "DirectX 9.0c (included) or higher",
+                "STORAGE": "15 GB Free"
+            },
             "supported_languages": "English,French,German,Spanish - Spain,Italian,Czech,Russian,Hungarian,Polish,Traditional Chinese (text only)",
             "full_audio_languages": "",
             "reviews": "",
@@ -127,7 +175,7 @@
             "developers": "CD PROJEKT RED",
             "publishers": "CD PROJEKT RED,1C-SoftClub",
             "categories": "Single-player,Camera Comfort,Color Alternatives,Custom Volume Controls,Adjustable Difficulty,Mouse Only Option,Playable without Timed Input,Save Anytime,Stereo Sound,Steam Cloud,Family Sharing",
-            "genres": "Action,RPG",
+            "genres": "Action,RPG,Open world,Fantasy",
             "tags": "",
             "screenshots": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20900/ss_65cf24359fc027e3fed0cc83aa3468ac9721e552.1920x1080.jpg?t=1749200362,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20900/ss_b26db23a0b4b4e07a6466c84f009cbdbb13091f7.1920x1080.jpg?t=1749200362,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20900/ss_d7ba4953579962c88961cfd4dcd458f8b0b48424.1920x1080.jpg?t=1749200362,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20900/ss_382f8f6e8bb2f0f5e3264d2096b643adb859bc48.1920x1080.jpg?t=1749200362,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20900/ss_42584d3d39fd9b84ad2b2922485aa89ab504e0a0.1920x1080.jpg?t=1749200362,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20900/ss_7690c53d247a0d52f338e6fcc8be0fb9898536d1.1920x1080.jpg?t=1749200362,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20900/ss_995cf6cab41b23e2cafa9a719f0a3f27d05e6bb1.1920x1080.jpg?t=1749200362,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20900/ss_ddd36794809eb8c9e9e11270f217ddcd7bfb4d39.1920x1080.jpg?t=1749200362,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20900/0000005381.1920x1080.jpg?t=1749200362,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20900/0000005382.1920x1080.jpg?t=1749200362,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20900/0000005384.1920x1080.jpg?t=1749200362,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20900/0000005386.1920x1080.jpg?t=1749200362,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20900/0000005387.1920x1080.jpg?t=1749200362,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20900/0000005389.1920x1080.jpg?t=1749200362,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20900/0000005390.1920x1080.jpg?t=1749200362,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20900/0000005391.1920x1080.jpg?t=1749200362,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20900/0000005392.1920x1080.jpg?t=1749200362,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20900/0000005395.1920x1080.jpg?t=1749200362",
             "movies": "",
@@ -146,6 +194,22 @@
             "dlc_count": "105",
             "detailed_description": "Explore our Special Editions! About the Game Travel across Europe as king of the road, a trucker who delivers important cargo across impressive distances! With dozens of cities to explore from the UK, Belgium, Germany, Italy, the Netherlands, Poland, and many more, your endurance, skill and speed will all be pushed to their limits. If you’ve got what it takes to be part of an elite trucking force, get behind the wheel and prove it! Key Features: Transport a vast variety of cargo across more than 60 European cities. Run your own business which continues to grow even as you complete your freight deliveries. Build your own fleet of trucks, buy garages, hire drivers, manage your company for maximum profits. A varied amount of truck tuning that range from performance to cosmetic changes. Customize your vehicles with optional lights, bars, horns, beacons, smoke exhausts, and more. Thousands of miles of real road networks with hundreds of famous landmarks and structures. Play, deliver and chat online together with your friends in the Convoy multiplayer mode! World of Trucks: Take advantage of additional features of Euro Truck Simulator 2 by joining our online community on World of Trucks, our center for virtual truckers all around the world interested in Euro Truck Simulator 2 and future SCS Software's truck simulators. Use in-game Photo Mode to capture the best moments and share them with thousands of people who love trucks. Favorite the images you like the most and return to them anytime in the future. Discuss the screenshots with everyone using World of Trucks. See the best images hand-picked by the game creators in Editor's Pick updated almost every day. Try to get your own screenshot on this list! Upload and use your custom avatar and license plate in the game. World of Trucks is an optional service, registration on World of Trucks isn't required to play the game. ",
             "short_description": "Travel across Europe as king of the road, a trucker who delivers important cargo across impressive distances! With dozens of cities to explore, your endurance, skill and speed will all be pushed to their limits.",
+            "minimum_requirements": {
+                "OS": "Windows 10 64-bit",
+                "PROCESSOR": "Intel Core i5-6400 or AMD Ryzen 3 1200 or similar",
+                "MEMORY": "8 GB RAM",
+                "GRAPHICS": "NVIDIA GeForce GTX 660 or AMD Radeon RX 460 or Intel HD 630 (2GB VRAM)",
+                "DIRECTX": "",
+                "STORAGE": "25 GB available space (Euro Truck Simulator 2 base game)"
+            },
+            "recommended_requirements": {
+                "OS": "Windows 10 64-bit",
+                "PROCESSOR": "Intel Core i5-9600 or AMD Ryzen 5 3600 or similar",
+                "MEMORY": "12 GB RAM",
+                "GRAPHICS": "NVIDIA GeForce GTX 1660 or AMD Radeon RX 590 (2GB VRAM)",
+                "DIRECTX": "",
+                "STORAGE": "25 GB available space (Euro Truck Simulator 2 base game)"
+            },
             "supported_languages": "English,German,French,Italian,Korean,Spanish - Spain,Simplified Chinese,Russian,Japanese,Portuguese - Portugal,Polish,Danish,Dutch,Finnish,Norwegian,Swedish,Hungarian,Czech,Romanian,Turkish,Portuguese - Brazil,Bulgarian,Greek,Ukrainian,Traditional Chinese,Catalan,Lithuanian,Serbian,Slovak,Slovenian",
             "full_audio_languages": "",
             "reviews": "“Unexpectedly engrossing. Heed the mockers and you'll miss one of the PC's finest and freshest driving games.” 85/100 – PC Gamer “With its stellar gameplay and presentation, Euro Truck Simulator 2 set a new standard for the simulation genre.” 95/100 – Gaming Nexus “There are titles in the simulation market which can be sold on the novelty factor alone, but tend to be disappointing games. Euro Truck Simulator 2 is not one of them, it is strangely cathartic, engaging and relaxing.” – True PC Gaming",
@@ -172,7 +236,7 @@
             "developers": "SCS Software",
             "publishers": "SCS Software",
             "categories": "Single-player,Multi-player,Co-op,Online Co-op,Steam Achievements,Steam Trading Cards,Steam Workshop,Camera Comfort,Custom Volume Controls,Adjustable Difficulty,Keyboard Only Option,Playable without Timed Input,Save Anytime,Stereo Sound,Surround Sound,Partial Controller Support,Steam Cloud,Includes level editor,Remote Play on Phone,Remote Play on Tablet,Remote Play Together,Family Sharing",
-            "genres": "Indie,Simulation",
+            "genres": "Indie,Simulation,Open World",
             "tags": "",
             "screenshots": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_54100267623179f54731048c91add16c1c3d3d1e.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_e040f74641ac21f15e3ec7c2415fc8b4de0b6bf9.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_fd675feae669c7fb4ca6dcfb738d49fb7b7a238d.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_edbff61a062a49d1d97269e53b8afbffde05bb24.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_53bcdc903f1f2ef18ee12612627f1c3b59c7c1da.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_a944c7f801629bfa0cfb91fa7b23b4ff95e11753.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_5dff1bca6580b5df288a4ad061e4f92f62f6a073.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_1a455dd625b6d8068c6f1db93887167383275757.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_fa9d08bac73ca4745387aa41a5d95ce13204cede.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_e8f2f677d41086916804ffca0e3da04c7c5b600f.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_bf111ac8893e0a11a68f03e538be3076b600f36f.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_f903e4e63d478e9fe1db48ed05dfc5b314f262ad.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_1dc6f27e13e90e20fe0dd67b6cff4b916f96d662.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_e57e1ef726416e161007bc90d4160d5b529498a4.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_55d4cccdcea427ec4e9f19168a0f83716300c7b7.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_b3eba0d5e75836a7283014f677f8a364e6514367.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_4e725a12f1639d71c94a23ec219d098d8273d78c.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_82e2202270452a435f6618b0d5147feeabf6b155.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_3d3d243ace91523a20e7c5a5992a46d77c00fb01.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_f3dc49d4d8f1fb3cf03334ced1c210321bd80185.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_b8c5306cbfea20969f382e2728009fb7037eed87.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_75d924be54023a48270038c40216682a85c38e65.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_6804c3af110d58a3be3f93edc9a319ebff109754.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_a1c120287e51fb56634b68a98853fd761a4a8f24.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_107bd2c49628ac965eea15c4d9f1bfedb9255a3b.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_430ef267a450f58ca2d8a3caa61cef3a7450de75.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_a2609044e45040c74afe49ffb0abeb2e4db3e976.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_4e97e5e55ce756fb8c5d28db220c72a3bd820fb3.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_bd8f79513af1759d8dd01092b2fd064214227683.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_ebb3be125abd764a6fd216d17f40273d7f78ab2c.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_d7e184079e3ecd5612c355f87c60430a00b69ab9.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_c5f6d32558dddcc6df2ae86c453fc8c0ed6f6753.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_bd8b2b2f6a1a595afab14f398de836e6010563c7.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_c4a5aec31f26009fbe93ee5182194f481209e3a9.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_bfb76d77b688b87b406f2dddddd1be142a06cadc.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_368254bc83b253c146326ef20a88f157fb87ae2f.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_f97b9585647e856c93a3a11242fd05ab78a21c68.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_3bd9c6f5621eeaad4068d5334b9e0fa43527db21.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_eb434cd5ec7b731f36c3869aa772950ac1e876ca.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_c647e8892db78190e1ab5672c594e29ee508b472.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_4a8c73ac16132d73e6dc88d58126572a760a0720.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_737baf4f8b0bca354d008040d11171ac185314e4.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_425c3a46a90dfd781db457e38d8b7d18c2eeb9b7.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_97881274415df85d24791de17da900303897ee42.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_616f3fabc8dda839a02f31353b0c93f579f59bd0.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_ebb380dd10bf7ad0e4afdb88f25de901dbda032e.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_f21bff4784d1314f013fcb9b8d20527f6deebd92.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_1bb04141085a0eec37597e38c80cfe5bf6b8dd97.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_95b7a8e928bb5555aefafb4cbcfb143e670525d5.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_1c2b0275443485018a9d047eea13b0e006213fde.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_ba8c4f88d6d98665ee596b3ee53b158798ca614c.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_c49c51974213722bcb6b509fc7006c137a1f8a67.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_cb40f4513deeaeac03ae8d894cef6bebed55816d.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_56e98c4a5169674702c74c832d799294d643d507.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_53e90822a1fd272cc7062ef2ec166db7f35b96ce.1920x1080.jpg?t=1764266628,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_7a8c4308ae2cc5a9f1b0df87f30b6cfffd26b588.1920x1080.jpg?t=1764266628",
             "movies": "",
@@ -191,6 +255,22 @@
             "dlc_count": "0",
             "detailed_description": "Welcome to Los Santos When a young street hustler, a retired bank robber, and a terrifying psychopath find themselves entangled with some of the most frightening and deranged elements of the criminal underworld, the U.S. government, and the entertainment industry, they must pull off a series of dangerous heists to survive in a ruthless city in which they can trust nobody — least of all each other. Current PC players can transfer both GTAV Story Mode progress and GTA Online characters and progression with a one-time migration from the legacy version of GTAV to GTAV Enhanced. Stunning Visuals Enhanced levels of fidelity and performance with new graphics modes including ray tracing features such as ambient occlusion and global illumination, ray traced shadows and reflections, support for AMD FSR and NVIDIA DLSS, and more.* Faster Loading Quicker access to the action as the world of Los Santos and Blaine County load in faster than ever before by using SSD and DirectStorage on supported devices. Immersive Controls Feel new levels of responsiveness with dynamic resistance via the Adaptive Triggers on the DualSense™ wireless controller, from directional damage to weather effects, rough road surfaces to explosions, and much more.* 3D Audio Enhanced audio with support for Dolby Atmos and improved fidelity of speech, cinematics, and music.* Hear the sounds of the world with pinpoint precision: the throttle of a stolen supercar, the rattle of neighboring gunfire, the roar of a helicopter overhead, and more. Grand Theft Auto Online Experience GTA Online, a dynamic and ever-evolving online universe for up to 30 players, where you can rise from street-level hustler to become a kingpin of your own criminal empire. Enjoy new high-performance vehicle upgrades and improvements like the Career Builder as well as all GTA Online gameplay upgrades, expansions, and content released since launch, ready to enjoy solo or with friends. Pull off daring co-operative Heists, enter adrenaline-fueled Stunt Races, compete in unique Adversary Modes, or hang out in social spaces including nightclubs, arcades, penthouse parties, car meetups, and much more. Exclusive Content Step into Hao’s Special Works at the Los Santos Car Meet, featuring elite new upgrades and exclusive modifications. Then take these high-performance vehicles into HSW races, new time trials, and more. New Career Builder Get started in GTA Online with the tools of the trade. Quickly choose from one of four businesses — Biker, Executive, Nightclub Owner, or Gunrunner — and select from properties, powerhouse vehicles, and weaponry to kick-start your enterprise. New Menu Design Immediately access everything GTA Online has to offer right from the main menu, including the latest and most popular updates. Access to All Current and Previous Updates Dive into more than 40 massive updates with more to come, featuring everything from running a covert ops installation in Agents of Sabotage, to tracking down and dragging in Southern San Andreas' most wanted in Bottom Dollar Bounties; exposing corrupt cops and killer cartels in The Cluckin' Bell Farm Raid, to daring robberies of the most coveted vehicles in Los Santos in The Chop Shop. All this and more available alongside a wide range of races, modes, activities, and social spaces to enjoy solo or with friends — including nightclubs, arcades, penthouse parties, car meetups, and much more. ",
             "short_description": "Experience entertainment blockbusters Grand Theft Auto V and Grand Theft Auto Online — now upgraded for a new generation with stunning visuals, faster loading, 3D audio, and more, plus exclusive content for GTA Online players.",
+            "minimum_requirements": {
+                "OS": "Windows 10 (latest service pack)",
+                "PROCESSOR": "Intel® Core™ i7-4770 | AMD FX™-9590",
+                "MEMORY": "8 GB RAM",
+                "GRAPHICS": "NVIDIA GeForce® GTX 1630 (4GB VRAM) | AMD Radeon™ RX 6400 (4GB VRAM)",
+                "DIRECTX": "",
+                "STORAGE": "105 GB available space"
+            },
+            "recommended_requirements": {
+                "OS": "Windows 11",
+                "PROCESSOR": "Intel® Core™ i5-9600K | AMD Ryzen™ 5 3600",
+                "MEMORY": "16 GB RAM",
+                "GRAPHICS": "NVIDIA GeForce® RTX 3060 (8GB VRAM) | AMD Radeon™ RX 6600XT (8GB VRAM)",
+                "DIRECTX": "",
+                "STORAGE": "105 GB available space"
+            },
             "supported_languages": "English,French,Italian,German,Spanish - Spain,Japanese,Korean,Polish,Portuguese - Brazil,Russian,Simplified Chinese,Spanish - Latin America,Traditional Chinese",
             "full_audio_languages": "English,Traditional Chinese",
             "reviews": "",
@@ -235,6 +315,22 @@
             "dlc_count": "0",
             "detailed_description": "About Mafia II Vito Scaletta has started to make a name for himself on the streets of Empire Bay as someone who can be trusted to get a job done. Together with his buddy Joe, he is working to prove himself to the Mafia, quickly escalating up the family ladder with crimes of larger reward, status and consequence… the life as a wise guy isn’t quite as untouchable as it seems. Action-Packed Gameplay: Intense gunplay, white-knuckle car chases and visceral hand-to-hand combat —it will take all that and more to become a “made man”. Epic Gangster Story: Inspired by iconic mafia drama, the compelling characters and cinematic presentation will pull players into the allure and impossible escape of life in the Mafia. Immersive World and Period: Enter the world of Empire Bay - World War II is raging in Europe and the architecture, cars, music and clothing all echo the period in stunning detail. As time passes, hot rod cars, 50s fashion and some of the era’s best music reflect the birth of a cool new era. Illusion Engine™: 2K Czech’s proprietary Illusion Engine, allows gamers to explore Empire Bay’s 10 square miles of beautifully rendered outdoor environments and intricately designed interiors. Soundtrack Reflects the Mood of the Era: Players will be immersed in the Golden Era of America as Mafia II features tracks from some of the era’s most influential artists. ",
             "short_description": "Vito Scaletta has started to make a name for himself on the streets of Empire Bay as someone who can be trusted to get a job done. Together with his buddy Joe, he is working to prove himself to the Mafia, quickly escalating up the family ladder with crimes of larger reward, status and consequence… the life as a wise guy isn’t quite as...",
+            "minimum_requirements": {
+                "OS": "Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7",
+                "PROCESSOR": "Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core) or higher",
+                "MEMORY": "1.5 GB RAM",
+                "GRAPHICS": "nVidia GeForce 8600 / ATI HD2600 Pro or better",
+                "DIRECTX": "",
+                "STORAGE": "8GB"
+            },
+            "recommended_requirements": {
+                "OS": "Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7",
+                "PROCESSOR": "2.4 GHz Quad Core processor",
+                "MEMORY": "2GB",
+                "GRAPHICS": "nVidia GeForce 9800 GTX / ATI Radeon HD 3870 or better",
+                "DIRECTX": "",
+                "STORAGE": "10GB"
+            },
             "supported_languages": "English,French,German,Italian,Spanish - Spain,Czech,Polish,Russian",
             "full_audio_languages": "English,French,German,Italian,Spanish - Spain,Czech,Russian",
             "reviews": "",
@@ -261,7 +357,7 @@
             "developers": "2K Czech",
             "publishers": "2K",
             "categories": "Single-player,Steam Achievements,Partial Controller Support,Family Sharing",
-            "genres": "Action",
+            "genres": "Action,Open world,Crime",
             "tags": "",
             "screenshots": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_2cc0eb89007eee950b5f7d87ca15957868fdebfb.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_dc895125ba77f0fe72646204097ac2d830a3f7b9.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_87f5094ed68d75a729a562aa50c031a75811db93.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_acc7b0730666a21315abd2f4c857aae20ec0f006.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_48ca6e62d591cd1e538b4e8e684c28168c6f26b8.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_33b346054f3e56914d84061b8347517021456bd7.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_b9a1e35c8396de12e625d212375483aad60ee3b7.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_cd0ddbbbfffa4dfee5ecc54ec4f84fd64f970ba3.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_f05e85cedaffeec168168863f36290851e6432ae.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_a4b352112b3da6c2e72dbbf5409820e935cb01d9.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_f5bfc8573647b1326524b2b46c6609d5ca6cc48c.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_4ad84104bc0c3ee88e4d43ed02943d6ce4661a20.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_abe169e9da7992454f5638e472b5e00f0e635692.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_30a72d755616c5ff7ee397e5a9d3470331715908.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_b7bd2d70a909e1a714231e84ef876e0519acbdb1.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_3bab8a6b43f62bdb038fb1c01a0a352a29db5f48.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_cc388ac2dde48392021c0d2d7ea67c851b44031d.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_f589e23fe3eddc240f7f8cf1bdb39f0de4dca4d0.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_a349b0ac0797fa7e8f04622d9bcbf5768af854f5.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_d50d87ae2721892d9440981ddc40a95ae3b0eb96.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_f7d3c4482bb55bbe6926d4dbcd204e85bb3e510b.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_9e6747640a8ce607d66252d48822307bf3d759ed.1920x1080.jpg?t=1746717708,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/ss_efedd051049d211410175ef785e20f117a575341.1920x1080.jpg?t=1746717708",
             "movies": "",
@@ -279,6 +375,22 @@
             "dlc_count": "0",
             "detailed_description": "Featured DLC The co-op story is far from over. Hoyt’s privateers have ambushed the four survivors and taken them hostage. It’s up to you and your friends to escape an underground prison and find a way off this island of insanity. This Free High Tides DLC Pack Includes: 2 New Co-op Maps: Jailbreak &amp; Redemption 4 New Co-op Skins: 'Warrior-ized' Leonard, Tisha, Callum &amp; Mikhael Digital Deluxe Edition The Deluxe Edition includes: The Monkey Business Pack: Meet Hurk and his explosive bomb-carrying monkey in four heart-pounding missions and get two bonus ways to humiliate your friends in multiplayer. The Lost Expeditions: Discover the secrets of the island’s lost World War II ruins in two suspenseful action missions, and unlock the power of a shotgun in a one-handed flare gun in multiplayer. The Warrior Pack: Strike fear in your enemies with an exclusive dagger and get an early unlock of the tattoo editor in multiplayer. The Predator Pack: Hunt four ferocious animals with the M-700 Predator Rifle in single-player and silently kill opponents with the unlocked Predator Bow in multiplayer. The Survival Guide artbook (pdf file): Discover unique artwork and insider information to help you survive the insanity of the island. The game soundtrack About the Game Far Cry 3 is an open world first-person shooter set on an island unlike any other. A place where heavily armed warlords traffic in slaves. Where outsiders are hunted for ransom. And as you embark on a desperate quest to rescue your friends, you realize that the only way to escape this darkness… is to embrace it Key Features: AN OPEN WORLD FIRST-PERSON SHOOTER Create your own FPS adventure. Customize your weapons, your skills and your approach to each mission, whether you favor intense run-and-gun action, stealthy close-up takedowns or long-range sniping. AN ISLAND OF DANGER AND DISCOVERY Explore a diverse island playground, from mountain ranges and swampy grasslands to white sandy beaches. Discover relics, hunt exotic animals, play mini-games and travel quickly by land, sea or air. Fight your way through the island’s towns, temples, river ports and more! UNCOVER A MEMORABLE STORY AND AN INSANE CAST OF CHARACTERS Encounter an engaging and disturbed cast of characters as you take a gritty journey to the dark side of humanity, written by a Writers Guild Award winner. PLAY WITH FRIENDS IN A FULL CO-OP CAMPAIGN Play online and team up in a four-player campaign which challenges you to be your best and work together to prevail. Experience the island through the eyes of a wayward crew in their own quest to survive against the odds. A DIFFERENT BREED OF MULTIPLAYER Innovative multiplayer rewards skill and team play. To level up, players must support each other by boosting with battle cries, reviving teammates and calling in support weapons. After each match, players have the choice to punish or show mercy for their foes in fun and twisted ways, choreographed with interactive cutscenes. USE THE MAP EDITOR TO CREATE AND ACCESS NEW CONTENT The powerful and easy-to-use Far Cry® Map Editor is back, with new and improved features. A community of mapmakers ensures a constant stream of all-new content with the very best being showcased for the whole world to enjoy. Using the included tools, you too can make amazing maps, quickly and easily. CUTTING-EDGE GRAPHICS AND GAMEPLAY Far Cry® 3 is being developed by the world-class game designers who brought you such critically acclaimed titles as Assassin’s Creed® 2, Assassin’s Creed® Brotherhood, and World in Conflict®.",
             "short_description": "Discover the dark secrets of a lawless island ruled by violence and take the fight to the enemy as you try to escape. You’ll need more than luck to escape alive!",
+            "minimum_requirements": {
+                "OS": "Windows XP, Windows Vista",
+                "PROCESSOR": "Intel Core®2 Duo E6700 @ 2.6 GHz or AMD Athlon64 X2 6000+ @ 3.0Ghz or better",
+                "MEMORY": "4 GB RAM",
+                "GRAPHICS": "512MB Video RAM (1GB Video RAM), DirectX9c (DirectX11) Shader Model 3.0 (Shader Model 5.0)",
+                "DIRECTX": "9.0c",
+                "STORAGE": "15 GB HD space"
+            },
+                "recommended_requirements": {
+                "OS": "Windows XP, Windows Vista",
+                "PROCESSOR": "Intel Core®2 Duo E6700 @ 2.6 GHz or AMD Athlon64 X2 6000+ @ 3.0Ghz or better",
+                "MEMORY": "4 GB RAM",
+                "GRAPHICS": "512MB Video RAM (1GB Video RAM), DirectX9c (DirectX11) Shader Model 3.0 (Shader Model 5.0)",
+                "DIRECTX": "11",
+                "STORAGE": "15 GB HD space"
+            },
             "supported_languages": "English,German,French,Italian,Spanish - Spain,Portuguese - Portugal,Polish,Danish,Dutch,Norwegian,Swedish,Czech,Russian,Japanese,Korean,Simplified Chinese,Traditional Chinese",
             "full_audio_languages": "English,German,French,Italian,Spanish - Spain,Russian,Japanese,Traditional Chinese",
             "reviews": "“INCREDIBLE” 9/10 – IGN “ONE ADVENTURE YOU WON’T WANT TO MISS” 9/10 – GAME INFORMER “A huge and excitingly rich open world” 89/100 – PC Gamer “A must-have for any shooter fan” 4.5/5 – The Escapist “Outstanding” 4.5/5 – GameSpy “One of the best games of the year” 9/10 – Polygon",
@@ -305,7 +417,7 @@
             "developers": "Ubisoft Montreal, Massive Entertainment, and Ubisoft Shanghai",
             "publishers": "Ubisoft",
             "categories": "Single-player,Multi-player,Co-op,Steam Achievements,Partial Controller Support",
-            "genres": "Action,Adventure",
+            "genres": "Action,Adventure,Open world",
             "tags": "",
             "screenshots": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/ss_eed79518c510b7b8ce6fce9d1c350bfcea530993.1920x1080.jpg?t=1752169206,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/ss_83af36773eb0393144cfefa80ceb6baf5c608cf7.1920x1080.jpg?t=1752169206,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/ss_ea2c0211c7c9d64264b40d715ba0822db96da42c.1920x1080.jpg?t=1752169206,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/ss_b318ad7c388f9a2d2d9afa1c35789e130f46333e.1920x1080.jpg?t=1752169206,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/ss_fb34f62630f41d05a835c50633cb4e20ac13b441.1920x1080.jpg?t=1752169206,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/ss_0b189925bdff13dcb799c0822c0282cafe926c3c.1920x1080.jpg?t=1752169206,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/ss_b1a0eebcf2d5c5db1b6b568765b870f1fb50705c.1920x1080.jpg?t=1752169206,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/ss_a85a01aae90c8ca69a05d32a1196ffaf6d943bd7.1920x1080.jpg?t=1752169206,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/ss_0c08ce5d7f63fd8cee404426f6d083d93105a924.1920x1080.jpg?t=1752169206,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/ss_b54fb346d5a7dad0fb345b5e90f379551ecfbfdc.1920x1080.jpg?t=1752169206,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/ss_a8fd4aee64245a876e9bee0f8b59ae065fedf08c.1920x1080.jpg?t=1752169206,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/ss_3cca8f434e284a0985d254271658cfb6ae9ef56b.1920x1080.jpg?t=1752169206,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/ss_6e7911d3622f3a801aeea1c2f8418f0f22880bb0.1920x1080.jpg?t=1752169206,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/ss_c5c810244ba6dd899de44121b37d87fad2621d4c.1920x1080.jpg?t=1752169206,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/ss_6a4dec0b9653564b7be754286cef07a012c24fea.1920x1080.jpg?t=1752169206,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/ss_3eecbdea4a16fbbd21cb2524da300547f5c75e39.1920x1080.jpg?t=1752169206,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/ss_842bfdeb44368babd55ad93af1cbbf560f9fb9a1.1920x1080.jpg?t=1752169206,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/ss_7106071cd402ada3d76c044bb4361a5b2236974e.1920x1080.jpg?t=1752169206",
             "movies": "",
@@ -324,6 +436,22 @@
             "dlc_count": "0",
             "detailed_description": "Unlock rewards by linking your account for PlayStation Network Enjoy rewards with the optional sign-in for PlayStation Network Jordan A. Mun’s Jacket from Intergalactic: The Heretic Prophet¹ as a skin for Ellie. +50 points to activate bonus features and concept art. ¹Intergalactic: The Heretic Prophet is in development for the PlayStation 5 console. About the Game Edition includes: The Last of Us Part II Remastered ELLIE &amp; ABBY’S JOURNEY NOW ON PC Experience the winner of over 300 Game of the Year awards now with an array of technical enhancements that make The Last of Us Part II Remastered the definitive way to play Ellie and Abby’s critically acclaimed story. Five years after their dangerous journey across the post-pandemic United States, Ellie and Joel have settled down in Jackson, Wyoming. Living amongst a thriving community of survivors has allowed them peace and stability, despite the constant threat of the infected and other, more desperate survivors. When a violent event disrupts that peace, Ellie embarks on a relentless journey to carry out justice and find closure. Added features The Last of Us Part II Remastered enhances the original game in ways not possible before, including key PC features: A host of graphical improvements bring the beautiful-yet-dangerous world to life. Full PlayStation® DualSense controller integration with adaptive trigger and haptic feedback functionality.¹ Earn and collect exciting achievements on Steam as you progress through the game. Widescreen and Ultrawide support.² HDR support.³ PC Display and Graphics Menu for scalability. DirectStorage support. PC Optimized graphics Performance enhancing technologies including NVIDIA DLSS 3, AMD FSR 3.1, and AMD FSR 4.0 with upscaling and frame generation. Intel XeSS is also supported⁴ Full gamepad support Adjust the controls to suit your preferences for a smooth and intuitive experience throughout the game. Mouse and keyboard mapping Take full control and ensure personalized gameplay experience by tailoring mouse and keyboard mapping to suit your playstyle. PlayStation® overlay and Trophy support The PlayStation overlay is available for Windows PC players with an account for PlayStation Network to earn PlayStation Trophies and access Friends lists, settings, and player profile. No Return – A Roguelike Survival Mode Experience The Last of Us Part II’s deep combat via an entirely new mode! Survive as long as you can in each run, as you choose your path through a series of randomized encounters. Play as a host of different unlockable characters, each with unique gameplay traits. The variety of challenges features different foes and memorable locations from throughout Part II, all culminating in tense boss battles. Two new unlockable No Return characters are included Four new unlockable maps to challenge More ways to play Delve deeper into this beloved adventure and learn how the original game was created. Lost Levels lets you explore early-development versions of three levels not seen in the original. Enjoy hours of developer commentary to hear insights into Part II’s development as you experience the game. Live up to your musical potential with Guitar Free Play, which includes unlockable instruments, or take on the Speedrun Mode⁵ and post your best times. Descriptive Audio⁶ and Speech to Vibrations¹ have also been added to Part II's suite of accessibility features. The Last of Us Part II Remastered also features unlockable character and weapon skins for players to use for both Ellie and Abby. ¹ Wired connection required to experience the full range of in-game DualSense controller features. ²Compatible PC and display device required. ³Compatible PC and HDR display device required. ⁴Compatible PC and graphics card required. ⁵Game progression required to unlock. ⁶Only available for audio supported languages. ",
             "short_description": "Experience the winner of over 300 Game of the Year awards, now on PC. Discover Ellie and Abby’s story with graphical enhancements, gameplay modes like the roguelike survival experience No Return, and more.",
+            "minimum_requirements": {
+                "OS": "Windows 10/11 64-bit (version 1909 or higher)",
+                "PROCESSOR": "Intel Core i3-8100, AMD Ryzen 3 1300X",
+                "MEMORY": "16 GB RAM",
+                "GRAPHICS": "NVIDIA GeForce GTX 1650, AMD Radeon RX 5500XT",
+                "DIRECTX": "",
+                "STORAGE": "150 GB available space"
+            },
+            "recommended_requirements": {
+                "OS": "Windows 10/11 64-bit (version 1909 or higher)",
+                "PROCESSOR": "Intel Core i5-8600, AMD Ryzen 5 3600",
+                "MEMORY": "16 GB RAM",
+                "GRAPHICS": "NVIDIA GeForce RTX 3060, AMD Radeon RX 5700",
+                "DIRECTX": "",
+                "STORAGE": "150 GB available space"
+            },
             "supported_languages": "English,French,Italian,German,Spanish - Spain,Czech,Danish,Dutch,Finnish,Greek,Hungarian,Japanese,Korean,Norwegian,Polish,Portuguese - Brazil,Portuguese - Portugal,Russian,Simplified Chinese,Spanish - Latin America,Swedish,Thai,Traditional Chinese,Turkish,Croatian",
             "full_audio_languages": "English,French,Italian,German,Spanish - Spain,Greek,Japanese,Polish,Portuguese - Brazil,Portuguese - Portugal,Russian,Spanish - Latin America,Turkish,Croatian",
             "reviews": "",
@@ -350,7 +478,7 @@
             "developers": "Naughty Dog LLC,Nixxes Software,Iron Galaxy Studios",
             "publishers": "PlayStation Publishing LLC",
             "categories": "Single-player,Steam Achievements,Full controller support,Adjustable Text Size,Camera Comfort,Color Alternatives,Custom Volume Controls,Adjustable Difficulty,Narrated Game Menus,Save Anytime,Stereo Sound,Subtitle Options,Surround Sound,Steam Cloud,HDR available,Family Sharing",
-            "genres": "Action,Adventure",
+            "genres": "Action,Adventure,Horror",
             "tags": "",
             "screenshots": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/0597b93e5e3d50cf6bd64bc8814386cd65f03410/ss_0597b93e5e3d50cf6bd64bc8814386cd65f03410.1920x1080.jpg?t=1750959180,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/aa4fa649806500d3403afb0612f03ec1a6283463/ss_aa4fa649806500d3403afb0612f03ec1a6283463.1920x1080.jpg?t=1750959180,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/ebd2126cf786cea9a0c245fe386b7343e368be53/ss_ebd2126cf786cea9a0c245fe386b7343e368be53.1920x1080.jpg?t=1750959180,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/96a6281cea2e9b76b56af8a13e7cb2b59efd8b5c/ss_96a6281cea2e9b76b56af8a13e7cb2b59efd8b5c.1920x1080.jpg?t=1750959180,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/4f29482b4c1875b66d3832b499a290bfeafe35bb/ss_4f29482b4c1875b66d3832b499a290bfeafe35bb.1920x1080.jpg?t=1750959180,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/d0138412577f8f37d885d9cfa6753951111040dc/ss_d0138412577f8f37d885d9cfa6753951111040dc.1920x1080.jpg?t=1750959180,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/11bc1522e4f82f15972012c8a59cde785c260c89/ss_11bc1522e4f82f15972012c8a59cde785c260c89.1920x1080.jpg?t=1750959180,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/383de718c5ed47d396bc5e3896e1401aca24b29b/ss_383de718c5ed47d396bc5e3896e1401aca24b29b.1920x1080.jpg?t=1750959180,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/0549d5b3b556abfea5ea02e2a8937fc986e4eba0/ss_0549d5b3b556abfea5ea02e2a8937fc986e4eba0.1920x1080.jpg?t=1750959180,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/05a44fda9f63327b76ec59a561b375ef64d9f7d3/ss_05a44fda9f63327b76ec59a561b375ef64d9f7d3.1920x1080.jpg?t=1750959180,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/9b4bd495de40ad942c91cc7302f81d6e9ca4a459/ss_9b4bd495de40ad942c91cc7302f81d6e9ca4a459.1920x1080.jpg?t=1750959180,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/7e084e3f8f5a3d8dd8858516bf4cd2da6b8a6f02/ss_7e084e3f8f5a3d8dd8858516bf4cd2da6b8a6f02.1920x1080.jpg?t=1750959180,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/8e8eb55fe955e6b69f3afa84cd53100b324c5def/ss_8e8eb55fe955e6b69f3afa84cd53100b324c5def.1920x1080.jpg?t=1750959180,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/5a3126fba9745256f09a7176e1ce88d237121402/ss_5a3126fba9745256f09a7176e1ce88d237121402.1920x1080.jpg?t=1750959180",
             "movies": "",
@@ -368,6 +496,22 @@
             "dlc_count": "2",
             "detailed_description": "Dig, Fight, Explore, Build: The very world is at your fingertips as you fight for survival, fortune, and glory. Will you delve deep into cavernous expanses in search of treasure and raw materials with which to craft ever-evolving gear, machinery, and aesthetics? Perhaps you will choose instead to seek out ever-greater foes to test your mettle in combat? Maybe you will decide to construct your own city to house the host of mysterious allies you may encounter along your travels? In the World of Terraria, the choice is yours! Blending elements of classic action games with the freedom of sandbox-style creativity, Terraria is a unique gaming experience where both the journey and the destination are completely in the player’s control. The Terraria adventure is truly as unique as the players themselves! Are you up for the monumental task of exploring, creating, and defending a world of your own? Key features: Sandbox Play Randomly generated worlds Free Content Updates ",
             "short_description": "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!",
+            "minimum_requirements": {
+                "OS": "WINDOWS XP, VISTA, 7, 8/8.1, 10",
+                "PROCESSOR": "2.0 GHZ",
+                "MEMORY": "2.5GB",
+                "GRAPHICS": "128MB VIDEO MEMORY, CAPABLE OF SHADER MODEL 2.0+",
+                "DIRECTX": "9.0C OR GREATER",
+                "STORAGE": "200MB"
+            },
+            "recommended_requirements": {
+                "OS": "WINDOWS 7, 8/8.1, 10",
+                "PROCESSOR": "DUAL CORE 3.0 GHZ",
+                "MEMORY": "4GB",
+                "GRAPHICS": "256MB VIDEO MEMORY, CAPABLE OF SHADER MODEL 2.0+",
+                "DIRECTX": "9.0C OR GREATER",
+                "STORAGE": "200MB"
+            },
             "supported_languages": "English,French,Italian,German,Spanish - Spain,Polish,Portuguese - Brazil,Russian,Simplified Chinese",
             "full_audio_languages": "",
             "reviews": "",
@@ -412,6 +556,22 @@
             "dlc_count": "0",
             "detailed_description": "Ultimate Edition The Red Dead Redemption 2: Ultimate Edition delivers all of the Story Mode content from the Special Edition plus additional content for online including Bonus Outfits for your online Character, Rank Bonuses, Black Chestnut Thoroughbred and free access to the Survivor Camp Theme. Plus get free access to Additional Weapons in online. About the Game America, 1899. Arthur Morgan and the Van der Linde Gang are outlaws on the run. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal, and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him. Winner of over 175 Game of the Year Awards and recipient of over 250 perfect scores, Red Dead Redemption 2 is an epic tale of honor and loyalty at the dawn of the modern age. Red Dead Redemption 2 also includes Red Dead Online — the multiplayer experience set in the living world of Red Dead Redemption 2 — ride solo or form a posse; run moonshine; battle lawmen, outlaw gangs, ferocious wild animals, and much more as you forge your own path on the American frontier.",
             "short_description": "Arthur Morgan and the Van der Linde Gang are outlaws on the run. With federal agents and bounty hunters massing on their heels, the gang must rob, steal, and fight their way across the rugged heartland in order to survive.",
+            "minimum_requirements": {
+                "OS": "Windows 10 - 64-bit",
+                "PROCESSOR": "Intel® Core™ i5-2500K / AMD FX-6300",
+                "MEMORY": "8 GB RAM",
+                "GRAPHICS": "Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB",
+                "DIRECTX": "",
+                "STORAGE": "150 GB available space"
+            },
+            "recommended_requirements": {
+                "OS": "Windows 10 - 64-bit",
+                "PROCESSOR": "Intel® Core™ i7-4770K / AMD Ryzen 5 1500X",
+                "MEMORY": "12 GB RAM",
+                "GRAPHICS": "Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB",
+                "DIRECTX": "",
+                "STORAGE": "150 GB available space"
+            },
             "supported_languages": "English,French,Italian,German,Spanish - Spain,Japanese,Korean,Polish,Russian,Simplified Chinese,Spanish - Latin America,Traditional Chinese,Portuguese - Brazil",
             "full_audio_languages": "English,Portuguese - Brazil",
             "reviews": "",
@@ -438,7 +598,7 @@
             "developers": "Rockstar Games",
             "publishers": "Rockstar Games",
             "categories": "Single-player,Multi-player,PvP,Online PvP,Co-op,Online Co-op,Steam Achievements,In-App Purchases,Partial Controller Support,Remote Play on Phone,Remote Play on Tablet",
-            "genres": "Action,Adventure",
+            "genres": "Action,Adventure,Open world",
             "tags": "",
             "screenshots": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_66b553f4c209476d3e4ce25fa4714002cc914c4f.1920x1080.jpg?t=1759502961,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_bac60bacbf5da8945103648c08d27d5e202444ca.1920x1080.jpg?t=1759502961,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_668dafe477743f8b50b818d5bbfcec669e9ba93e.1920x1080.jpg?t=1759502961,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_4ce07ae360b166f0f650e9a895a3b4b7bf15e34f.1920x1080.jpg?t=1759502961,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_d1a8f5a69155c3186c65d1da90491fcfd43663d9.1920x1080.jpg?t=1759502961",
             "movies": "",
@@ -456,6 +616,22 @@
             "dlc_count": "9",
             "detailed_description": "Eminem vs Slim Shady – Playable for free starting December 1st Won’t The Real Elusive Target Please Stand Up! Rap Icon Eminem Joins HITMAN World of Assassination in New Elusive Target Mission, out December 1st, Playable for Free. In his latest album, “The Death of Slim Shady” the rapper attempted to put his other self away, but now Eminem recruits the legendary assassin Agent 47 to put his past away permanently. In a surreal new mission crafted by Eminem in collaboration with IOI and creative director/producer Paul Rosenberg, the level is packed with dreamlike twists that mirror Slim Shady’s unhinged reality. Operatives find themselves in a medical facility in Hokkaido that has been twisted into the Popsomp Hills Asylum. Agent 47 will have to track Slim Shady across multiple areas, such as his broadcasting studio, to take him out without being detected. Playable for free starting December 1st! UPCOMING IOI TITLE Pre-order 007 First Light and elevate your espionage adventure with a free Deluxe Edition upgrade! Earn your number with outfits inspired by 007 memorabilia, go all gold blazing with the Gleaming Pack including 4 gadget skins, and unlock a new weapon skin, Agent’s Mark. Pre-Order 007 First Light and receive the Deluxe Edition Upgrade and 24 hour early access for free: 4 outfits: Day of the Dead Desert Explorer Silent Anchor Gentleman Operator Weapon skin: Agent’s Mark Gleaming Pack, including 4 gadget skins: Gleaming Lighter Gleaming Earphones Gleaming Dart Gun Gleaming Pen Comparison Grid World of Assassination Part One Enter the world of the ultimate assassin. BECOME AGENT 47 Suit up for a spy-thriller adventure where all your deadly skills are put to the test. FREEDOM OF APPROACH Your deadliest weapon is creativity. Unlock new gear and up your game on highly replayable missions. WORLD OF ASSASSINATION Travel a living, breathing world, filled with intriguing characters and lethal opportunities. HITMAN World of Assassination Part One features: - 6 Iconic HITMAN locations: Paris, Sapienza, Marrakesh, Bangkok, Colorado and Hokkaido - HITMAN GOTY Edition content: Patient Zero Bonus campaign, 3 Themed Escalation Contracts with Outfits and Weapon rewards This does not give access to the Freelancer and VR game modes. An option to upgrade to the full World of Assassination is available. About the Game WORLD OF ASSASSINATION Enter the world of the ultimate assassin. HITMAN World of Assassination brings together the best of HITMAN, HITMAN 2 and HITMAN 3 including the main campaign, contracts mode, escalations, elusive target arcades and featured live content. BECOME AGENT 47 Suit up for a spy-thriller adventure where all your deadly abilities are put to the test across more than 20 locations. FREEDOM OF APPROACH Your deadliest weapon is creativity. Unlock new gear and up your game on highly replayable missions. WORLD OF ASSASSINATION Travel a living, breathing world, filled with intriguing characters and lethal opportunities. HITMAN FREELANCER A new way to play on your own terms, that combines rogue-like elements and deep strategic planning with a persistent and infinitely replayable gameplay experience. ",
             "short_description": "Enter the world of the ultimate assassin. HITMAN World of Assassination delivers the definitive stealth action experience, putting you in the shoes of Agent 47, a master assassin. Explore immersive locations, uncover hidden secrets, and eliminate targets with complete freedom of approach.",
+            "minimum_requirements": {
+                "OS": "OS 64-bit Windows 10",
+                "PROCESSOR": "Intel CPU Core i5-2500K 3.3GHz / AMD CPU Phenom II X4 940",
+                "MEMORY": "8 GB RAM",
+                "GRAPHICS": "NVIDIA GeForce GTX 660 / Radeon HD 7870",
+                "DIRECTX": "Version 12",
+                "STORAGE": "60 GB available space"
+            },
+            "recommended_requirements": {
+                "OS": "OS 64-bit Windows 10",
+                "PROCESSOR": "Intel CPU Core i7 4790 4 GHz",
+                "MEMORY": "16 GB RAM",
+                "GRAPHICS": "Nvidia GPU GeForce GTX 1070 / AMD GPU Radeon RX Vega 56 8GB",
+                "DIRECTX": "Version 12",
+                "STORAGE": "60 GB available space"
+            },
             "supported_languages": "English,French,Italian,German,Spanish - Spain,Japanese,Russian,Simplified Chinese,Traditional Chinese",
             "full_audio_languages": "English,Traditional Chinese",
             "reviews": "",
@@ -482,7 +658,7 @@
             "developers": "IO Interactive A/S",
             "publishers": "IO Interactive A/S",
             "categories": "Single-player,Steam Achievements,Full controller support,Tracked Controller Support,VR Supported,Custom Volume Controls,Playable without Timed Input,Stereo Sound,Subtitle Options,Surround Sound,Steam Cloud,Family Sharing",
-            "genres": "Action,Adventure",
+            "genres": "Action,Adventure,Assassins",
             "tags": "",
             "screenshots": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/2d2f9739257048a7a10fc69773b17e066d271125/ss_2d2f9739257048a7a10fc69773b17e066d271125.1920x1080.jpg?t=1765963512,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/214a04ff6bb4fea810459f1d39692340c72738db/ss_214a04ff6bb4fea810459f1d39692340c72738db.1920x1080.jpg?t=1765963512,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/76450fd632cfb73d3d94836ddf3b81fc6f9827e7/ss_76450fd632cfb73d3d94836ddf3b81fc6f9827e7.1920x1080.jpg?t=1765963512,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/151e068c54817d44ed7845e9f4e6d3375f67c2b5/ss_151e068c54817d44ed7845e9f4e6d3375f67c2b5.1920x1080.jpg?t=1765963512,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/ss_f3a815f62dea7af43eebff863b49ded1bcf8098e.1920x1080.jpg?t=1765963512,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/ss_271349780bd2aab343e3f705ba5244a0956314f5.1920x1080.jpg?t=1765963512,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/ss_691a534e333e33a4d6b994c9d63be26c83a687d7.1920x1080.jpg?t=1765963512,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/ss_33965f74f31503257ea4e4af3d31b10faedd5250.1920x1080.jpg?t=1765963512,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/ss_599eba3c826e792a0260a8748e1e32d1ee4e13ec.1920x1080.jpg?t=1765963512,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/ss_0d982ccc2b91093d71a7ae607e7ae0542651bc79.1920x1080.jpg?t=1765963512,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/ss_97513d1ab3bb33c832f29b879067a2c2ebd4d238.1920x1080.jpg?t=1765963512",
             "movies": "",
@@ -499,8 +675,24 @@
             "required_age": "17",
             "price": 20.99,
             "dlc_count": "3",
-            "detailed_description": "Cyberpunk 2077: Ultimate Edition About the Game ",
+            "detailed_description": "Cyberpunk 2077: Ultimate Edition. About the Game: ENTER THE DARK FUTURE - Become cyber-enhanced mercenary V and take on a fight for glory and survival in the best-selling open-world action-adventure RPG, Cyberpunk 2077. CREATE YOUR ULTIMATE CYBERPUNK - Build a unique playstyle by combining powerful perks and supercharged cybernetic implants to become the most unstoppable merc in Night City. EXPLORE THE CITY OF DREAMS - Explore the megalopolis of Night City and its chaotic and colorful cast of characters, all eager to supply you with memorable contracts, quests, and gigs. BUILD YOUR LEGEND - Forge relationships with a rich cast of characters, all with their own dreams, tragedies, and tales, including Keanu Reeves as rockerboy Johnny Silverhand. ENJOY UPGRADES AND ENHANCEMENTS - Experience additional quests, cars, quality of life improvements, and so much more added through ongoing updates that improve the game. CLAIM EXCLUSIVE ITEMS - Receive in-game goodies and digital swag inspired by CD PROJEKT RED's full catalog by signing up to the free-to-all My Rewards program. ",
             "short_description": "Cyberpunk 2077 is an open-world, action-adventure RPG set in the dark future of Night City — a dangerous megalopolis obsessed with power, glamor, and ceaseless body modification.",
+            "minimum_requirements": {
+                "OS": "64-bit Windows 10",
+                "PROCESSOR": "Core i7-6700 or Ryzen 5 1600",
+                "MEMORY": "12 GB RAM",
+                "GRAPHICS": "GeForce GTX 1060 6GB or Radeon RX 580 8GB or Arc A380",
+                "DIRECTX": "Version 12",
+                "STORAGE": "70 GB available space"
+            },
+            "recommended_requirements": {
+                "OS": "64-bit Windows 10",
+                "PROCESSOR": "Core i7-12700 or Ryzen 7 7800X3D",
+                "MEMORY": "16 GB RAM",
+                "GRAPHICS": "GeForce RTX 2060 SUPER or Radeon RX 5700 XT or Arc A770",
+                "DIRECTX": "Version 12",
+                "STORAGE": "70 GB available space"
+            },
             "supported_languages": "English,French,Italian,German,Spanish - Spain,Arabic,Czech,Hungarian,Japanese,Korean,Polish,Portuguese - Brazil,Russian,Simplified Chinese,Spanish - Latin America,Thai,Traditional Chinese,Turkish,Ukrainian",
             "full_audio_languages": "English,French,Italian,German,Spanish - Spain,Japanese,Korean,Polish,Portuguese - Brazil,Russian,Simplified Chinese,Ukrainian",
             "reviews": "",
@@ -527,7 +719,7 @@
             "developers": "CD PROJEKT RED",
             "publishers": "CD PROJEKT RED",
             "categories": "Single-player,Steam Achievements,Full controller support,Steam Trading Cards,Adjustable Text Size,Camera Comfort,Color Alternatives,Custom Volume Controls,Adjustable Difficulty,Playable without Timed Input,Save Anytime,Stereo Sound,Subtitle Options,Surround Sound,Steam Cloud,Family Sharing",
-            "genres": "RPG",
+            "genres": "RPG,Action,Open world",
             "tags": "",
             "screenshots": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_2f649b68d579bf87011487d29bc4ccbfdd97d34f.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_0e64170751e1ae20ff8fdb7001a8892fd48260e7.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_af2804aa4bf35d4251043744412ce3b359a125ef.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_7924f64b6e5d586a80418c9896a1c92881a7905b.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_4eb068b1cf52c91b57157b84bed18a186ed7714b.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_b529b0abc43f55fc23fe8058eddb6e37c9629a6a.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_8640d9db74f7cad714f6ecfb0e1aceaa3f887e58.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_9284d1c5b248726760233a933dbb83757d7d5d95.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_4bda6f67580d94832ed2d5814e41ebe018ba1d9e.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_e5a94665dbfa5a30931cff2f45cdc0ebea9fcebb.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_429db1d013a0366417d650d84f1eff02d1a18c2d.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_872822c5e50dc71f345416098d29fc3ae5cd26c1.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_ae4465fa8a44dd330dbeb7992ba196c2f32cabb1.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_f79fda81e6f3a37e0978054102102d71840f8b57.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_bb1a60b8e5061caef7208369f42c5c9d574c9ac4.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_a0c4e4015b5cf766d19bf97eee8b086183510e04.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_b20689e73e3ac19bcc5fad2c18d0353c769de144.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_ff3d920e254d18aa2a25d3765ac2ebe845efd208.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_0002f18563d313bdd1d82c725d411408ebf762b0.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_526123764d1c628caa1eb62c596f1b732f416c8c.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_284ba40590de8f604ae693631c751a0aefdc452e.1920x1080.jpg?t=1766141193,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_9beef14102f164fa1163536d0fb3a51d0a2e4a3f.1920x1080.jpg?t=1766141193",
             "movies": "",
@@ -545,6 +737,22 @@
             "dlc_count": "0",
             "detailed_description": "Born a slave, Adewale found freedom as a pirate aboard Edward Kenway’s ship, the Jackdaw. 15 years later, Adewale has become a trained Assassin who finds himself shipwrecked in Saint-Domingue without weapons or crew. He now has to acquire a ship and gather his own crew to free the slaves and avenge them. Over 3 hours of new single-player gameplay! Playing Assassin’s Creed® Freedom Cry doesn't require a copy of Assassin’s Creed®IV Black Flag™.",
             "short_description": "Play as Adewale, an ex-slave turned Assassin fighting for freedom with the help of his own Pirate crew.",
+            "minimum_requirements": {
+                "OS": "Windows Vista SP2 or Windows 10(64-bit versions only)",
+                "PROCESSOR": "Intel Core2Quad Q8400 @ 2.6 GHz or AMD Athlon II X4 620 @ 2.6 GHz",
+                "MEMORY": "2 GB RAM",
+                "GRAPHICS": "Nvidia GeForce GTX 260 or AMD Radeon HD 4870 (512MB VRAM with Shader Model 4.0 or higher)",
+                "DIRECTX": "",
+                "STORAGE": "30 GB available space"
+            },
+            "recommended_requirements": {
+                "OS": "Windows Vista SP2 or Windows 10(64-bit versions only)",
+                "PROCESSOR": "Intel Core i5 2400S @ 2.5 GHz or AMD Phenom II x4 940 @ 3.0 GHz or better",
+                "MEMORY": "4 GB RAM",
+                "GRAPHICS": "Nvidia GeForce GTX 470 or AMD Radeon HD 5850 (1024MB VRAM with Shader Model 5.0) or better",
+                "DIRECTX": "",
+                "STORAGE": "30 GB available space"
+            },
             "supported_languages": "English,French,Italian,German,Spanish - Spain,Czech,Danish,Dutch,Finnish,Norwegian,Polish,Portuguese - Portugal,Portuguese - Brazil,Russian,Swedish",
             "full_audio_languages": "English,French,Italian,German,Spanish - Spain,Danish,Portuguese - Brazil,Russian,Swedish",
             "reviews": "",
@@ -590,6 +798,22 @@
             "dlc_count": "52",
             "detailed_description": "Forza Horizon 5 Version Comparison About the Game Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars. This is Your Horizon Adventure Lead breathtaking expeditions across the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars. This is a Diverse Open World Explore a world of striking contrast and beauty. Discover living deserts, lush jungles, historic cities, hidden ruins, pristine beaches, vast canyons and a towering snow-capped volcano. This is an Adventurous Open World Immerse yourself in a deep campaign with hundreds of challenges that reward you for engaging in the activities you love. Meet new characters and choose the outcomes of their Horizon Story missions. This is an Evolving Open World Take on awe-inspiring weather events such as towering dust storms and intense tropical storms as Mexico’s unique, dynamic seasons change the world every week. Keep coming back for new events, challenges, collectibles, and rewards, and new areas to explore. No two seasons will ever be the same. This is a Social Open World Team up with other players and enter the Horizon Arcade for a continuing series of fun, over-the-top challenges that keep you and your friends in the action and having fun with no menus, loading screens or lobbies. Meet new friends in Horizon Open and Tours and share your creations with new community gift sharing. This is Your Open World Create your own expressions of fun with the powerful new EventLab gameplay toolset including custom races, challenges, stunts, and entirely new game modes. Customize your cars in more ways than ever before with new options such as the ability open and close convertible tops, paint brake calipers, and more. Use the new Gift Drops feature to share your custom creations with the community. Begin Your Horizon Adventure today!",
             "short_description": "Explore the vibrant open world landscapes of Mexico with limitless, fun driving action in the world’s greatest cars.",
+            "minimum_requirements": {
+                "OS": "Windows 10 version 18362.0 or higher",
+                "PROCESSOR": "Intel i5-4460 or AMD Ryzen 3 1200",
+                "MEMORY": "8 GB RAM",
+                "GRAPHICS": "NVidia GTX 970, AMD RX 470, OR Intel Arc A380",
+                "DIRECTX": "Version 12",
+                "STORAGE": "110 GB available space"
+            },
+            "recommended_requirements": {
+                "OS": "Windows 10 version 18362.0 or higher",
+                "PROCESSOR": "Intel i5-8400 or AMD Ryzen 5 1500X",
+                "MEMORY": "16 GB RAM",
+                "GRAPHICS": "NVidia GTX 1070, AMD RX 590, OR Intel Arc A750",
+                "DIRECTX": "Version 12",
+                "STORAGE": "110 GB available space"
+            },
             "supported_languages": "English,French,Italian,German,Spanish - Spain,Czech,Hungarian,Japanese,Korean,Polish,Portuguese - Brazil,Russian,Simplified Chinese,Spanish - Latin America,Traditional Chinese,Turkish",
             "full_audio_languages": "English,French,Italian,German,Spanish - Spain,Japanese,Korean,Portuguese - Brazil,Simplified Chinese,Spanish - Latin America,Traditional Chinese,Turkish",
             "reviews": "",
@@ -634,6 +858,22 @@
             "dlc_count": "3",
             "detailed_description": "Digital Deluxe Edition The Call of Duty®: WWII - Digital Deluxe Edition includes: - Call of Duty®: WWII - Call of Duty®: WWII - Season Pass* - Carentan Bonus Map - 1,100 Call of Duty®: WWII Points** - Multiplayer Upgrade (Weapon Unlock + 2XP)*** - Zombies Camo**** - Divisions Pack SEASON PASS Continue the epic journey with 4 DLC Packs that include new and iconic Multiplayer Maps, new chapters of Nazi Zombies and all-new War Missions. - DLC 1: The Resistance - DLC 2: The War Machine - DLC 3: United Front - DLC 4: Shadow War Also includes 'Carentan' Bonus Map! Carentan, one of the most beloved Call of Duty® Multiplayer maps, makes its return in Call of Duty®: WWII. Fight through the destroyed buildings and fortified streets of this war-torn French town in an all-out battle for a strategic German stronghold. About the Game Call of Duty®: WWII - a breathtaking experience that redefines World War II. Land in Normandy on D-Day and battle across Europe through iconic locations in history’s most monumental war. Experience classic Call of Duty® combat, the bonds of camaraderie and the unforgiving nature of war against a global power throwing the world into tyranny. Call of Duty®: WWII creates the definitive World War II experience across three different game modes: Campaign, Multiplayer and Co-Operative. - Featuring stunning visuals, the Campaign transports players to the European theater, as they engage in a Call of Duty® story set in iconic World War II battles. - Multiplayer brings players classic, boots-on-the ground Call of Duty® gameplay. Authentic weapons and traditional run-and-gun action immerse you in a vast array of World War II-themed locations. - The Co-Operative mode unleashes an original story in a standalone game experience full of unexpected, adrenaline-pumping moments. ",
             "short_description": "Call of Duty®: WWII - a breathtaking experience that redefines World War II.",
+            "minimum_requirements": {
+                "OS": "Windows 7 64-Bit or later",
+                "PROCESSOR": "CPU: Intel® Core™ i3 3225 3.3 GHz or AMD Ryzen™ 5 1400",
+                "MEMORY": "8 GB RAM",
+                "GRAPHICS": "NVIDIA® GeForce® GTX 660 @ 2 GB / GTX 1050 or ATI® Radeon™ HD 7850 @ 2GB / AMD RX 550",
+                "DIRECTX": "Version 11",
+                "STORAGE": "90 GB available space"
+            },
+            "recommended_requirements": {
+                "OS": "",
+                "PROCESSOR": "",
+                "MEMORY": "",
+                "GRAPHICS": "",
+                "DIRECTX": "",
+                "STORAGE": ""
+            },
             "supported_languages": "English,French,Italian,German,Spanish - Spain,Japanese,Korean,Polish,Portuguese - Brazil,Russian,Simplified Chinese,Traditional Chinese",
             "full_audio_languages": "English,French,Italian,German,Spanish - Spain,Polish,Portuguese - Brazil,Russian,Traditional Chinese",
             "reviews": "",
@@ -678,6 +918,22 @@
             "dlc_count": "5",
             "detailed_description": "The open-world action in Need for Speed™ Most Wanted gives you the freedom to drive your way. Hit jumps and shortcuts, switch cars, lie low, or head for terrain that plays to your vehicle’s unique strengths. Fight your way past cops and rivals using skill, high-end car tech, and tons of nitrous. It’s all about you, your friends, and a wild selection of cars. Let’s see what you can do. Key features Experience nonstop action — No menus, no lobbies, and no restrictions — just intense competition. Race, battle, crash, and explore at your own pace with a massive variety of things to do (and rewards to collect) throughout the open world. Prove you’re the best — Pick a car &amp; jump into a nonstop playlist of competitive events in online mode. Influence the playlist by voting with your car. Jostle for position on the starting line. Cross the finish line and turn around to take out oncoming rivals. Beat your friends — Autolog records everything you do, broadcasting a feed of your most newsworthy scores, speeds, and times to your friends — and you’ll see there’s too. Whatever you do, there’s someone to beat. Test your urban handling skills — Need for Speed Most Wanted delivers a deep, physical experience that showcases the personalities of awesome licensed cars. Experience insane speeds, spectacular crashes, aggressive driving, and huge drifts. ",
             "short_description": "The open-world action in Need for Speed Most Wanted gives you the freedom to drive your way. Hit jumps and shortcuts, switch cars, lie low or head for terrain that plays to your vehicle’s unique strengths. Fight your way past cops and rivals using skill, high-end car tech and tons of nitrous.",
+            "minimum_requirements": {
+                "OS": "Windows Vista (Service Pack 2 and all available windows updates) 32-bit",
+                "PROCESSOR": "2 GHz Dual Core (Core 2 Duo 2.4 GHZ or Althon X2 2.7 GHz)",
+                "MEMORY": "2 GB RAM",
+                "GRAPHICS": "DirectX 10.1 compatible with 512 MB RAM (ATI RADEON 3000, 4000, 5000 OR 6000 series, with ATI RADEON 3870 or higher performance)",
+                "DIRECTX": "",
+                "STORAGE": "20 GB available space"
+            },
+            "recommended_requirements": {
+                "OS": "Windows 7 (Service Pack 1 and all available windows updates) 64-bit",
+                "PROCESSOR": "Quad-Core CPU",
+                "MEMORY": "4 GB RAM",
+                "GRAPHICS": "DirectX 11 compatible with 1024 MB RAM (NVIDIA GEFORCE GTX 560 or ATI RADEON 6950)",
+                "DIRECTX": "",
+                "STORAGE": "20 GB available space"
+            },
             "supported_languages": "English,French,Italian,German,Spanish - Spain,Czech,Dutch,Japanese,Polish,Russian,Traditional Chinese",
             "full_audio_languages": "English,French,Italian,German,Spanish - Spain,Japanese,Russian,Traditional Chinese",
             "reviews": "",
@@ -722,6 +978,22 @@
             "dlc_count": "24",
             "detailed_description": "Batman™: Arkham Knight brings the award-winning Arkham trilogy from Rocksteady Studios to its epic conclusion. Developed exclusively for New-Gen platforms, Batman: Arkham Knight introduces Rocksteady's uniquely designed version of the Batmobile. The highly anticipated addition of this legendary vehicle, combined with the acclaimed gameplay of the Arkham series, offers gamers the ultimate and complete Batman experience as they tear through the streets and soar across the skyline of the entirety of Gotham City. In this explosive finale, Batman faces the ultimate threat against the city that he is sworn to protect, as Scarecrow returns to unite the super criminals of Gotham and destroy the Batman forever. Product Features: “Be The Batman” – Live the complete Batman experience as the Dark Knight enters the concluding chapter of Rocksteady’s Arkham trilogy. Players will become The World’s Greatest Detective like never before with the introduction of the Batmobile and enhancements to signature features such as FreeFlow Combat, stealth, forensics and navigation. Introducing the Batmobile – The Batmobile is brought to life with a completely new and original design featuring a distinct visual appearance and a full range of on-board high-tech gadgetry. Designed to be fully drivable throughout the game world and capable of transformation from high speed pursuit mode to military grade battle mode, this legendary vehicle sits at the heart of the game’s design and allows players to tear through the streets at incredible speeds in pursuit of Gotham City’s most dangerous villains. This iconic vehicle also augments Batman’s abilities in every respect, from navigation and forensics to combat and puzzle solving creating a genuine and seamless sense of the union of man and machine. The Epic Conclusion to Rocksteady’s Arkham Trilogy – Batman: Arkham Knight brings all-out war to Gotham City. The hit-and-run skirmishes of Batman: Arkham Asylum, which escalated into the devastating conspiracy against the inmates in Batman: Arkham City, culminates in the ultimate showdown for the future of Gotham. At the mercy of Scarecrow, the fate of the city hangs in the balance as he is joined by the Arkham Knight, a completely new and original character in the Batman universe, as well as a huge roster of other infamous villains including Harley Quinn, The Penguin, Two-Face and the Riddler. Explore the entirety of Gotham City – For the first time, players have the opportunity to explore all of Gotham City in a completely open and free-roaming game world. More than five times that of Batman: Arkham City, Gotham City has been brought to life with the same level of intimate, hand-crafted attention to detail for which the Arkham games are known. Most Wanted Side Missions – Players can fully immerse themselves in the chaos that is erupting in the streets of Gotham. Encounters with high-profile criminal masterminds are guaranteed while also offering gamers the opportunity to focus on and takedown individual villains or pursue the core narrative path. New Combat and Gadget Features – Gamers have at their disposal more combat moves and high-tech gadgetry than ever before. The new ‘gadgets while gliding’ ability allows Batman to deploy gadgets such as batarangs, the grapnel gun or the line launcher mid-glide while Batman’s utility belt is once again upgraded to include all new gadgets that expand his range of forensic investigation, stealth incursion and combat skills. ",
             "short_description": "Batman™: Arkham Knight brings the award-winning Arkham trilogy from Rocksteady Studios to its epic conclusion. Developed exclusively for New-Gen platforms, Batman: Arkham Knight introduces Rocksteady's uniquely designed version of the Batmobile.",
+            "minimum_requirements": {
+                "OS": "Win 7 SP1, Win 8.1 (64-bit Operating System Required)",
+                "PROCESSOR": "Intel Core i5-750, 2.67 GHz | AMD Phenom II X4 965, 3.4 GHz",
+                "MEMORY": "6 GB RAM",
+                "GRAPHICS": "Graphics: NVIDIA GeForce GTX 660 (2 GB Memory Minimum) | AMD Radeon HD 7870 (2 GB Memory Minimum)",
+                "DIRECTX": "Version 11",
+                "STORAGE": "45 GB available space"
+            },
+            "recommended_requirements": {
+                "OS": "Win 7 SP1, Win 8.1 (64-bit Operating System Required)",
+                "PROCESSOR": "Intel Core i7-3770, 3.4 GHz | AMD FX-8350, 4.0 GHz",
+                "MEMORY": "8 GB RAM",
+                "GRAPHICS": "NVIDIA GeForce GTX 760 - 3 GB Memory Recommended | AMD Radeon HD 7950 - 3 GB Memory Recommended",
+                "DIRECTX": "Version 11",
+                "STORAGE": "55 GB available space"
+            },
             "supported_languages": "English,French,Italian,German,Spanish - Spain,Korean,Portuguese - Brazil,Polish,Russian,Japanese",
             "full_audio_languages": "English,French,Italian,German,Spanish - Spain,Portuguese - Brazil,Japanese",
             "reviews": "",
@@ -766,6 +1038,22 @@
             "dlc_count": "1",
             "detailed_description": "Deluxe Edition The Deluxe Edition Includes: • ELDEN RING NIGHTREIGN • ELDEN RING NIGHTREIGN The Forsaken Hollows - 2 additional Nightfarers - 2 Day Three Bosses - Additional Shifting Earth - And more! • Digital Artbook &amp; Mini Soundtrack *There is also a Standard Edition product available. Please be careful not to purchase the same content twice. *ELDEN RING NIGHTREIGN The Forsaken Hollows will be available in December 2025. About the Game ELDEN RING NIGHTREIGN is a standalone adventure within the ELDEN RING universe, crafted to offer players a new gaming experience by reimagining the game’s core design. RISE TOGETHER Join forces with other players to take on the creeping night and the dangers within featuring 3-player co-op. BECOME A HERO Take command of uniquely skilled heroes, each possessing their own abilities and distinct flair. While individually formidable, their skills create powerful synergies when they unite as a team. TAKE ON THE NIGHT Overcome a relentless environmental threat that sweeps through a land that changes between each game session and defeat the magnificent boss of that night! *There is also a Deluxe Edition product available. Please be careful not to purchase the same content twice.",
             "short_description": "ELDEN RING NIGHTREIGN is a standalone adventure within the ELDEN RING universe, crafted to offer players a new gaming experience by reimagining the game’s core design.",
+            "minimum_requirements": {
+                "OS": "Windows 10",
+                "PROCESSOR": "Intel Core i5-10600 / AMD RYZEN 5 5500",
+                "MEMORY": "12 GB RAM",
+                "GRAPHICS": "NVIDIA GeForce GTX 1060 3GB / AMD Radeon RX 580 4GB",
+                "DIRECTX": "Version 12",
+                "STORAGE": "30 GB available space"
+            },
+            "recommended_requirements": {
+                "OS": "Windows 11",
+                "PROCESSOR": "Intel Core i5-11500 / AMD RYZEN 5 5600",
+                "MEMORY": "16 GB RAM",
+                "GRAPHICS": "NVIDIA GeForce GTX 1070 8GB / AMD Radeon RX Vega-56 8GB",
+                "DIRECTX": "Version 12",
+                "STORAGE": "30 GB available space"
+            },
             "supported_languages": "English,Japanese,French,Italian,German,Spanish - Spain,Arabic,Korean,Polish,Portuguese - Brazil,Russian,Simplified Chinese,Spanish - Latin America,Thai,Traditional Chinese",
             "full_audio_languages": "English,Traditional Chinese",
             "reviews": "",
@@ -810,6 +1098,22 @@
             "dlc_count": "2",
             "detailed_description": "Gather your party and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power. Mysterious abilities are awakening inside you, drawn from a mind flayer parasite planted in your brain. Resist, and turn darkness against itself. Or embrace corruption, and become ultimate evil. From the creators of Divinity: Original Sin 2 comes a next-generation RPG, set in the world of Dungeons &amp; Dragons. Choose from 12 classes and 11 races from the D&amp;D Player's Handbook and create your own identity, or play as an Origin hero with a hand-crafted background. Or tangle with your inner corruption as the Dark Urge, a fully customisable Origin hero with its own unique mechanics and story. Whoever you choose to be, adventure, loot, battle and romance your way across the Forgotten Realms and beyond. Gather your party. Take the adventure online as a party of up to four. Abducted, infected, lost. You are turning into a monster, but as the corruption inside you grows, so does your power. That power may help you to survive, but there will be a price to pay, and more than any ability, the bonds of trust that you build within your party could be your greatest strength. Caught in a conflict between devils, deities, and sinister otherworldly forces, you will determine the fate of the Forgotten Realms together. Forged with the new Divinity 4.0 engine, Baldur’s Gate 3 gives you unprecedented freedom to explore, experiment, and interact with a thriving world filled with characters, dangers, and deceit. A grand, cinematic narrative brings you closer to your characters than ever before. From shadow-cursed forests, to the magical caverns of the Underdark, to the sprawling city of Baldur’s Gate itself, your actions define the adventure, but your choices define your legacy. You will be remembered. The Forgotten Realms are a vast, detailed, and diverse world, and there are secrets to be discovered all around you – verticality is a vital part of exploration. Sneak, dip, shove, climb, and jump as you journey from the depths of the Underdark to the glittering rooftops of Baldur’s Gate. Every choice you make drives your story forward, each decision leaving your mark on the world. Define your legacy, nurture relationships and create enemies, and solve problems your way. No two playthroughs will ever be the same. allows you to combine your forces in combat and simultaneously attack enemies, or split your party to each follow your own quests and agendas. Concoct the perfect plan together… or introduce an element of chaos when your friends least expect it. Relationships are complicated. Especially when you’ve got a parasite in your brain. 7 unique Origin heroes offer a hand-crafted experience, each with their own unique traits, agenda, and outlook on the world. Their stories intersect with the overarching narrative, and your choices will determine whether those stories end in redemption, salvation, domination, or one of many other outcomes. Play as an Origin and enjoy their stories, or recruit them to fight alongside you. based on the D&amp;D 5e ruleset. Team-based initiative, advantage and disadvantage, and roll modifiers join an advanced AI, expanded environmental interactions, and a new fluidity in combat that rewards strategy and foresight. Three difficulty settings allow you to customise the challenge of combat. Enable weighted dice to help sway the battle, or play on Tactician mode for a hardcore experience. featuring 31 subraces on top of the 11 races (Human, Githyanki, Half-Orc, Dwarf, Elf, Drow, Tiefling, Halfling, Half Elf, Gnome, Dragonborn), with 46 subclasses branching out of the 12 classes. Over 600 spells and actions offer near-limitless freedom of interactivity in a hand-crafted world where exploration is rewarded, and player agency defines the journey. Our unique Character Creator features unprecedented depth of character, with reactivity that ensures whomever you are, you will leave a unique legacy behind you, all the way up to Level 12. Over 174 hours of cinematics ensure that no matter the choices you make, the cinematic experience follows your journey – every playthrough, a new cinematic journey. With the looming threat of war heading to Baldur’s Gate, and a mind flayer invasion on the horizon, friendships – though not necessary – are bound to be forged on your journey. What becomes of them is up to you, as you enter real, vibrant relationships with those you meet along the way. Each companion has their own moral compass and will react to the choices you make throughout your journey. At what cost will you stick to your ideals? Will you allow love to shape your actions? The relationships made on the road to Baldur’s Gate act as moments of respite at camp as much as they add weight to the many decisions you make on your adventure. so that when you hit ‘go live’, your stream isn’t interrupted by a bear, swear, or lack of underwear. Baldur’s Gate 3 has 3 different levels of streamer-friendly customisation. You can disable nudity and explicit content separately (or together), and you can enable Twitch integration to interact directly with your audience, just as we do at our Panel From Hell showcases! You’ll be able to stream Baldur’s Gate 3 without any problems, regardless of how you play, thanks to these options. ",
             "short_description": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons &amp; Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power.",
+            "minimum_requirements": {
+                "OS": "Windows 10 64-bit",
+                "PROCESSOR": "Intel I5 4690 / AMD FX 8350 / Snapdragon X Elite",
+                "MEMORY": "8 GB RAM",
+                "GRAPHICS": "Nvidia GTX 970 / RX 480 / Intel Arc A380 / Qualcomm Adreno X1 (4GB+ of VRAM)",
+                "DIRECTX": "Version 11",
+                "STORAGE": "150 GB available space"
+            },
+            "recommended_requirements": {
+                "OS": "Windows 10 64-bit",
+                "PROCESSOR": "Intel i7 8700K / AMD r5 3600",
+                "MEMORY": "16 GB RAM",
+                "GRAPHICS": "Nvidia 2060 Super / RX 5700 XT / Intel Arc A580 (8GB+ of VRAM)",
+                "DIRECTX": "Version 11",
+                "STORAGE": "150 GB available space"
+            },
             "supported_languages": "English,French,German,Spanish - Spain,Polish,Russian,Simplified Chinese,Turkish,Portuguese - Brazil,Italian,Spanish - Latin America,Traditional Chinese,Ukrainian,Korean,Japanese",
             "full_audio_languages": "English,Japanese",
             "reviews": "",
@@ -854,6 +1158,22 @@
             "dlc_count": "0",
             "detailed_description": "Important Updates To Grand Theft Auto IV and Episodes from Liberty City We are making a number of changes to make sure players who own Grand Theft Auto IV and GTA: Episodes from Liberty City can continue to enjoy these games. New Players Starting 03/19/2020, Grand Theft Auto IV: Complete Edition will replace both Grand Theft Auto IV and Grand Theft Auto: Episodes from Liberty City wherever it is currently digitally available. Grand Theft Auto IV: Complete Edition will as also be available via the Rockstar Games Launcher. Current game save files will be compatible with Grand Theft Auto IV: Complete Edition. As a result of this update the following services will no longer be available in Grand Theft Auto IV: Complete Edition : Games for Windows Live Multiplayer mode Leaderboards The following Radio Stations will be temporarily unavailable in Grand Theft Auto IV: Complete Edition RamJam FM, Self-Actualization FM, and Vice City FM (previously available in Grand Theft Auto: Episodes from Liberty City) Note: Because Japanese is a supported language for Grand Theft Auto IV, but is not supported for Grand Theft Auto: Episodes from Liberty City, players will continue to be able to play Grand Theft Auto IV with Japanese sub-titles but will need to select another language in order to play Grand Theft Auto: Episodes from Liberty City. Current Players Players who have previously installed and played Grand Theft Auto IV or Grand Theft Auto: Episodes from Liberty City will be able to update their copy to Grand Theft Auto IV: Complete Edition through the following means: Steam Users Depending on the game, players on Steam will need to install or update their current game: Grand Theft Auto: Episodes from Liberty City will be removed and replaced with GTAIV: Complete Edition in the launcher library. Update file size is expected to be approximately 22GB Grand Theft Auto IV owners will download content from Grand Theft Auto: Episodes from Liberty City and their game will update to GTAIV: Complete Edition. Update file size is expected to be approximately 6GB  Physical Media Games not previously activated using Games for Windows Live will be able to use the Key on the back of the game manual to activate and update to Grand Theft Auto IV: Complete Edition Games for Windows Live Digital Store Purchases Games previously activated using Games for Windows Live will require players to create and/or link their Social Club accounts in replacement of Games for Windows Live to update to Grand Theft Auto IV: Complete Edition Note: New activations from players trying to install current copies of Grand Theft Auto IV may be disrupted until Grand Theft Auto IV: Complete Edition is available. All users will need to be connected to the internet and authenticate their copy of the game. About the Game Niko Bellic, Johnny Klebitz, and Luis Lopez all have one thing in common – they live in the worst city in America. Liberty City worships money and status, and is heaven for those who have them and a living nightmare for those who don’t. Niko is looking to escape his past and make a new life for himself in the land of opportunity. Johnny, a veteran member of The Lost biker gang, is caught in the middle of a vicious turf war with rival gangs for control of the city. Luis, part-time hoodlum and full-time assistant to legendary nightclub impresario Tony Prince (a.k.a. “Gay Tony”), is struggling with the competing loyalties of family and friends in a world in which everyone has a price. Their lives cross paths with devastating consequences as they fight to survive in a city torn apart by violence and corruption. The Complete Edition includes Grand Theft Auto IV and the Episodes – The Lost and Damned &amp; The Ballad of Gay Tony.",
             "short_description": "Niko Bellic, Johnny Klebitz and Luis Lopez all have one thing in common - they live in the worst city in America. Liberty City worships money and status, and is heaven for those who have them and a living nightmare for those who don't.",
+            "minimum_requirements": {
+                "OS": "",
+                "PROCESSOR": "",
+                "MEMORY": "",
+                "GRAPHICS": "",
+                "DIRECTX": "",
+                "STORAGE": ""
+            },
+            "recommended_requirements": {
+                "OS": "Windows 10 (64-bit)",
+                "PROCESSOR": "Intel Core 2 Duo 1.8GHz, AMD Athlon X2 64 2.4GHz",
+                "MEMORY": "1.5GB",
+                "GRAPHICS": "256MB Nvidia 7900 / 256MB ATI X1900",
+                "DIRECTX": "DirectX 9.0c Compliant Card",
+                "STORAGE": "22GB of Hard Disc Space"
+            },
             "supported_languages": "English,French,Italian,German,Spanish - Spain",
             "full_audio_languages": "English,Spanish - Spain",
             "reviews": "",
@@ -898,6 +1218,22 @@
             "dlc_count": "0",
             "detailed_description": "(Release: 2014) In resident evil 4 , special agent Leon S. Kennedy is sent on a mission to rescue the U.S. President’s daughter who has been kidnapped. Finding his way to a rural village in Europe, he faces new threats that are a departure from the traditional lumbering zombie enemies of the earlier instalments in the series. Leon battles horrific new creatures infested by a new threat called Las Plagas and faces off against an aggressive group of enemies including mind-controlled villagers that are tied to Los Illuminados, the mysterious cult which is behind the abduction. Key Features Stunning HD running at a smooth 60 frames per second for the first time. A complete visual overhaul has been performed to bring this revered title to the highest graphical quality ever. Fully optimized for the wide screen, texts have been sharpened and textures have been upgraded on characters, backgrounds and in-game objects. Steam platform support with Steam Achievements, Steam Cloud, Steam Trading Cards, global leaderboards, and full game controller support. Native keyboard and mouse support with customizable key binding, mouse sensitivity, and mouse acceleration settings. This new PC version will include everything from the prior iterations including subtitle support in English, French, Italian, German, and Spanish as well as previously released bonus content such as the Separate Ways epilogue. ",
             "short_description": "(Release: 2014) Special agent Leon S. Kennedy is sent on a mission to rescue the U.S. President’s daughter who has been kidnapped.",
+            "minimum_requirements": {
+                "OS": "Windows 10 (64 bit)",
+                "PROCESSOR": "AMD Ryzen 3 1200 / Intel Core i5-7500",
+                "MEMORY": "8 GB RAM",
+                "GRAPHICS": "AMD Radeon RX 560 with 4GB VRAM / NVIDIA GeForce GTX 1050 Ti with 4GB VRAM",
+                "DIRECTX": "Version 12",
+                "STORAGE": "60 GB available space"
+            },
+            "recommended_requirements": {
+                "OS": "Windows 10 (64 bit)/Windows 11 (64 bit)",
+                "PROCESSOR": "AMD Ryzen 5 3600 / Intel Core i7 8700",
+                "MEMORY": "16 GB RAM",
+                "GRAPHICS": "AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070",
+                "DIRECTX": "Version 12",
+                "STORAGE": "60 GB available space"
+            },
             "supported_languages": "English,French,German,Spanish - Spain,Italian",
             "full_audio_languages": "English,Italian",
             "reviews": "85/100 – PC Gamer “Resident Evil 4 HD stands as the best version available.” 8/10 – GameSpot “There is more pound-for-pound fun in every hour than anything else.” Rock, Paper, Shotgun ",
@@ -942,6 +1278,22 @@
             "dlc_count": "0",
             "detailed_description": "Deluxe Edition [Deluxe Edition - Contents] ・SILENT HILL 2 ・Digital Artbook ・Digital Soundtrack ・Pyramid Head Mask（pizza box） The mask is a skin that applies to James (the main character) in the game. About the Game Having received a letter from his deceased wife, James heads to where they shared so many memories, in the hope of seeing her one more time: Silent Hill. There, by the lake, he finds a woman eerily similar to her... 'My name… is Maria,' the woman smiles. Her face, her voice... She's just like her. Experience a master-class in psychological horror―lauded as the best in the series―on the latest hardware with chilling visuals and visceral sounds. High-end Graphics and Sound With ray tracing and other cutting-edge technical enhancements, the world of SILENT HILL and its unsettling ambiance is even realer than before. And with the inclusion of new, immersive soundscapes, you'll feel like you're standing in the thick of it. Larger Environments Explore locations and buildings that were once inaccessible, or are newly added in the remake. Enjoy the same acclaimed story, even while you experience the town of Silent Hill with fresh eyes across an expanded map. Over-the-shoulder Camera The remake moves from the original's fixed-camera viewpoints to an over-the-shoulder perspective, putting you closer to what James sees, for a more thrilling, more immersive experience as you explore the town and come face-to-face with monsters. Evolved Combat Gameplay Familiar weapons like the steel pipe and handgun make their return, but now with an updated combat system. Avoid attacks with carefully timed dodges, aim down sights, and more, making monster encounters more engaging and nerve-wracking than ever. ",
             "short_description": "Investigating a letter from his late wife, James returns to where they made so many memories - Silent Hill. What he finds is a ghost town, prowled by disturbing monsters and cloaked in deep fog. Confront the monsters, solve puzzles, and search for traces of your wife in this remake of SILENT HILL 2.",
+            "minimum_requirements": {
+                "OS": "Windows 10 x64",
+                "PROCESSOR": "Intel Core i7-6700K | AMD Ryzen 5 3600",
+                "MEMORY": "16 GB RAM",
+                "GRAPHICS": "NVIDIA® GeForce® GTX 1070 Ti or AMD Radeon™ RX 5700 or Intel® Arc™ A750",
+                "DIRECTX": "Version 12",
+                "STORAGE": "50 GB available space"
+            },
+            "recommended_requirements": {
+                "OS": "Windows 10 x64",
+                "PROCESSOR": "Intel Core i7-8700K | AMD Ryzen 5 3600X",
+                "MEMORY": "16 GB RAM",
+                "GRAPHICS": "NVIDIA® GeForce® 2080RTX or AMD Radeon™ 6800XT",
+                "DIRECTX": "Version 12",
+                "STORAGE": "50 GB available space"
+            },
             "supported_languages": "English,French,Italian,German,Spanish - Spain,Spanish - Latin America,Polish,Russian,Simplified Chinese,Traditional Chinese,Japanese,Korean,Ukrainian,Portuguese - Brazil",
             "full_audio_languages": "English,Japanese,Portuguese - Brazil",
             "reviews": "",
@@ -986,6 +1338,22 @@
             "dlc_count": "1",
             "detailed_description": "Half-Life® 2: Episode Two is the second in a trilogy of new games created by Valve that extends the award-winning and best-selling Half-Life® adventure. As Dr. Gordon Freeman, you were last seen exiting City 17 with Alyx Vance as the Citadel erupted amidst a storm of unknown proportions. In Episode Two, you must battle and race against Combine forces as you traverse the White Forest to deliver a crucial information packet stolen from the Citadel to an enclave of fellow resistance scientists. Episode Two extends the award-winning Half-Life gameplay with unique weapons, vehicles, and newly-spawned creatures.",
             "short_description": "Half-Life® 2: Episode Two is the second in a trilogy of new games created by Valve that extends the award-winning and best-selling Half-Life® adventure. As Dr. Gordon Freeman, you were last seen exiting City 17 with Alyx Vance as the Citadel erupted amidst a storm of unknown proportions.",
+            "minimum_requirements": {
+                "OS": "Windows 7, Vista, XP",
+                "PROCESSOR": "1.7 Ghz",
+                "MEMORY": "512 MB RAM",
+                "GRAPHICS": "DirectX 8.1 level Graphics Card (requires support for SSE)",
+                "DIRECTX": "",
+                "STORAGE": "6500 MB available space"
+            },
+            "recommended_requirements": {
+                "OS": "",
+                "PROCESSOR": "",
+                "MEMORY": "",
+                "GRAPHICS": "",
+                "DIRECTX": "",
+                "STORAGE": ""
+            },
             "supported_languages": "English,French,German,Russian,Danish,Dutch,Finnish,Italian,Japanese,Korean,Norwegian,Polish,Portuguese - Portugal,Simplified Chinese,Spanish - Spain,Swedish,Traditional Chinese",
             "full_audio_languages": "English,French,German,Russian,Spanish - Spain,Traditional Chinese",
             "reviews": "",
@@ -1030,6 +1398,22 @@
             "dlc_count": "1",
             "detailed_description": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2. A free upgrade to CS:GO, Counter-Strike 2 marks the largest technical leap in Counter-Strike’s history. Built on the Source 2 engine, Counter-Strike 2 is modernized with realistic physically-based rendering, state of the art networking, and upgraded Community Workshop tools. In addition to the classic objective-focused gameplay that Counter-Strike pioneered in 1999, Counter-Strike 2 features: All-new CS Ratings with the updated Premier mode Global and Regional leaderboards Upgraded and overhauled maps Game-changing dynamic smoke grenades Tick-rate-independent gameplay Redesigned visual effects and audio All items from CS:GO moving forward to CS2 ",
             "short_description": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
+            "minimum_requirements": {
+                "OS": "Windows® 10",
+                "PROCESSOR": "4 hardware CPU threads - Intel® Core™ i5 750 or higher",
+                "MEMORY": "8 GB RAM",
+                "GRAPHICS": "Video card must be 1 GB or more and should be a DirectX 11-compatible with support for Shader Model 5.0",
+                "DIRECTX": "Version 11",
+                "STORAGE": "85 GB available space"
+            },
+            "recommended_requirements": {
+                "OS": "",
+                "PROCESSOR": "",
+                "MEMORY": "",
+                "GRAPHICS": "",
+                "DIRECTX": "",
+                "STORAGE": ""
+            },
             "supported_languages": "Czech,Danish,Dutch,English,Finnish,French,German,Hungarian,Italian,Japanese,Korean,Norwegian,Polish,Portuguese - Portugal,Portuguese - Brazil,Romanian,Russian,Simplified Chinese,Spanish - Spain,Swedish,Thai,Traditional Chinese,Turkish,Bulgarian,Ukrainian,Greek,Spanish - Latin America,Vietnamese,Indonesian",
             "full_audio_languages": "English,Indonesian",
             "reviews": "",
@@ -1074,6 +1458,22 @@
             "dlc_count": "0",
             "detailed_description": "Free Bonus Chapter Added The Final Hours of Portal 2 has been updated with a chapter on the making of the \"Peer Review\" DLC and the first details on the future of Portal 2! About the Digital Book The Final Hours of Portal 2 takes you deep within the top-secret offices of Valve for an unvarnished look at the creative process behind the new video game Portal 2. Journalist Geoff Keighley was granted unprecedented “fly on the wall” access to Valve to create this staggering 15,000 word multimedia experience. From the hush-hush Portal prequel that was shelved to the last minute scramble to complete the game’s story, The Final Hours of Portal 2 is a gripping and dramatic story brought to life by exclusive photos, videos, interviews, interactive experiences, and other surprises. Key features: In The Final Hours of Portal 2 Valve reveals: That Portal 2 actually began as a prequel to the first game without portals or GLaDOS. The Directed Design Experiments created after Half-Life 2: Episode 2, including video of a never-before-disclosed project, Two Bots, One Wrench. How the story of Portal 2 evolved during development. See images and read surprising details. How it worked with Jonathan Coulton to create \"Want You Gone,\" the closing song to the game. Interactive Highlights Include: Play with portals in an interactive diagram where you learn how portals work. 360 degree panorama photos of the Valve office and design labs. Listen to the songs that inspired the Portal 2 development team. Hear Jonathan Coulton's Portal 2 song in various stages of development. Puppet Wheatley in an interactive experience Destroy Aperture Science by wiping your fingers over the screen. Interact with fans and voice your opinion via polls and a feedback form. About the Game Portal 2 draws from the award-winning formula of innovative gameplay, story, and music that earned the original Portal over 70 industry accolades and created a cult following. For more information on Portal 2 click here. ",
             "short_description": "Portal 2 draws from the award-winning formula of innovative gameplay, story, and music that earned the original Portal over 70 industry accolades and created a cult following. For more information on Portal 2 click here.",
+            "minimum_requirements": {
+                "OS": "Microsoft® Windows® XP Home, Professional, or Tablet PC Edition with Service Pack 3; Windows Server® 2003 or 2008; Windows Vista® Home Premium, Business, Ultimate, or Enterprise (including 64-bit editions) with Service Pack 2; or Windows 7",
+                "PROCESSOR": "2.33GHz Intel® Pentium® 4, AMD Athlon® 64 2800+, or faster processor",
+                "MEMORY": "512MB of RAM (1GB recommended)",
+                "GRAPHICS": "",
+                "DIRECTX": "",
+                "STORAGE": ""
+            },
+            "recommended_requirements": {
+                "OS": "",
+                "PROCESSOR": "",
+                "MEMORY": "",
+                "GRAPHICS": "",
+                "DIRECTX": "",
+                "STORAGE": ""
+            },
             "supported_languages": "English",
             "full_audio_languages": "",
             "reviews": "",
@@ -1100,7 +1500,7 @@
             "developers": "Geoff Keighley",
             "publishers": "Geoff Keighley",
             "categories": "Single-player,Family Sharing",
-            "genres": "platform-adventure",
+            "genres": "Adventure",
             "tags": "",
             "screenshots": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/104600/ss_f00fbf8c8c5ec3d10cb8ee73d09fcea4c052108c.1920x1080.jpg?t=1447354230,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/104600/ss_10cab2e6b1a898c0b62af737fddade0d643b25d9.1920x1080.jpg?t=1447354230,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/104600/ss_b758a06e306c1db48abc097471cd372df02bf7b3.1920x1080.jpg?t=1447354230,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/104600/ss_f9d49d4b68f67cc141af695ea07f25e96f6b7d77.1920x1080.jpg?t=1447354230,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/104600/ss_a9cf96cc7230ca784cb9d7eab85f4744d764639c.1920x1080.jpg?t=1447354230,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/104600/ss_5ce8732c3e247dab172c1d6fc0cfe2f48b659d15.1920x1080.jpg?t=1447354230,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/104600/ss_c1d79df183323c61df86bef2fcb4d628463f53ea.1920x1080.jpg?t=1447354230",
             "movies": "",
@@ -1118,6 +1518,22 @@
             "dlc_count": "1",
             "detailed_description": "Half-Life 2 has sold over 4 million copies worldwide, and earned over 35 Game of the Year Awards. Episode One is the first in a series of games that reveal the aftermath of Half-Life 2 and launch a journey beyond City 17. Also features two multiplayer games. Half-Life 2 not required.",
             "short_description": "Half-Life 2 has sold over 4 million copies worldwide, and earned over 35 Game of the Year Awards. Episode One is the first in a series of games that reveal the aftermath of Half-Life 2 and launch a journey beyond City 17. Also features two multiplayer games. Half-Life 2 not required.",
+            "minimum_requirements": {
+                "OS": "Windows 7, Vista, XP",
+                "PROCESSOR": "1.7 Ghz",
+                "MEMORY": "512 MB RAM",
+                "GRAPHICS": "DirectX 8.1 level Graphics Card (requires support for SSE)",
+                "DIRECTX": "",
+                "STORAGE": "6500 MB available space"
+            },
+            "recommended_requirements": {
+                "OS": "",
+                "PROCESSOR": "",
+                "MEMORY": "",
+                "GRAPHICS": "",
+                "DIRECTX": "",
+                "STORAGE": ""
+            },
             "supported_languages": "English,French,German,Italian,Korean,Spanish - Spain,Russian,Simplified Chinese,Traditional Chinese,Dutch,Danish,Finnish,Japanese,Norwegian,Polish,Portuguese - Portugal,Swedish,Thai",
             "full_audio_languages": "English,French,German,Italian,Korean,Spanish - Spain,Russian,Simplified Chinese,Traditional Chinese,Thai",
             "reviews": "",
@@ -1150,6 +1566,5 @@
             "movies": "",
             "packages": "[{\"title\": \"Buy Half-Life 2: Episode One\", \"description\": \"\", \"subs\": [{\"text\": \"The Orange Box - $19.99 $3.99\", \"description\": \"\", \"price\": 3.99}]}]"
         }
-        
     ]
 }
