@@ -1,5 +1,5 @@
 import { type Game } from "../type/Game";
-import { ScreenshotBanner } from "./screenshotBanner";
+import { ScreenshotBanner } from "../components/ScreenshotBanner";
 
 interface GamePageInfoProps {
     game: Game;
