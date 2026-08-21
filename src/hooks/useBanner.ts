@@ -9,7 +9,7 @@ export const useBanner = (games: Game[]) => {
         [games]
     );
     
-    const {currentIndex, next, prev} = useCarousel(featuredGames.length)
+    const {currentIndex, next, prev} = useCarousel(featuredGames.length, 8000)ж
 
     const currentGame = featuredGames[currentIndex];
 

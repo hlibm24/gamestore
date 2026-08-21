@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 
-export const useCarousel = (total: number) => {
+export const useCarousel = (total: number, intervalMs: number) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     useEffect(()=> {
@@ -19,9 +19,9 @@ export const useCarousel = (total: number) => {
 
     useEffect(()=> {
         if(total === 0) return;
-        const interval = setInterval(next, 5000);
+        const interval = setInterval(next, intervalMs);
         return () => clearInterval(interval);
-    }, [total]);
+    }, [total, intervalMs]);
 
     return {currentIndex, next, prev};
 }
