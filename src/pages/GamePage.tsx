@@ -1,5 +1,6 @@
 import {type Game} from '../type/Game';
 import { useParams } from 'react-router-dom';
+import {GamePageInfo} from '../components/GamePageInfo';
 
 interface GamePageProps {
     games: Game[];
@@ -14,7 +15,7 @@ export const GamePage = ({games}:GamePageProps) => {
 
     return (
         <>
-            {game.name}
+            <GamePageInfo game={game}/>
         </>
     )
 }
