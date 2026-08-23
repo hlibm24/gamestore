@@ -1,4 +1,4 @@
-  interface SystemRequirements {
+  export interface SystemRequirements {
     OS: string,
     PROCESSOR: string,
     MEMORY: string,
@@ -27,4 +27,5 @@
     developers: string,
     genres: string,
     screenshots: string,
+    categories: string,
   }
