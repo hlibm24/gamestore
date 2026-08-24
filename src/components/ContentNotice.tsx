@@ -7,8 +7,8 @@ interface ContentNoticeProps {
 export const ContentNotice = ({game}:ContentNoticeProps) => {
     return (
         <div className="content-notice">
-            <p>{game.notes}</p>
-            <p>{game.required_age}</p>
+            {game.notes && <p>{game.notes}</p>}
+            <p>AGE REQUIRED: {game.required_age}</p>
         </div>
     )
 }

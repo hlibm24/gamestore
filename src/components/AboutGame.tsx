@@ -7,9 +7,10 @@ interface AboutGameProps {
 export const AboutGame = ({game}:AboutGameProps) => {
     return (
         <div className="about-game">
-            <p>{game.release_date}</p>
-            <p>{game.developers}</p>
-            <p>{game.categories}</p>
+            <p>RELEASE DATE: {game.release_date}</p>
+            <p>DEVELOPER: {game.developers}</p>
+            <p>PUBLISHER: {game.publishers}</p>
+            <p>Game categories: {game.categories}</p>
         </div>
     )
 }

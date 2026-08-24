@@ -8,7 +8,7 @@ interface GameRequirementsProps {
 export const GameRequirements = ({game}:GameRequirementsProps) => {
     return (
         <div className="requirements">
-            <h2>System Requirements</h2>
+            <h2>System Requirements:</h2>
             <RequirementsList title="Minimum" requirements={game.minimum_requirements}/>
             <RequirementsList title="Recommended" requirements={game.recommended_requirements}/>
         </div>

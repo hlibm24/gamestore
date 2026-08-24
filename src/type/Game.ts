@@ -25,6 +25,7 @@
     header_image: string,
     notes: string,
     developers: string,
+    publishers: string,
     genres: string,
     screenshots: string,
     categories: string,
