@@ -6,16 +6,27 @@ interface RequirementsListProps {
 }
 
 export const RequirementsList = ({title, requirements}: RequirementsListProps) => {
+
+    const fields: {label: string, value: string}[] = [
+        {label: 'OS', value: requirements.OS},
+        {label: 'PROCESSOR', value: requirements.PROCESSOR},
+        {label: 'MEMORY', value: requirements.MEMORY},
+        {label: 'GRAPHICS', value: requirements.GRAPHICS},
+        {label: 'DIRECTX', value: requirements.DIRECTX},
+        {label: 'STORAGE', value: requirements.STORAGE},
+    ];
+
+    const filledFields = fields.filter((f)=> f.value);
+
+    if(filledFields.length === 0) return null; 
+
     return (
         <div>
             <h3>{title}</h3>
-                <ul className="minimum_requirements">
-                    <li>OS: {requirements.OS}</li>
-                    <li>PROCESSOR: {requirements.PROCESSOR}</li>
-                    <li>MEMORY: {requirements.MEMORY}</li>
-                    <li>GRAPHICS: {requirements.GRAPHICS}</li>
-                    <li>DIRECTX: {requirements.DIRECTX}</li>
-                    <li>STORAGE: {requirements.STORAGE}</li>
+                <ul>
+                    {filledFields.map((f)=> (
+                        <li key={f.label}>{f.label}: {f.value}</li>
+                    ))}
                 </ul>
         </div>
     )
