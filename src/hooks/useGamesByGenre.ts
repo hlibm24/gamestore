@@ -20,7 +20,11 @@ export const useGamesByGenre = (games: Game[]) => {
         });
         return result;
 
-    }, [games])
+    }, [games]);
+    
+    const genresWithEnoughGames = Object.entries(gamesByGenre).filter(
+        ([, games]) => games.length >= 3
+    );
        
-    return gamesByGenre;
+    return genresWithEnoughGames;
 }
