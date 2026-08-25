@@ -1,12 +1,13 @@
 import { type Game } from "../type/Game";
+import { parseCommaList } from "../utils/parseCommaList";
 
 export const useSimilarGames = (game: Game | undefined, allGames: Game[]) => {
     if(!game) return [];
-    const currentGenres = game.genres.split(',').map((g)=> g.trim());
+    const currentGenres = parseCommaList(game.genres);
 
     const similarGames = allGames.filter((g)=> 
         g.appID !== game.appID &&
-        g.genres.split(',').map((genre)=>genre.trim()).some((genre)=> currentGenres.includes(genre))
+        parseCommaList(g.genres).some((genre)=> currentGenres.includes(genre))
     )
 
     return similarGames;

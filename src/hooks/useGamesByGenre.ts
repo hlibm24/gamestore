@@ -1,5 +1,6 @@
 import {useMemo} from 'react';
 import {type Game} from '../type/Game';
+import { parseCommaList } from '../utils/parseCommaList';
 
 export const useGamesByGenre = (games: Game[]) => {
 
@@ -7,7 +8,7 @@ export const useGamesByGenre = (games: Game[]) => {
         const result: Record<string, Game[]> = {};
         
         games.forEach((game)=> {
-            const genres = game.genres.split(',').map((g)=> g.trim());
+            const genres = parseCommaList(game.genres);
             
             genres.forEach((genre)=> {
                 if(!genre) return;

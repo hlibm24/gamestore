@@ -1,7 +1,8 @@
 import { useCarousel } from "./useCarousel";
+import { parseCommaList } from "../utils/parseCommaList";
 
 export const useScreenshotCarousel = (screenshotsString: string) => {
-    const screenshots = screenshotsString.split(',').map((url) => url.trim());
+    const screenshots = parseCommaList(screenshotsString);
     
     const {currentIndex, next, prev} = useCarousel(screenshots.length, 5000);
     
