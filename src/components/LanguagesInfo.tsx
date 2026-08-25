@@ -5,10 +5,13 @@ interface LanguagesInfoProps {
 }
 
 export const LanguagesInfo = ({game}:LanguagesInfoProps) => {
+    
+    if(!game.supported_languages && !game.full_audio_languages) return null;
+
     return (
         <div className="languages-info">
-            <p>{game.supported_languages}</p>
-            <p>{game.full_audio_languages}</p>
+            {game.supported_languages && <p>{game.supported_languages}</p>}
+            {game.full_audio_languages && <p>{game.full_audio_languages}</p>}
         </div>
     )
 }
