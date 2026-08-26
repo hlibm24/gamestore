@@ -1,1 +1,26 @@
-export const Cart = () => <h1>Cart</h1>;
+import { useCart } from "../context/CartContext";
+
+export const Cart = () => {
+    const {cartItems, removeFromCart} = useCart();
+
+    if(cartItems.length === 0) {
+        return <p>Your cart is empty</p>
+    }
+
+    return (
+        <div className="cart">
+            <h1>Cart</h1>
+            <ul>
+                {cartItems.map((item)=> (
+                    <li key={item.appID}>
+                        <img src={item.header_image} alt={item.name} />
+                        <p>{item.name}</p>
+                        <p>{item.price}</p>
+                        <button onClick={() => removeFromCart(item.appID)}>Remove</button>
+                    </li>
+                ))}
+            </ul>
+        </div>
+    )
+
+}
