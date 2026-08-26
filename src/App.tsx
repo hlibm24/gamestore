@@ -5,6 +5,8 @@ import { AppRoutes } from './components/AppRoutes';
 
 import {useGames} from './hooks/useGames'
 
+import { CartProvider } from './context/CartContext';
+
 function App() {
   const {games, loading} = useGames();
 
@@ -15,10 +17,12 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <Navigation/>
-        <AppRoutes games={games}/>
-      </BrowserRouter>
+      <CartProvider>
+        <BrowserRouter>
+          <Navigation/>
+          <AppRoutes games={games}/>
+        </BrowserRouter>
+      </CartProvider>
     </>
   )
 }
