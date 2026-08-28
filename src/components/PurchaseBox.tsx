@@ -6,22 +6,28 @@ interface PurchaseBoxProps {
 }
 
 export const PurchaseBox = ({game}:PurchaseBoxProps) => {
-    const {addToCart} = useCart();
+    const {addToCart, removeFromCart, isInCart} = useCart();
 
-    const handleAddToCart = () => {
-        addToCart({
-            appID: game.appID,
-            name: game.name,
-            header_image: game.header_image,
-            price: game.price,
-        })
+    const inCart = isInCart(game.appID);
+
+    const handleCartClick = () => {
+        if(inCart) {
+            removeFromCart(game.appID);
+        } else {
+            addToCart({
+                appID: game.appID,
+                name: game.name,
+                header_image: game.header_image,
+                price: game.price,
+            });
+        }
     }
 
     return (
         <div className="purchase-box">
             <h3>{game.price}</h3>
             <button>Buy now</button>
-            <button onClick={handleAddToCart}>Add to card</button>
+            <button onClick={handleCartClick}>{inCart ? 'Remove from cart' : 'Add to cart'}</button>
         </div>
     )
 }

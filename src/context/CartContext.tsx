@@ -5,6 +5,7 @@ interface CartContextType {
     cartItems: CartItem[];
     addToCart: (item: CartItem) => void;
     removeFromCart: (appID: number) => void;
+    isInCart: (appID: number) => boolean;
 }
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
@@ -23,9 +24,11 @@ export const CartProvider = ({children}: { children: ReactNode }) => {
     const removeFromCart = (appID: number) => {
         setCartItems((prev) => prev.filter((item) => item.appID !== appID));
     }
-    console.log(cartItems)
+
+    const isInCart = (appID: number) => cartItems.some((item) => item.appID === appID);
+
     return (
-        <CartContext.Provider value={{ cartItems, addToCart, removeFromCart }}>
+        <CartContext.Provider value={{ cartItems, addToCart, removeFromCart, isInCart }}>
             {children}
         </CartContext.Provider>
     )
