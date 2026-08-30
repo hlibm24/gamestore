@@ -7,6 +7,7 @@ import { AppRoutes } from './components/AppRoutes';
 import {useGames} from './hooks/useGames'
 
 import { CartProvider } from './context/CartContext';
+import { PurchasedProvider } from './context/PurchasedContext';
 
 function App() {
   const {games, loading} = useGames();
@@ -19,11 +20,13 @@ function App() {
   return (
     <>
       <CartProvider>
+        <PurchasedProvider>
         <BrowserRouter>
           <ScrollToTop/>
           <Navigation/>
           <AppRoutes games={games}/>
         </BrowserRouter>
+        </PurchasedProvider>
       </CartProvider>
     </>
   )

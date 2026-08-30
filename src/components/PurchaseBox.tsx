@@ -1,5 +1,6 @@
 import { type Game } from "../type/Game";
 import { useCart } from "../context/CartContext";
+import { usePurchased } from "../context/PurchasedContext";
 
 interface PurchaseBoxProps {
     game: Game;
@@ -7,9 +8,11 @@ interface PurchaseBoxProps {
 
 export const PurchaseBox = ({game}:PurchaseBoxProps) => {
     const {addToCart, removeFromCart, isInCart} = useCart();
+    const {addPurchase, isPurchased} = usePurchased();
 
     const inCart = isInCart(game.appID);
     const isFree = game.price === 0;
+    const owned = isPurchased(game.appID);
 
     const handleCartClick = () => {
         if(inCart) {
@@ -24,10 +27,17 @@ export const PurchaseBox = ({game}:PurchaseBoxProps) => {
         }
     }
 
+    const handleAddToLibrary = () => {
+        addPurchase(game);
+    }
+
+
     if(isFree) return (
         <div className="purchase-box">
             <h3>Free</h3>
-            <button>Add to library</button>
+            <button onClick={handleAddToLibrary} disabled={owned}>
+                {owned ? 'In library' : 'Add to library'}
+            </button>
         </div>
     )
 
