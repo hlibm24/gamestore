@@ -1,4 +1,5 @@
 import {BrowserRouter} from 'react-router-dom';
+import { ScrollToTop } from './components/ScrollToTop';
 
 import {Navigation} from './components/Navigation';
 import { AppRoutes } from './components/AppRoutes';
@@ -19,6 +20,7 @@ function App() {
     <>
       <CartProvider>
         <BrowserRouter>
+          <ScrollToTop/>
           <Navigation/>
           <AppRoutes games={games}/>
         </BrowserRouter>
