@@ -9,6 +9,7 @@ export const PurchaseBox = ({game}:PurchaseBoxProps) => {
     const {addToCart, removeFromCart, isInCart} = useCart();
 
     const inCart = isInCart(game.appID);
+    const isFree = game.price === 0;
 
     const handleCartClick = () => {
         if(inCart) {
@@ -22,6 +23,13 @@ export const PurchaseBox = ({game}:PurchaseBoxProps) => {
             });
         }
     }
+
+    if(isFree) return (
+        <div className="purchase-box">
+            <h3>Free</h3>
+            <button>Add to library</button>
+        </div>
+    )
 
     return (
         <div className="purchase-box">
