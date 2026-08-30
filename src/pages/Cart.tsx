@@ -7,6 +7,8 @@ export const Cart = () => {
         return <p>Your cart is empty</p>
     }
 
+    const total = cartItems.reduce((sum, item) => sum + item.price, 0);
+
     return (
         <div className="cart">
             <h1>Cart</h1>
@@ -20,6 +22,7 @@ export const Cart = () => {
                     </li>
                 ))}
             </ul>
+            <h2>Total: {total}</h2>
         </div>
     )
 
