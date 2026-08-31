@@ -8,6 +8,7 @@ import {useGames} from './hooks/useGames'
 
 import { CartProvider } from './context/CartContext';
 import { PurchasedProvider } from './context/PurchasedContext';
+import { WalletProvider } from './context/WalletContext';
 
 function App() {
   const {games, loading} = useGames();
@@ -21,11 +22,15 @@ function App() {
     <>
       <CartProvider>
         <PurchasedProvider>
-        <BrowserRouter>
-          <ScrollToTop/>
-          <Navigation/>
-          <AppRoutes games={games}/>
-        </BrowserRouter>
+          <WalletProvider>
+
+          <BrowserRouter>
+            <ScrollToTop/>
+            <Navigation/>
+            <AppRoutes games={games}/>
+          </BrowserRouter>
+
+          </WalletProvider>
         </PurchasedProvider>
       </CartProvider>
     </>
