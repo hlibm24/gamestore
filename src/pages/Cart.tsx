@@ -1,6 +1,9 @@
 import { useCart } from "../context/CartContext";
+import { useBuyModal } from "../context/BuyModalContext";
 
 export const Cart = () => {
+    const {openBuyModal} = useBuyModal();
+
     const {cartItems, removeFromCart} = useCart();
 
     if(cartItems.length === 0) {
@@ -23,6 +26,7 @@ export const Cart = () => {
                 ))}
             </ul>
             <h2>Total: {total}</h2>
+            <button onClick={()=>openBuyModal(cartItems)}>Buy the Games</button>
         </div>
     )
 

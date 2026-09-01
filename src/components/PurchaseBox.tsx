@@ -1,12 +1,15 @@
 import { type Game } from "../type/Game";
 import { useCart } from "../context/CartContext";
 import { usePurchased } from "../context/PurchasedContext";
+import { useBuyModal } from "../context/BuyModalContext";
 
 interface PurchaseBoxProps {
     game: Game;
 }
 
 export const PurchaseBox = ({game}:PurchaseBoxProps) => {
+    const {openBuyModal} = useBuyModal();
+
     const {addToCart, removeFromCart, isInCart} = useCart();
     const {addPurchase, isPurchased} = usePurchased();
 
@@ -28,7 +31,21 @@ export const PurchaseBox = ({game}:PurchaseBoxProps) => {
     }
 
     const handleAddToLibrary = () => {
-        addPurchase(game);
+        addPurchase({
+            appID: game.appID,
+            name: game.name,
+            header_image: game.header_image,
+            price: game.price,
+        });
+    }
+
+    const handleBuyNow = () => {
+        openBuyModal([{
+            appID: game.appID,
+            name: game.name,
+            header_image: game.header_image,
+            price: game.price,
+        }])
     }
 
 
@@ -44,7 +61,7 @@ export const PurchaseBox = ({game}:PurchaseBoxProps) => {
     return (
         <div className="purchase-box">
             <h3>{game.price}</h3>
-            <button>Buy now</button>
+            <button onClick={handleBuyNow}>Buy now</button>
             <button onClick={handleCartClick}>{inCart ? 'Remove from cart' : 'Add to cart'}</button>
         </div>
     )

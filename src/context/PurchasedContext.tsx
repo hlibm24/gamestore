@@ -1,18 +1,18 @@
 import { createContext, useState, useContext, type ReactNode } from 'react';
-import { type Game } from '../type/Game';
+import { type CartItem } from '../type/CartItem';
 
 interface PurchasedContextType {
-    purchased: Game[];
-    addPurchase: (game: Game) => void;
+    purchased: CartItem[];
+    addPurchase: (game: CartItem) => void;
     isPurchased: (appID: number) => boolean;
 }
 
 const PurchasedContext = createContext<PurchasedContextType | undefined>(undefined);
 
 export const PurchasedProvider = ({children}: {children: ReactNode}) => {
-    const [purchased, setPurchased] = useState<Game[]>([]);
+    const [purchased, setPurchased] = useState<CartItem[]>([]);
 
-    const addPurchase = (game: Game) => {
+    const addPurchase = (game: CartItem) => {
         setPurchased((prev)=> {
             const alreadyPurhcased = prev.some((item) => item.appID === game.appID);
             if(alreadyPurhcased) return prev;
