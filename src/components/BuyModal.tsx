@@ -12,7 +12,7 @@ interface BuyModalProps {
 }
 
 export const BuyModal = ({buyingGames}: BuyModalProps) => {
-    const {spend} = useWallet();
+    const {spend, balance} = useWallet();
     const {closeBuyModal} = useBuyModal();
     const {addPurchase} = usePurchased();
     const {removeFromCart} = useCart();
@@ -39,12 +39,14 @@ export const BuyModal = ({buyingGames}: BuyModalProps) => {
 
    if(screen === 'success') {
         return (
-            <div className="buying-modal">
-                <h2>Transaction was successful</h2>
+            <div className="modal-overlay" onClick={closeBuyModal}>
+                <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                    <h2>Transaction was successful</h2>
 
-                <div>
-                    <Link to='/library' onClick={()=> closeBuyModal()}>Go to Library</Link>
-                    <Link to='/' onClick={()=> closeBuyModal()}>Go to Store</Link>
+                    <div>
+                        <Link to='/library' onClick={()=> closeBuyModal()}>Go to Library</Link>
+                        <Link to='/' onClick={()=> closeBuyModal()}>Go to Store</Link>
+                    </div>
                 </div>
             </div>
         )
@@ -52,28 +54,34 @@ export const BuyModal = ({buyingGames}: BuyModalProps) => {
 
    if(screen === 'insufficient') {
     return (
-        <div className="buying-modal">
-            <button onClick={()=> setScreen('confirm')}>Close</button>
-            <h2>Transaction was not successful, check your balance</h2>
+        <div className="modal-overlay" onClick={closeBuyModal}>
+            <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                <button onClick={()=> setScreen('confirm')}>Close</button>
+                <h2>Transaction was not successful, check your balance</h2>
+            </div>
         </div>
     )
    }
 
    if(screen === 'confirm') {
         return (
-            <div className="buying-modal">
-                <button onClick={closeBuyModal}>Close</button>
-                <ul>
-                {buyingGames.map((game) => (
-                    <li key={game.appID}>
-                        <img src={game.header_image} alt={game.name} />
-                        <h2>{game.name}</h2>
-                        <p>{game.price}</p>
-                    </li>
-                ))}
-                </ul>
-                <button onClick={handleBuyResultModal}>Buy</button>
+            <div className="modal-overlay" onClick={closeBuyModal}>
+                <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                    <button onClick={closeBuyModal}>Close</button>
+                    <ul>
+                    {buyingGames.map((game) => (
+                        <li key={game.appID}>
+                            <img src={game.header_image} alt={game.name} />
+                            <h2>{game.name}</h2>
+                            <p>{game.price}</p>
+                        </li>
+                    ))}
+                    </ul>
+                    <p>BALANCE:{balance}</p>
+                    <button onClick={handleBuyResultModal}>Buy</button>
+                </div>
             </div>
+            
         )
 
    }
