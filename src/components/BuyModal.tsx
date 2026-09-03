@@ -25,9 +25,10 @@ export const BuyModal = ({buyingGames}: BuyModalProps) => {
     const [screen, setScreen] = useState<Screen>('confirm');
 
     const gamesPrice = buyingGames.reduce((sum, item)=> sum + item.price, 0);
+    const gameNames = buyingGames.map((game)=> game.name).join(',');
 
-   const handleBuyResultModal = () => {
-        const result = spend(gamesPrice);
+    const handleBuyResultModal = () => {
+        const result = spend(gamesPrice, gameNames);
 
         if(result) {
             buyingGames.forEach((game)=> {
@@ -37,7 +38,7 @@ export const BuyModal = ({buyingGames}: BuyModalProps) => {
             return setScreen('success');
         }
         return setScreen('insufficient');
-   }
+    }
 
 
    if(screen === 'success') {
