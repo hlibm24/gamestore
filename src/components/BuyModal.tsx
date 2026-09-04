@@ -44,6 +44,7 @@ export const BuyModal = ({buyingGames}: BuyModalProps) => {
    if(screen === 'success') {
         return (
             <Modal onClose={closeBuyModal}>
+                <button onClick={closeBuyModal}>Close</button>
                 <h2>Transaction was successful</h2>
                 <div>
                     <Link to='/library' onClick={()=> closeBuyModal()}>Go to Library</Link>
@@ -75,7 +76,7 @@ export const BuyModal = ({buyingGames}: BuyModalProps) => {
                     </li>
                 ))}
                 </ul>
-                <p>BALANCE:{balance}</p>
+                <p>BALANCE:{balance.toFixed(2)}</p>
                 <button onClick={handleBuyResultModal}>Buy</button>
             </Modal>
         )
