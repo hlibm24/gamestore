@@ -6,7 +6,7 @@ export const Wallet = () => {
     return (
         <div className="wallet-page">
             <div className="balance-info">
-                <p>"Stay on the site to earn money over time. Once your balance is high enough, you can spend it on games.</p>
+                <p>"You earn 5 coins per minute just by staying on the site. Use your balance to buy games.</p>
                 <span>BALANCE: {balance.toFixed(2)}</span>
                 <span>5/min</span>
             </div>
