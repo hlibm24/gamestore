@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { type Game } from '../type/Game';
-import {fetchGames, type GamesError} from './GamesApi.ts' 
+import {fetchGames, type GamesError} from '../utils/gamesApi' 
 
 
 export const useGames = () => {

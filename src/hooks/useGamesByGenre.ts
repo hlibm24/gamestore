@@ -24,7 +24,7 @@ export const useGamesByGenre = (games: Game[]) => {
     }, [games]);
     
     const genresWithEnoughGames = Object.entries(gamesByGenre).filter(
-        ([, games]) => games.length >= 3
+        ([, games]) => games.length >= 5
     );
        
     return genresWithEnoughGames;

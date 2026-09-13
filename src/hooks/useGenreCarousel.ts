@@ -19,5 +19,7 @@ export const useGenreCarousel =  (games: Game[], pageSize: number = 5)=> {
         setCurrentPage((prev) => (prev - 1 + totalPages) % totalPages);
     }
 
-    return {currentGames, next, prev, currentPage, totalPages}
+    const isDisabled = totalPages <= 1;
+
+    return {currentGames, next, prev, currentPage, totalPages, isDisabled};
 }

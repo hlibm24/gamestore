@@ -7,11 +7,11 @@ interface GenreSectionsProps {
 }
 
 export const GenreSections = ({games}:GenreSectionsProps) => {
-    const genresWithEnoughGame = useGamesByGenre(games);
+    const genresWithEnoughGames = useGamesByGenre(games);
 
     return (
         <>
-            {genresWithEnoughGame.map(([genre, genreGames])=> (
+            {genresWithEnoughGames.map(([genre, genreGames])=> (
                 <GenreRow key={genre} genre={genre} games={genreGames}/>
             ))}
         </>

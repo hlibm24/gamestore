@@ -9,13 +9,14 @@ interface GenreRowProps {
 }
 
 export const GenreRow = ({genre, games}: GenreRowProps) => {
-    const {currentGames, next, prev} = useGenreCarousel(games);
+    const {currentGames, next, prev, isDisabled} = useGenreCarousel(games);
 
     return (
         <section>
             <h2>{genre}</h2>
             <div className='genre-row'>
-                <button onClick={prev}>‹</button>
+                <button onClick={prev} disabled={isDisabled}>‹</button>
+                <button onClick={next} disabled={isDisabled}>›</button>
                 <ul>
                     {currentGames.map((game) => (
                         <li key={game.appID}>
@@ -23,7 +24,6 @@ export const GenreRow = ({genre, games}: GenreRowProps) => {
                         </li>
                     ))}
                 </ul>
-                <button onClick={next}>›</button>
             </div>
         </section>
     )
