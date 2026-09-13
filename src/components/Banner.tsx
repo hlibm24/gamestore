@@ -13,13 +13,13 @@ export const Banner = ({games}: BannerProps) => {
     if(!currentGame) return null;
 
     return (
-        <>
-        <h3>Store creator recommends</h3>
+        <section className='recommends-banner'>
+            <h3>Store creator recommends</h3>
             <div className='banner'>
                 <button onClick={prev}>‹</button>
                 <GameCard game={currentGame}/>
                 <button onClick={next}>›</button>
             </div>
-        </>
+        </section>
     )
 }

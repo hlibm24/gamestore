@@ -12,12 +12,12 @@ interface GameAdditionalInfoProps {
 
 export const GameSidebar = ({game}:GameAdditionalInfoProps) => {
     return (
-        <div className="sidebar">
+        <section className="sidebar">
             <GameSummary game={game}/>
             <ContentNotice game={game}/>
             <PurchaseBox game={game}/>
             <AboutGame game={game}/>
             <LanguagesInfo game={game}/>
-        </div>
+        </section>
     )
 }

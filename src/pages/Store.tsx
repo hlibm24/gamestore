@@ -1,5 +1,5 @@
 import { Banner } from "../components/Banner";
-import { GenreSections } from "../components/GamesByGenre";
+import { GamesByGenre } from "../components/GamesByGenre";
 import {type Game} from '../type/Game';
 
 interface StoreProps {
@@ -11,7 +11,7 @@ export const Store = ({games}: StoreProps) => {
     return (
         <div>
             <Banner games={games} />
-            <GenreSections games={games}/>
+            <GamesByGenre games={games}/>
         </div>
     )
 }
