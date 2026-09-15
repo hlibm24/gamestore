@@ -20,8 +20,8 @@ export const Cart = () => {
             <h1>Cart</h1>
             <ul>
                 {cartItems.map((item)=> (
-                    <li>
-                        <Link key={item.appID} to={`/games/${item.slug}`}>
+                    <li key={item.appID}>
+                        <Link to={`/games/${item.slug}`}>
                             <img src={item.header_image} alt={item.name} />
                             <p>{item.name}</p>
                             <p>{item.price}</p>

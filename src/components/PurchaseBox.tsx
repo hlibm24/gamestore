@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { type Game } from "../type/Game";
 import { useCart } from "../context/CartContext";
 import { usePurchased } from "../context/PurchasedContext";
@@ -23,6 +24,7 @@ export const PurchaseBox = ({game}:PurchaseBoxProps) => {
         } else {
             addToCart({
                 appID: game.appID,
+                slug: game.slug,
                 name: game.name,
                 header_image: game.header_image,
                 price: game.price,
@@ -33,6 +35,7 @@ export const PurchaseBox = ({game}:PurchaseBoxProps) => {
     const handleAddToLibrary = () => {
         addPurchase({
             appID: game.appID,
+            slug: game.slug,
             name: game.name,
             header_image: game.header_image,
             price: game.price,
@@ -42,6 +45,7 @@ export const PurchaseBox = ({game}:PurchaseBoxProps) => {
     const handleBuyNow = () => {
         openBuyModal([{
             appID: game.appID,
+            slug: game.slug,
             name: game.name,
             header_image: game.header_image,
             price: game.price,
@@ -49,12 +53,21 @@ export const PurchaseBox = ({game}:PurchaseBoxProps) => {
     }
 
 
+    if(owned) {
+        return (
+            <div className="purchase-box">
+                <h3>In your library</h3>
+                <Link to="/library">
+                    <button>Go to Library</button>
+                </Link>
+            </div>
+        )
+    }
+
     if(isFree) return (
         <div className="purchase-box">
             <h3>Free</h3>
-            <button onClick={handleAddToLibrary} disabled={owned}>
-                {owned ? 'In library' : 'Add to library'}
-            </button>
+            <button onClick={handleAddToLibrary}>Add to library</button>
         </div>
     )
 
