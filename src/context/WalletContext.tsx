@@ -1,5 +1,6 @@
 import { createContext, useState, useContext, type ReactNode, useEffect } from 'react'; 
 import { type Transaction } from '../type/Transaction';
+import { roundMoney } from '../utils/roundMoney';
 
 interface WalletContextType {
     transactions: Transaction[];
@@ -38,7 +39,7 @@ export const WalletProvider =({children}: {children: ReactNode}) => {
     }, [balance]);
 
     const addBalance = (addSum: number) => {
-        setBalance(prev => prev + addSum);
+        setBalance(prev => roundMoney(prev + addSum));
     }
 
     useEffect(()=> {
@@ -49,12 +50,12 @@ export const WalletProvider =({children}: {children: ReactNode}) => {
     const spend = (amount: number, description: string): boolean => {
         
         if(amount <= balance) {
-            setBalance(balance - amount);
+            setBalance(roundMoney(balance - amount));
 
             const newTransaction: Transaction = {
                 id: Date.now(),
                 type: 'spend',
-                amount: amount,
+                amount: roundMoney(amount),
                 date: Date.now(),
                 description: description,
             }

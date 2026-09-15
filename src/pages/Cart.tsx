@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useMemo } from 'react';
+import { roundMoney } from '../utils/roundMoney';
 
 import { useCart } from "../context/CartContext";
 import { useBuyModal } from "../context/BuyModalContext";
@@ -13,7 +14,7 @@ export const Cart = () => {
         return <p>Your cart is empty</p>
     }
 
-    const total = useMemo(()=> cartItems.reduce((sum, item) => sum + item.price, 0), [cartItems]);
+    const total = useMemo(()=> roundMoney(cartItems.reduce((sum, item) => sum + item.price, 0)), [cartItems]);
 
     return (
         <div className="cart">
