@@ -1,7 +1,8 @@
 import {useState, useEffect} from 'react';
 
-export const useCarousel = (total: number, intervalMs: number) => {
+export const useCarousel = (total: number, intervalMs?: number) => {
     const [currentIndex, setCurrentIndex] = useState(0);
+    const [isPaused, setIsPaused] = useState(false);
 
     useEffect(()=> {
         if(currentIndex >= total) {
@@ -18,10 +19,13 @@ export const useCarousel = (total: number, intervalMs: number) => {
     }
 
     useEffect(()=> {
-        if(total === 0) return;
+        if(total === 0 || isPaused || !intervalMs) return;
         const interval = setInterval(next, intervalMs);
         return () => clearInterval(interval);
-    }, [total, intervalMs]);
+    }, [total, intervalMs, isPaused]);
 
-    return {currentIndex, next, prev};
+    const pause = () => setIsPaused(true);
+    const resume = () => setIsPaused(false);
+
+    return {currentIndex, next, prev, pause, resume};
 }

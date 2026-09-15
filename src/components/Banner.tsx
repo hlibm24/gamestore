@@ -8,14 +8,16 @@ interface BannerProps {
 }
 
 export const Banner = ({games}: BannerProps) => {
-    const {currentGame, next, prev} = useBanner(games);
+    const {currentGame, next, prev, pause, resume} = useBanner(games);
 
     if(!currentGame) return null;
 
     return (
         <section className='recommends-banner'>
             <h3>Store creator recommends</h3>
-            <div className='banner'>
+            <div className='banner'
+            onMouseEnter={pause}
+            onMouseLeave={resume}>
                 <button onClick={prev}>‹</button>
                 <GameCard game={currentGame}/>
                 <button onClick={next}>›</button>
