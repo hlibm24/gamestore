@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom';
+import { useMemo } from 'react';
+
 import { useCart } from "../context/CartContext";
 import { useBuyModal } from "../context/BuyModalContext";
 
@@ -10,18 +13,23 @@ export const Cart = () => {
         return <p>Your cart is empty</p>
     }
 
-    const total = cartItems.reduce((sum, item) => sum + item.price, 0);
+    const total = useMemo(()=> cartItems.reduce((sum, item) => sum + item.price, 0), [cartItems]);
 
     return (
         <div className="cart">
             <h1>Cart</h1>
             <ul>
                 {cartItems.map((item)=> (
-                    <li key={item.appID}>
-                        <img src={item.header_image} alt={item.name} />
-                        <p>{item.name}</p>
-                        <p>{item.price}</p>
-                        <button onClick={() => removeFromCart(item.appID)}>Remove</button>
+                    <li>
+                        <Link key={item.appID} to={`/games/${item.slug}`}>
+                            <img src={item.header_image} alt={item.name} />
+                            <p>{item.name}</p>
+                            <p>{item.price}</p>
+                            <button onClick={(e) => {
+                                e.stopPropagation();
+                                removeFromCart(item.appID);
+                            }}>Remove</button>
+                        </Link>
                     </li>
                 ))}
             </ul>
