@@ -48,8 +48,8 @@ export const BuyModal = ({buyingGames}: BuyModalProps) => {
                 <button onClick={closeBuyModal}>Close</button>
                 <h2>Transaction was successful</h2>
                 <div>
-                    <Link to='/library' onClick={()=> closeBuyModal()}>Go to Library</Link>
-                    <Link to='/' onClick={()=> closeBuyModal()}>Go to Store</Link>
+                    <Link to='/library' onClick={closeBuyModal}>Go to Library</Link>
+                    <Link to='/' onClick={closeBuyModal}>Go to Store</Link>
                 </div>
             </Modal>
         )
