@@ -7,6 +7,7 @@ import { Cart } from '../pages/Cart';
 import { Wallet } from '../pages/Wallet';
 import { GamePage } from '../pages/GamePage';
 import { Page404 } from '../pages/Page404';
+import { SearchResults } from '../pages/SearchResults';
 
 interface AppRoutesProps {
     games: Game[];
@@ -21,6 +22,7 @@ export const AppRoutes = ({games}: AppRoutesProps) => {
           <Route path='/wallet' element={<Wallet/>}/>
           <Route path='/games/:slug' element={<GamePage games={games}/>} />
           <Route path='*' element={<Page404/>}/>
+          <Route path='/search' element={<SearchResults games={games}/>} />
         </Routes>
     )
 }
