@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom';
+import { SearchBar } from './SearchBar';
 
 export const Navigation = () => {
     return (
@@ -7,6 +8,7 @@ export const Navigation = () => {
             <Link to='/library'>Library</Link>
             <Link to='/cart'>Cart</Link>
             <Link to='/wallet'>Wallet</Link>
+            <SearchBar />
         </nav>
     );
 };
