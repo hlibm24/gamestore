@@ -8,7 +8,6 @@ interface SearchResultsProps {
     games: Game[];
 }
 
-
 export const SearchResults = ({games}: SearchResultsProps) => {
     const {query, matches} = useGameSearch(games)
     const navigate = useNavigate();

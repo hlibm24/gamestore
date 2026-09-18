@@ -12,9 +12,9 @@ export type GamesResult =
     | {data: null; error: GamesError};
 
 
-export async function fetchGames(): Promise<GamesResult> {
+export async function fetchGames(signal?: AbortSignal): Promise<GamesResult> {
     try {
-        const res = await fetch(`${BASE_URL}/games`);
+        const res = await fetch(`${BASE_URL}/games`, {signal});
 
         if(res.status === 404) {
             return {data: null,
@@ -24,13 +24,16 @@ export async function fetchGames(): Promise<GamesResult> {
         if(!res.ok) {
             return {
                 data: null, 
-                error: {type: 'http_error', message: `Server error: ${res.status} `}
+                error: {type: 'http_error', message: `Server error: ${res.status}`}
             }
         }
 
         const data: Game[] = await res.json();
         return {data, error: null};
-    } catch {
+    } catch(err) {
+        if(err instanceof DOMException && err.name === 'AboutError') {
+            throw err;
+        }
         return {
             data: null,
             error: {type: 'network_error', message: 'No internet connection'}

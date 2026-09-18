@@ -7,25 +7,39 @@ export const useGames = () => {
       const [games, setGames] = useState<Game[]>([]);
       const [loading, setLoading] = useState(true);
       const [error, setError] = useState<GamesError | null>(null);
+
     
       useEffect(()=> {
+        const controller = new AbortController();
+
         async function loadGames() {
           setLoading(true);
           setError(null);
 
-          const {data, error} = await fetchGames();
+          try {
+            const {data, error} = await fetchGames(controller.signal);
+  
+            if(error) {
+              setError(error);
+            } else {
+              setGames(data);
+            }
+  
+            setLoading(false);
 
-          if(error) {
-            setError(error);
-          } else {
-            setGames(data);
+          }catch (err) {
+          if(err instanceof DOMException && err.name === 'AbortError') {
+            return;
           }
-
-          setLoading(false);
-            
+          throw err;
+        }
         }
 
         loadGames();
+
+        return () => {
+          controller.abort();
+        }
 
       }, [])
 

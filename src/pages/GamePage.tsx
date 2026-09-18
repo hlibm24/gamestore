@@ -12,8 +12,8 @@ interface GamePageProps {
 
 export const GamePage = ({games}:GamePageProps) => {
     const {slug} = useParams();
-    const game = games.find((g)=> g.slug === slug)
-    const similarGames = useSimilarGames(game, games)
+    const game = games.find((g)=> g.slug === slug);
+    const similarGames = useSimilarGames(game, games);
 
     if(!game) return <p>The game not found</p>
 
