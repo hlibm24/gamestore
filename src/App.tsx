@@ -13,11 +13,20 @@ import { WalletProvider } from './context/WalletContext';
 import { BuyModalProvider } from './context/BuyModalContext';
 
 function App() {
-  const {games, loading} = useGames();
+  const {games, loading, error, refetch} = useGames();
 
 
   if (loading) {
     return <h1>Loading...</h1>;
+  }
+
+  if(error) {
+    return (
+      <div>
+        <p>{error.message}</p>
+        <button onClick={refetch}>Try again</button>
+      </div>
+    )
   }
 
   return (
