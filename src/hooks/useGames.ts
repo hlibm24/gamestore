@@ -7,6 +7,7 @@ export const useGames = () => {
       const [games, setGames] = useState<Game[]>([]);
       const [loading, setLoading] = useState(true);
       const [error, setError] = useState<GamesError | null>(null);
+      const [reloadIndex, setReloadIndex] = useState(0);
 
     
       useEffect(()=> {
@@ -27,7 +28,7 @@ export const useGames = () => {
   
             setLoading(false);
 
-          }catch (err) {
+          } catch (err) {
           if(err instanceof DOMException && err.name === 'AbortError') {
             return;
           }
@@ -41,7 +42,11 @@ export const useGames = () => {
           controller.abort();
         }
 
-      }, [])
+      }, [reloadIndex]);
 
-      return {games, loading, error}
+      function refetch() {
+        setReloadIndex((prev) => prev + 1);
+      }
+
+      return {games, loading, error, refetch};
 }
