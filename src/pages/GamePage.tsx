@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { GamePageInfo } from '../components/GamePageInfo';
 import { GameSidebar } from '../components/GameSidebar';
 import { GenreRow } from '../components/GenreRow';
+import { Page404 } from './Page404';
 
 import { useSimilarGames } from '../hooks/useSimilarGames';
 
@@ -15,7 +16,7 @@ export const GamePage = ({games}:GamePageProps) => {
     const game = games.find((g)=> g.slug === slug);
     const similarGames = useSimilarGames(game, games);
 
-    if(!game) return <p>The game not found</p>
+    if(!game) return <Page404 />
 
     return (
         <>
