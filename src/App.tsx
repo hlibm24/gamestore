@@ -4,6 +4,7 @@ import { ScrollToTop } from './components/ScrollToTop';
 import { Navigation } from './components/Navigation';
 import { AppRoutes } from './components/AppRoutes';
 import { BuyModalHost } from './components/BuyModalHost';
+import { Spinner } from './components/Spinner/Spinner';
 
 import {useGames} from './hooks/useGames';
 
@@ -17,7 +18,7 @@ function App() {
 
 
   if (loading) {
-    return <h1>Loading...</h1>;
+    return <Spinner />;
   }
 
   if(error) {
