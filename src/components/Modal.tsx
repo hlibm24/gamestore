@@ -1,14 +1,23 @@
-import { type ReactNode } from "react";
+import { type ReactNode, useEffect } from "react";
 
 interface ModalProps {
-    onClose: ()=> void;
     children: ReactNode;
 }
 
-export const Modal = ({onClose, children}: ModalProps) => {
+export const Modal = ({children}: ModalProps) => {
+
+    useEffect(()=> {
+        document.body.style.overflow = 'hidden';
+
+        return () => {
+            document.body.style.overflow = '';
+        };
+    }, []);
+
     return (
-        <div className="modal-overlay" onClick={onClose}>
-            <div className="modal-content" onClick={(e)=> e.stopPropagation()}>
+        <div className="modal-overlay">
+            <div className="modal-content"
+            onClick={(e)=> e.stopPropagation()}>
                 {children}
             </div>
         </div>

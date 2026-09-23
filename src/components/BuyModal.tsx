@@ -44,7 +44,7 @@ export const BuyModal = ({buyingGames}: BuyModalProps) => {
 
    if(screen === 'success') {
         return (
-            <Modal onClose={closeBuyModal}>
+            <Modal>
                 <button onClick={closeBuyModal}>Close</button>
                 <h2>Transaction was successful</h2>
                 <div>
@@ -57,7 +57,7 @@ export const BuyModal = ({buyingGames}: BuyModalProps) => {
 
    if(screen === 'insufficient') {
     return (
-        <Modal onClose={closeBuyModal}>
+        <Modal>
             <button onClick={()=> setScreen('confirm')}>Close</button>
             <h2>Transaction was not successful, check your balance</h2>
         </Modal>
@@ -66,7 +66,7 @@ export const BuyModal = ({buyingGames}: BuyModalProps) => {
 
    if(screen === 'confirm') {
         return (
-            <Modal onClose={closeBuyModal}>
+            <Modal>
                 <button onClick={closeBuyModal}>Close</button>
                 <ul>
                 {buyingGames.map((game) => (
