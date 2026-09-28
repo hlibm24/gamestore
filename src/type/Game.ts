@@ -11,7 +11,7 @@
     appID: number,
     name: string,
     slug: string,
-    isFeatured?: boolean,
+    isFeatured: boolean,
     release_date: string,
     required_age: string,
     price: number,

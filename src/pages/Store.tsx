@@ -1,4 +1,4 @@
-import { Banner } from "../components/Banner";
+import { Banner } from "../components/Banner/Banner";
 import { GamesByGenre } from "../components/GamesByGenre";
 import {type Game} from '../type/Game';
 

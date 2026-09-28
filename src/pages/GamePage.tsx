@@ -2,7 +2,7 @@ import { type Game } from '../type/Game';
 import { useParams } from 'react-router-dom';
 import { GamePageInfo } from '../components/GamePageInfo';
 import { GameSidebar } from '../components/GameSidebar';
-import { GenreRow } from '../components/GenreRow';
+import { GenreRow } from '../components/GenreRow/GenreRow';
 import { Page404 } from './Page404';
 
 import { useSimilarGames } from '../hooks/useSimilarGames';

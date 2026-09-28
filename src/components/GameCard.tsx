@@ -7,9 +7,8 @@ interface GameCardProps {
 
 export const GameCard = ({game}: GameCardProps) => {
     return (
-        <Link to ={`/games/${game.slug}`}>
-            <img src={game.header_image} alt={game.name} />
-            <p>{game.name}</p>
+        <Link to ={`/games/${game.slug}`} className='game-card'>
+            <img src={game.header_image} alt={game.name}/>
         </Link>
     )
 }

@@ -77,7 +77,7 @@ export const BuyModal = ({buyingGames}: BuyModalProps) => {
                     </li>
                 ))}
                 </ul>
-                <p>BALANCE:{balance.toFixed(2)}</p>
+                <p>BALANCE: {balance.toFixed(2)}</p>
                 <button onClick={handleBuyResultModal}>Buy</button>
             </Modal>
         )

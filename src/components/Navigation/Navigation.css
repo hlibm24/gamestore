@@ -1,6 +1,6 @@
 .nav {
     width: 100%;
-    background: var(--color-bg-hover);
+    background: var(--color-bg-gray);
     border-bottom: 1px solid var(--color-border);
 }
 

@@ -1,5 +1,5 @@
 import { useGamesByGenre } from "../hooks/useGamesByGenre";
-import { GenreRow } from "./GenreRow";
+import { GenreRow } from "./GenreRow/GenreRow";
 import {type Game} from '../type/Game';
 
 interface GamesByGenreProps {

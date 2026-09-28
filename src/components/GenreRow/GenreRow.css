@@ -1,0 +1,10 @@
+.genre-row_controls .carousel-arrow {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--color-bg-gray);
+}
+
+.genre-row-controls .carousel-arrow:hover:not(:disabled) {
+    background: var(--color-accent-hover);
+}
