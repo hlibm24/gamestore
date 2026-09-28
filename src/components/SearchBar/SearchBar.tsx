@@ -1,5 +1,8 @@
 import { useState, type SubmitEventHandler } from "react";
 import { useNavigate } from "react-router-dom";
+import { Search } from '@zcorpo/react-material-symbols/400/rounded';
+
+import './SearchBar.css';
 
 export const SearchBar = () => {
     const [query, setQuery] = useState ('');
@@ -12,12 +15,15 @@ export const SearchBar = () => {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="search-bar">
             <input type="text"
+            className="search-bar-input"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search games..." />
-            <button type="submit">Search</button>
+            <button type="submit" className="search-bar-button">
+                <Search size={20} className="svg-search"/>
+            </button>
         </form>
     )
 }

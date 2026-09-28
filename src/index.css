@@ -1,17 +1,25 @@
 :root {
   --color-bg: #16171d;
+  --color-bg-gray: #2a2b33;
+  --color-input-bg: #23242c;
+
   --color-text: #f0f0f0;
   --color-text-secondary: #a0a0a8;
 
   --color-accent: .....;
-  --color-buy-button: #4ade80;
-  --color-link: #66c0f4;
-  /* --color-accent-border: #4ade80; */
-  --color-border: rgba(255, 255, 255, 0.08);
 
-  --color-accent-hover: #3bc46e;
-  --color-hover: #202129;
-  --color-bg-hover: #2a2b33;
+  --color-green-button: #4ade80;
+  --color-green-button-hover: #3bc46e;
+  
+  --color-link: #3b82f6;
+  --color-link-hover: #2563eb;
+
+  --color-border-light: rgb(118, 107, 107);
+  --color-border-dark: rgba(255, 255, 255, 0.08);
+
+  --color-hover: #282932;
+
+  
 
   --color-arrow-bg: rgba(255, 255, 255, 0.1);
   --color-arrow-bg-hover: rgba(255, 255, 255, 0.2);
@@ -72,9 +80,9 @@ select,
 button {
   font-family: inherit;
   color: var(--color-text);
-  background-color: var(--color-bg-hover);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-sm);
+  background-color: var(--color-input-bg);
+  border: none;
+
 }
 
 button {
