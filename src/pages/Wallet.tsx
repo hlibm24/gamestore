@@ -9,7 +9,7 @@ export const Wallet = () => {
                 <h2>Wallet info</h2>
                 <p>"You earn 5 coins per minute just by staying on the site. Use your balance to buy games.</p>
                 <span>BALANCE: {balance.toFixed(2)}</span>
-                <span>5/min</span>
+                <span> 5/min</span>
             </section>
             <section className="transaction-history">
                 <h2>Transaction history</h2>

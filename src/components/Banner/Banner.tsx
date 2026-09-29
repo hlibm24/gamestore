@@ -23,7 +23,7 @@ export const Banner = ({games}: BannerProps) => {
                 onMouseEnter={pause}
                 onMouseLeave={resume}>
                     <button className="carousel-arrow carousel-arrow-prev" onClick={prev}>‹</button>
-                    <GameCard game={currentGame}/>
+                    <GameCard game={currentGame} className='banner-card' />
                     <button className="carousel-arrow carousel-arrow-next" onClick={next}>›</button>
                 </div>
             </div>

@@ -3,11 +3,12 @@ import {type Game} from '../type/Game';
 
 interface GameCardProps {
     game: Game;
+    className?: string;
 }
 
-export const GameCard = ({game}: GameCardProps) => {
+export const GameCard = ({game, className}: GameCardProps) => {
     return (
-        <Link to ={`/games/${game.slug}`} className='game-card'>
+        <Link to ={`/games/${game.slug}`} className={`game-card ${className ?? ''}`}>
             <img src={game.header_image} alt={game.name}/>
         </Link>
     )

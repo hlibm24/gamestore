@@ -51,7 +51,7 @@
     background: var(--color-arrow-bg-hover);
 }
 
-.banner .game-card {
+.banner .banner-card {
     flex: 1;
     border-radius: var(--radius-md);
 }
