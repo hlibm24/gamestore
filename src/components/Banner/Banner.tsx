@@ -1,7 +1,9 @@
 import {type Game} from '../../type/Game';
 import { useBanner } from '../../hooks/useBanner';
 
-import {GameCard} from '../GameCard';
+import {GameCard} from '../GameCard/GameCard';
+
+import { ChevronLeft, ChevronRight } from '@zcorpo/react-material-symbols/400/rounded';
 
 import './Banner.css';
 
@@ -22,9 +24,13 @@ export const Banner = ({games}: BannerProps) => {
                 <div className="banner" 
                 onMouseEnter={pause}
                 onMouseLeave={resume}>
-                    <button className="carousel-arrow carousel-arrow-prev" onClick={prev}>‹</button>
+                    <button className="carousel-arrow carousel-arrow-prev" onClick={prev}>
+                        <ChevronLeft className='svg-arrow'/>
+                    </button>
                     <GameCard game={currentGame} className='banner-card' />
-                    <button className="carousel-arrow carousel-arrow-next" onClick={next}>›</button>
+                    <button className="carousel-arrow carousel-arrow-next" onClick={next}>
+                        <ChevronRight className='svg-arrow'/>
+                    </button>
                 </div>
             </div>
 

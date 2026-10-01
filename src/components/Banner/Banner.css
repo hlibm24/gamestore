@@ -38,13 +38,15 @@
 
 .banner .carousel-arrow {
     width: 48px;
-    color: var(--color-arrow-icon);
-    font-size: var(--font-size-2xl);
-    font-weight: var(--font-weight-bold);
     background: var(--color-arrow-bg);
     flex-shrink: 0;
     border-radius: var(--radius-sm);
     
+}
+
+.banner .carousel-arrow .svg-arrow {
+    width: 48px;
+    height: 48px;
 }
 
 .banner .carousel-arrow:hover:not(:disabled) {
@@ -53,7 +55,6 @@
 
 .banner .banner-card {
     flex: 1;
-    border-radius: var(--radius-md);
 }
 
 .banner .game-card img {
