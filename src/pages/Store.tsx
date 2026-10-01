@@ -1,5 +1,5 @@
 import { Banner } from "../components/Banner/Banner";
-import { GamesByGenre } from "../components/GamesByGenre";
+import { GamesByGenre } from "../components/GamesByGenre/GamesByGenre";
 import {type Game} from '../type/Game';
 
 interface StoreProps {

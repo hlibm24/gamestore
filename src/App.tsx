@@ -3,6 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { ScrollToTop } from './components/ScrollToTop';
 
 import { Navigation } from './components/Navigation/Navigation';
+import {Footer} from './components/Footer/Footer';
 import { AppRoutes } from './components/AppRoutes';
 import { BuyModalHost } from './components/BuyModalHost';
 import { Spinner } from './components/Spinner/Spinner';
@@ -46,6 +47,7 @@ function App() {
                   <AppRoutes games={games}/>
                 </main>
 
+                <Footer/>
                 <BuyModalHost/>
               </BrowserRouter>
 

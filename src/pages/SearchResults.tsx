@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import {  useNavigate } from "react-router-dom";
 import { type Game } from "../type/Game";
 import { useGameSearch } from "../hooks/useGameSearch";
-import { GameCard } from "../components/GameCard";
+import { GameCard } from "../components/GameCard/GameCard";
 
 interface SearchResultsProps {
     games: Game[];
