@@ -22,7 +22,7 @@ export const SearchBar = () => {
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search games..." />
             <button type="submit" className="search-bar-button">
-                <Search size={20} className="svg-search"/>
+                <Search className="svg-search"/>
             </button>
         </form>
     )

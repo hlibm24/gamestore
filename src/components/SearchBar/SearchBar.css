@@ -4,11 +4,11 @@
 }
 
 .search-bar-input {
-    padding: 0 var(--spacing-md);
-    height: 40px;
+    padding: 0 var(--spacing-sm);
+    height: 30px;
     display: flex;
     align-items: center;
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-md);
     font-weight: var(--font-weight-normal);
     width: 300px;
 }
@@ -20,13 +20,13 @@
 }
 
 .search-bar-button {
-    padding: 0 var(--spacing-md);
+    padding: 0 var(--spacing-sm);
     display: flex;
     align-items: center;
-    height: 40px;
+    height: 30px;
     color: var(--color-text-secondary);
     font-weight: var(--font-weight-medium);
-    font-size: var(--font-size-md);
+    font-size: var(--font-size-sm);
     background-color: var(--color-link);
 }
 
