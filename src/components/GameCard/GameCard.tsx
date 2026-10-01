@@ -1,5 +1,7 @@
 import {Link} from 'react-router-dom';
-import {type Game} from '../type/Game';
+import {type Game} from '../../type/Game';
+
+import './GameCard.css';
 
 interface GameCardProps {
     game: Game;

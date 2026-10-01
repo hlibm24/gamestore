@@ -1,10 +1,92 @@
-.genre-row_controls .carousel-arrow {
-    width: 32px;
-    height: 32px;
+.genre-row-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 var(--spacing-3xl);
+}
+
+.genre-row-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.genre-row-header h2 {
+    margin: 0;
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+}
+
+.genre-row-header .genre-row-controls {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.genre-row-controls .carousel-arrow {
+    width: 34px;
+    height: 34px;
     border-radius: 50%;
     background: var(--color-bg-gray);
 }
 
-.genre-row-controls .carousel-arrow:hover:not(:disabled) {
-    background: var(--color-accent-hover);
+.genre-row-controls .carousel-arrow:hover:not(:disabled),
+.genre-row-controls .carousel-arrow:focus-visible:not(:disabled) {
+    background: var(--color-hover);
+}
+
+.genre-row-games {
+    padding: var(--spacing-lg) 0 0;
+    border-radius: var(--radius-md);
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: var(--spacing-md);
+}
+
+.genre-row-game {
+    padding: var(--spacing-sm) var(--spacing-sm) var(--spacing-xs);
+    border-radius: var(--radius-sm);
+    background-color: var(--color-bg-gray);
+    display: block;
+    width: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.genre-row-game-banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.genre-row-game-banner:hover, 
+.genre-row-game-banner:focus-visible {
+    transform: translateY(-4px) scale(1.05);
+    z-index: 1;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 0.4);
+}
+
+.genre-row-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-sm);
+}
+
+.genre-row-game-name {
+    margin: 0;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.genre-row-game-price {
+    margin: 0;
+    flex-shrink: 0;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    width: fit-content;
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-sm);
+    border-radius: var(--radius-sm);
+    background: var(--color-input-bg);
 }

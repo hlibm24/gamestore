@@ -1,0 +1,4 @@
+.game-card img {
+    display: block;
+    border-radius: var(--radius-sm);
+}

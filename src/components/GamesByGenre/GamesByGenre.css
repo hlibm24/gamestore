@@ -1,0 +1,12 @@
+.games-by-genre-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.games-by-genre-section > h2 {
+    display: block;
+    text-align: center;
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-small);
+    margin: var(--spacing-3xl) 0;
+}
