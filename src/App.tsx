@@ -8,8 +8,9 @@ import { AppRoutes } from './components/AppRoutes';
 import { BuyModalHost } from './components/BuyModalHost';
 import { Spinner } from './components/Spinner/Spinner';
 
-import {useGames} from './hooks/useGames';
+import { useGames } from './hooks/useGames';
 
+import { GamesProvider } from './context/GamesContext';
 import { CartProvider } from './context/CartContext';
 import { PurchasedProvider } from './context/PurchasedContext';
 import { WalletProvider } from './context/WalletContext';
@@ -34,27 +35,29 @@ function App() {
 
   return (
     <>
-      <CartProvider>
-        <PurchasedProvider>
-          <WalletProvider>
-            <BuyModalProvider>
+      <GamesProvider games={games}>
+        <CartProvider>
+          <PurchasedProvider>
+            <WalletProvider>
+              <BuyModalProvider>
 
-              <BrowserRouter>
-                <ScrollToTop/>
-                <Navigation/>
+                <BrowserRouter>
+                  <ScrollToTop/>
+                  <Navigation/>
 
-                <main>
-                  <AppRoutes games={games}/>
-                </main>
+                  <main>
+                    <AppRoutes games={games}/>
+                  </main>
 
-                <Footer/>
-                <BuyModalHost/>
-              </BrowserRouter>
+                  <Footer/>
+                  <BuyModalHost/>
+                </BrowserRouter>
 
-            </BuyModalProvider>
-          </WalletProvider>
-        </PurchasedProvider>
-      </CartProvider>
+              </BuyModalProvider>
+            </WalletProvider>
+          </PurchasedProvider>
+        </CartProvider>
+      </GamesProvider>
     </>
   )
 }
