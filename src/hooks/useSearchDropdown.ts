@@ -33,17 +33,21 @@ export function useSearchDropdown(onSelect: (game: Game) => void) {
     }
 
     const handleKeyDown = (e: KeyboardEvent) => {
+        if (e.key === 'Escape') {
+            close();
+        }
+
+        if(results.length === 0) return;
+
         if(e.key === 'ArrowDown') {
             e.preventDefault();
             setActive(i => Math.min(i + 1, results.length - 1));
         } else if (e.key === 'ArrowUp') {
             e.preventDefault();
             setActive(i => Math.max( i - 1, 0));
-        } else if (e.key === 'Enter' && active >= 0) {
+        } else if (e.key === 'Enter' && active >= 0 && results[active]) {
             e.preventDefault();
             select(results[active]);
-        } else if (e.key === 'Escape') {
-            close();
         }
     }
 
