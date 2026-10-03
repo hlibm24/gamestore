@@ -21,10 +21,14 @@ export const GenreRow = ({genre, games}: GenreRowProps) => {
             <div className='genre-row-header'>
                 <h2>{genre}</h2>
                 <div className='genre-row-controls'>
-                    <button onClick={prev} disabled={isDisabled} className='carousel-arrow'>
+                    <button onClick={prev} 
+                    aria-label='Previous'
+                    disabled={isDisabled} className='carousel-arrow'>
                         <ChevronLeft className='svg-arrow'/>
                     </button>
-                    <button onClick={next} disabled={isDisabled} className='carousel-arrow'>
+                    <button onClick={next}
+                    aria-label='Next'
+                    disabled={isDisabled} className='carousel-arrow'>
                         <ChevronRight className='svg-arrow'/>
                     </button>
                 </div>

@@ -15,7 +15,6 @@ export const Navigation = () => {
                 <nav className='nav'>
                     <NavLink to='/' end className='nav-link'>Store</NavLink>
                     <NavLink to='/library' className='nav-link'>Library</NavLink>
-                    <NavLink to='/cart' className='nav-link'>Cart</NavLink>
                     <NavLink to='/wallet' className='nav-link'>Wallet</NavLink>
                 </nav>
                 {showSearch && <SearchBar />}

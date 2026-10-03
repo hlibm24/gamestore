@@ -24,11 +24,15 @@ export const Banner = ({games}: BannerProps) => {
                 <div className="banner" 
                 onMouseEnter={pause}
                 onMouseLeave={resume}>
-                    <button className="carousel-arrow carousel-arrow-prev" onClick={prev}>
+                    <button className="carousel-arrow carousel-arrow-prev"
+                    aria-label='Previous'
+                    onClick={prev}>
                         <ChevronLeft className='svg-arrow'/>
                     </button>
                     <GameCard game={currentGame} className='banner-card' />
-                    <button className="carousel-arrow carousel-arrow-next" onClick={next}>
+                    <button className="carousel-arrow carousel-arrow-next"
+                    aria-label='Next'
+                    onClick={next}>
                         <ChevronRight className='svg-arrow'/>
                     </button>
                 </div>
