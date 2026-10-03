@@ -1,0 +1,36 @@
+.cart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    padding: 0 var(--spacing-sm);
+    background-color: var(--color-input-bg);
+    cursor: pointer;
+}
+
+.cart:hover {
+    background-color: var(--color-link-hover);
+}
+
+.cart .svg-shoppingCart {
+    width: 20px;
+    height: 20px;
+    display: block;
+    color: var(--color-text);
+}
+
+.cart-badge {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    min-width: 16px;
+    height: 16px;
+    padding: 0 var(--spacing-xs);
+    border-radius: var(--radius-md);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-medium);
+    line-height: 16px;
+    text-align: center;
+    background-color: var(--color-link);
+}

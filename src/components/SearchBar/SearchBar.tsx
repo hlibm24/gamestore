@@ -2,6 +2,7 @@ import { type SubmitEventHandler } from "react";
 import { useNavigate } from "react-router-dom";
 import { Search } from '@zcorpo/react-material-symbols/400/rounded';
 import { useSearchDropdown } from "../../hooks/useSearchDropdown";
+import { CartButton } from "../CartButton/CartButton";
 
 import './SearchBar.css';
 
@@ -24,15 +25,18 @@ export const SearchBar = () => {
     }
 
     return (
+        <div className="tools">
         <form ref={ref} onSubmit={handleSubmit} className="search-bar">
             <input type="text"
             className="search-bar-input"
+            aria-label="Search games"
             value={query}
             onChange={(e) => changeQuery(e.target.value)}
             onFocus={()=> setOpen(true)}
             onKeyDown={handleKeyDown}
             placeholder="Search games..." />
-            <button type="submit" className="search-bar-button">
+            <button type="submit" className="search-bar-button"
+            aria-label="Search">
                 <Search className="svg-search"/>
             </button>
 
@@ -48,10 +52,12 @@ export const SearchBar = () => {
                                 {g.name}
                             </li>
                         ))
-                        ) : (<li className='search-bar-empty'>Nothing found</li>)
+                        ) : (<li className='search-bar-empty' role="status">Nothing found</li>)
                     }
                 </ul>
             )}
         </form>
+        <CartButton/>
+        </div>
     )
 }
