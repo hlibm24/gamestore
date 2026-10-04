@@ -1,8 +1,12 @@
-import {useState, useMemo} from 'react';
+import {useState, useMemo, useEffect} from 'react';
 import {type Game} from '../type/Game';
 
-export const useGenreCarousel =  (games: Game[], pageSize: number = 5)=> {
+export const useGenreCarousel =  (games: Game[], pageSize: number)=> {
     const [currentPage, setCurrentPage] = useState(0);
+
+    useEffect(()=> {
+        setCurrentPage(0);
+    }, [pageSize])
 
     const totalPages = Math.ceil(games.length / pageSize);
 
