@@ -4,6 +4,7 @@
     flex-shrink: 0;
     align-items: center;
     justify-content: center;
+    margin-left: auto;
     height: 30px;
     padding: 0 var(--spacing-sm);
     background-color: var(--color-input-bg);

@@ -68,3 +68,44 @@
 .carousel-arrow-next {
     right: 0;
 }
+
+
+@media (max-width: 640px) {
+    .recommends-banner {
+        padding: var(--spacing-lg) 0 var(--spacing-2xl);
+    }
+
+    .recommends-banner h3 {
+        padding: var(--spacing-md);
+        font-size: var(--font-size-xl);
+    }
+    .banner {
+        padding: 0 var(--spacing-md);
+    }
+
+    .banner .banner-card {
+        min-width: 0;
+    }
+
+    .banner .carousel-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 32px;
+        height: 48px;
+        background: rgb(0 0 0 / 0.6);
+    }
+
+    .banner .carousel-arrow .svg-arrow {
+        width: 24px;
+        height: 24px;
+    }
+
+    .banner .carousel-arrow-prev {
+        left: var(--spacing-md);
+    }
+
+    .banner .carousel-arrow-next {
+        right: var(--spacing-md);
+    }
+}
