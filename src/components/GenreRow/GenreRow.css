@@ -7,6 +7,7 @@
 .genre-row-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .genre-row-header h2 {
@@ -89,4 +90,45 @@
     font-size: var(--font-size-sm);
     border-radius: var(--radius-sm);
     background: var(--color-input-bg);
+}
+
+@media (max-width: 1024px) {
+    .genre-row-games {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media(max-width: 640px) {
+    .genre-row-section {
+        margin-bottom: var(--spacing-2xl);
+    }
+
+    .genre-row-header h2 {
+        font-size: var(--font-size-md);
+        font-weight: var(--font-weight-medium);
+    }
+
+    .genre-row-controls .carousel-arrow {
+        width: 40px;
+        height: 40px;
+    }
+
+    .genre-row-games {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: var(--spacing-sm);
+    }
+
+    .genre-row-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-xs);
+    }
+
+    .genre-row-game-name {
+        max-width: 100%;
+    }
+
+    .genre-row-game-price {
+        font-size: var(--font-size-sm);
+    }
 }

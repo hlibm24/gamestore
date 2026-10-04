@@ -1,4 +1,5 @@
 import {useGenreCarousel} from '../../hooks/useGenreCarousel';
+import { usePageSize } from '../../hooks/usePageSize';
 import type { Game } from '../../type/Game';
 
 import { ChevronLeft, ChevronRight } from '@zcorpo/react-material-symbols/400/rounded';
@@ -14,7 +15,8 @@ interface GenreRowProps {
 }
 
 export const GenreRow = ({genre, games}: GenreRowProps) => {
-    const {currentGames, next, prev, isDisabled} = useGenreCarousel(games);
+    const pageSize = usePageSize();
+    const {currentGames, next, prev, isDisabled} = useGenreCarousel(games, pageSize);
 
     return (
         <section className='genre-row-section'>

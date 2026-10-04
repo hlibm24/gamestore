@@ -10,3 +10,10 @@
     font-weight: var(--font-weight-small);
     margin: var(--spacing-3xl) 0;
 }
+
+@media (max-width: 640px) {
+
+    .games-by-genre-section > h2 {
+        font-size: var(--font-size-xl);
+    }
+}
