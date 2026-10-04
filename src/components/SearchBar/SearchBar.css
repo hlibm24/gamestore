@@ -31,9 +31,15 @@
     background-color: var(--color-link);
 }
 
-.search-bar-button:hover {
-    background-color: var(--color-link-hover);
-    
+.search-bar-button:focus-visible,
+.search-bar-button:active {
+      background-color: var(--color-link-hover);
+  }
+
+@media (hover: hover) {
+  .search-bar-button:hover {
+      background-color: var(--color-link-hover);
+  }
 }
 
 .search-bar-button .svg-search {

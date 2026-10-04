@@ -25,14 +25,17 @@
     padding: 0 var(--spacing-xs);
 }
 
-.nav-link:hover {
-    color: rgb(255 255 255 / 0.8);
-}
-
 .nav-link.active {
     color: var(--color-link);
     border-bottom: 2px solid var(--color-link);
 }
+
+@media (hover: hover) {
+    .nav-link:hover {
+        color: rgb(255 255 255 / 0.8);
+    }
+}
+
 
 .tools {
     display: flex;

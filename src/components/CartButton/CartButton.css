@@ -11,8 +11,15 @@
     cursor: pointer;
 }
 
-.cart:hover {
-    background-color: var(--color-link-hover);
+.cart:focus-visible,
+.cart:active {
+        background-color: var(--color-link-hover);
+    }
+
+@media (hover: hover) {
+    .cart:hover {
+        background-color: var(--color-link-hover);
+    }
 }
 
 .cart .svg-shoppingCart {

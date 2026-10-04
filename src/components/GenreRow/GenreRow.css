@@ -29,9 +29,15 @@
     background: var(--color-bg-gray);
 }
 
-.genre-row-controls .carousel-arrow:hover:not(:disabled),
-.genre-row-controls .carousel-arrow:focus-visible:not(:disabled) {
+.genre-row-controls .carousel-arrow:focus-visible:not(:disabled),
+.genre-row-controls .carousel-arrow:active:not(:disabled) {
     background: var(--color-hover);
+}
+
+@media (hover: hover) {
+    .genre-row-controls .carousel-arrow:hover:not(:disabled) {
+        background: var(--color-hover);
+    }
 }
 
 .genre-row-games {
@@ -58,11 +64,18 @@
     display: block;
 }
 
-.genre-row-game-banner:hover, 
 .genre-row-game-banner:focus-visible {
     transform: translateY(-4px) scale(1.05);
     z-index: 1;
     box-shadow: 0 8px 24px rgb(0 0 0 / 0.4);
+}
+
+@media (hover: hover) {
+    .genre-row-game-banner:hover {
+        transform: translateY(-4px) scale(1.05);
+        z-index: 1;
+        box-shadow: 0 8px 24px rgb(0 0 0 / 0.4);
+    }
 }
 
 .genre-row-info {
