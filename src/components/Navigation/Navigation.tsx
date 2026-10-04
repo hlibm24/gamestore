@@ -1,5 +1,6 @@
 import {NavLink, useLocation} from 'react-router-dom';
 import { SearchBar } from '../SearchBar/SearchBar';
+import { CartButton } from "../CartButton/CartButton";
 
 import './Navigation.css';
 
@@ -17,7 +18,10 @@ export const Navigation = () => {
                     <NavLink to='/library' className='nav-link'>Library</NavLink>
                     <NavLink to='/wallet' className='nav-link'>Wallet</NavLink>
                 </nav>
-                {showSearch && <SearchBar />}
+                <div className='tools'>
+                    {showSearch && <SearchBar />}
+                    <CartButton/>
+                </div>
             </div>
         </header>
     );

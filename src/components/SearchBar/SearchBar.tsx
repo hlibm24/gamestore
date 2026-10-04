@@ -2,7 +2,6 @@ import { type SubmitEventHandler } from "react";
 import { useNavigate } from "react-router-dom";
 import { Search } from '@zcorpo/react-material-symbols/400/rounded';
 import { useSearchDropdown } from "../../hooks/useSearchDropdown";
-import { CartButton } from "../CartButton/CartButton";
 
 import './SearchBar.css';
 
@@ -25,7 +24,6 @@ export const SearchBar = () => {
     }
 
     return (
-        <div className="tools">
         <form ref={ref} onSubmit={handleSubmit} className="search-bar">
             <input type="text"
             className="search-bar-input"
@@ -57,7 +55,5 @@ export const SearchBar = () => {
                 </ul>
             )}
         </form>
-        <CartButton/>
-        </div>
     )
 }
