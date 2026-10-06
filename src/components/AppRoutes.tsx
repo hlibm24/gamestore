@@ -3,7 +3,7 @@ import {type Game} from '../type/Game';
 
 import { Store } from '../pages/Store';
 import { Library } from '../pages/Library';
-import { Cart } from '../pages/Cart';
+import { Cart } from '../pages/Cart/Cart';
 import { Wallet } from '../pages/Wallet';
 import { GamePage } from '../pages/GamePage';
 import { Page404 } from '../pages/Page404';

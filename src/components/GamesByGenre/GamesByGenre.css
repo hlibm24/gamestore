@@ -7,7 +7,7 @@
     display: block;
     text-align: center;
     font-size: var(--font-size-2xl);
-    font-weight: var(--font-weight-small);
+    font-weight: var(--font-weight-normal);
     margin: var(--spacing-2xl) 0;
 }
 

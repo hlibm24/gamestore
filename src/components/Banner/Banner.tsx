@@ -20,7 +20,7 @@ export const Banner = ({games}: BannerProps) => {
         <section className='recommends-banner' style={{ '--bg-image': `url(${currentGame.header_image})` } as React.CSSProperties}>
 
             <div className='recommends-banner-inner'>
-                <h3>Store creator recommends</h3>
+                <h2>Store creator recommends</h2>
                 <div className="banner" 
                 onMouseEnter={pause}
                 onMouseLeave={resume}>

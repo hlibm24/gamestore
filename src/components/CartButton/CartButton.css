@@ -1,4 +1,4 @@
-.cart {
+.cart-btn {
     position: relative;
     display: flex;
     flex-shrink: 0;
@@ -11,31 +11,31 @@
     cursor: pointer;
 }
 
-.cart:focus-visible,
-.cart:active {
+.cart-btn:focus-visible,
+.cart-btn:active {
         background-color: var(--color-link-hover);
     }
 
 @media (hover: hover) {
-    .cart:hover {
+    .cart-btn:hover {
         background-color: var(--color-link-hover);
     }
 }
 
-.cart .svg-shoppingCart {
+.cart-btn .svg-shoppingCart {
     width: 20px;
     height: 20px;
     display: block;
     color: var(--color-text);
 }
 
-.cart-badge {
+.cart-btn-badge {
     position: absolute;
-    top: -3px;
+    top: -5px;
     right: -5px;
     min-width: 14px;
     height: 14px;
-    padding: 0 var(--spacing-xs);
+    padding: 0 2px;
     border-radius: var(--radius-md);
     font-size: var(--font-size-xs);
     line-height: 14px;

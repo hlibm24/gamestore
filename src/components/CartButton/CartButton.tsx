@@ -9,9 +9,9 @@ export const CartButton = () => {
     const count = cartItems.length;
 
     return (
-        <Link to='/cart' type="button" className="cart" aria-label="Cart">
+        <Link to='/cart' type="button" className="cart-btn" aria-label="Cart">
             <ShoppingCart className="svg-shoppingCart"/>
-            {count > 0 && <span className="cart-badge">{count}</span>}
+            {count > 0 && <span className="cart-btn-badge">{count}</span>}
         </Link>
     )
 }

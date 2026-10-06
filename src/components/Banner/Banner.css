@@ -20,12 +20,11 @@
     margin: 0 auto;
 }
 
-.recommends-banner h3 {
+.recommends-banner h2 {
     margin: 0px;
     padding: var(--spacing-lg);
     font-weight: var(--font-weight-medium);
     font-size: var(--font-size-2xl);
-    color: var(--color-text);
 }
 
 .banner {
@@ -82,7 +81,7 @@
         padding: var(--spacing-lg) 0 var(--spacing-2xl);
     }
 
-    .recommends-banner h3 {
+    .recommends-banner h2 {
         padding: var(--spacing-md);
         font-size: var(--font-size-xl);
     }
