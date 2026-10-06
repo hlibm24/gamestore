@@ -9,8 +9,8 @@
 
   --color-accent: .....;
 
-  --color-green-button: #4ade80;
-  --color-green-button-hover: #3bc46e;
+  --color-green-button: #3bc46e;
+  --color-green-button-hover: #4ade80;
   
   --color-link: #3b82f6;
   --color-link-hover: #2563eb;
@@ -19,13 +19,10 @@
   --color-border-dark: rgba(255, 255, 255, 0.08);
 
   --color-hover: #363843;
-
   
 
   --color-arrow-bg: rgba(255, 255, 255, 0.1);
   --color-arrow-bg-hover: rgba(255, 255, 255, 0.2);
-  --color-arrow-icon: rgba(255, 255, 255, 0.8);
-  --color-arrow-bg-disabled: rgba(255, 255, 255, 0.05);
 
   --spacing-xs: 4px;
   --spacing-sm: 8px;
@@ -126,7 +123,7 @@ button {
     width: 22px;
     height: 22px;
     display: block;
-    color: var(--color-arrow-icon);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 img {
