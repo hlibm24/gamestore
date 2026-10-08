@@ -5,7 +5,7 @@ import { Store } from '../pages/Store';
 import { Library } from '../pages/Library';
 import { Cart } from '../pages/Cart/Cart';
 import { Wallet } from '../pages/Wallet';
-import { GamePage } from '../pages/GamePage';
+import { GamePage } from '../pages/GamePage/GamePage';
 import { Page404 } from '../pages/Page404';
 import { SearchResults } from '../pages/SearchResults';
 
