@@ -1,0 +1,10 @@
+.requirements h3 {
+    margin: 0 0 var(--spacing-md);
+    font-size: var(--font-size-lg);
+}
+
+.requirements ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}

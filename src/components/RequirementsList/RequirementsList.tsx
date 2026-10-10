@@ -1,4 +1,6 @@
-import {type SystemRequirements } from "../type/Game";
+import {type SystemRequirements } from "../../type/Game";
+
+import './RequirementsList.css';
 
 interface RequirementsListProps {
     title: string,
@@ -21,7 +23,7 @@ export const RequirementsList = ({title, requirements}: RequirementsListProps) =
     if(filledFields.length === 0) return null; 
 
     return (
-        <div>
+        <div className="requirements">
             <h3>{title}</h3>
                 <ul>
                     {filledFields.map((f)=> (

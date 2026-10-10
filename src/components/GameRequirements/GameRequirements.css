@@ -1,0 +1,54 @@
+.game-requirements {
+    display: grid;
+    grid-template-areas: 
+    'title title'
+    'min rec';
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: var(--spacing-md);
+    background-color: var(--color-bg-gray);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-md);
+}
+
+.game-requirements > h2 {
+    margin: 0;
+    grid-area: title;
+    font-size: var(--font-size-xl);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--color-border-light);
+}
+
+.min-requirements,
+.rec-requirements {
+    padding: var(--spacing-sm);
+    min-width: 0;
+    overflow-wrap: anywhere;
+    line-height: 1.5;
+}
+
+.game-requirements .min-requirements {
+    grid-area: min;
+}
+
+.game-requirements .rec-requirements {
+    grid-area: rec;
+    border-left: 1px solid var(--color-border-light);
+    padding-left: var(--spacing-md);
+}
+
+@media (max-width: 640px) {
+    .game-requirements {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'title'
+            'min'
+            'rec';
+    }
+
+    .game-requirements .rec-requirements {
+        border-left: none;
+        border-top: 1px solid var(--color-border-light);
+        padding-left: var(--spacing-sm);
+        padding-top: var(--spacing-md);
+    }
+}
