@@ -1,0 +1,12 @@
+.game-description {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    padding-block: var(--spacing-md);
+}
+
+.game-reviews {
+    font-size: var(--font-size-lg);
+    line-height: 1.5;
+    max-width: 70ch;
+}

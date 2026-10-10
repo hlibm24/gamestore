@@ -1,4 +1,6 @@
-import { type Game } from "../type/Game";
+import { type Game } from "../../type/Game";
+
+import './GameDescription.css';
 
 interface GameDescriptionProps {
     game: Game;
@@ -7,8 +9,7 @@ interface GameDescriptionProps {
 export const GameDescription = ({game}:GameDescriptionProps) => {
     return (
         <div className="game-description">
-            {game.reviews && <p>{game.reviews}</p>}
-            <p>{game.detailed_description}</p>
+            {game.reviews && <p className="game-reviews">{game.reviews}</p>}
         </div>
     )
 }
