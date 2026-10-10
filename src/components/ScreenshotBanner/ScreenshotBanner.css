@@ -1,0 +1,12 @@
+.screenshot-banner {
+    position: relative;
+    display: flex;
+    gap: var(--spacing-md);
+}
+
+.screenshot-banner img {
+  flex: 1;
+  min-width: 0;
+  max-width: 100%;
+  height: auto;
+}

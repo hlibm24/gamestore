@@ -1,0 +1,12 @@
+.game-info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    padding-block: var(--spacing-lg);
+}
+
+.game-info h2 {
+    margin: 0px;
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-2xl);
+}

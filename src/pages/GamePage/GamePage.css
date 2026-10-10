@@ -1,0 +1,27 @@
+.game-page {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.game-layout {
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    grid-template-areas: 
+    'info primary'
+    'info details';
+    gap: var(--spacing-lg);
+    align-items: start;
+}
+
+.game-info {
+    grid-area: info;
+}
+
+.game-primary {
+    grid-area: primary;
+}
+
+.game-details {
+    grid-area: details;
+}

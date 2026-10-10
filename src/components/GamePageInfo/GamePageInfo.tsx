@@ -1,8 +1,10 @@
-import { type Game } from "../type/Game";
+import { type Game } from "../../type/Game";
 
-import { ScreenshotBanner } from "./ScreenshotBanner";
-import { GameDescription } from "./GameDescription";
-import { GameRequirements } from "./GameRequirements";
+import { ScreenshotBanner } from "../ScreenshotBanner/ScreenshotBanner";
+import { GameDescription } from "../GameDescription";
+import { GameRequirements } from "../GameRequirements";
+
+import './GamePageInfo.css';
 
 interface GamePageInfoProps {
     game: Game;

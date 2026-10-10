@@ -1,6 +1,6 @@
 import { type Game } from '../../type/Game';
 import { useParams } from 'react-router-dom';
-import { GamePageInfo } from '../../components/GamePageInfo';
+import { GamePageInfo } from '../../components/GamePageInfo/GamePageInfo';
 import { GenreRow } from '../../components/GenreRow/GenreRow';
 import { Page404 } from '../Page404';
 
@@ -26,9 +26,11 @@ export const GamePage = ({games}:GamePageProps) => {
     if(!game) return <Page404 />
 
     return (
-        <div className='game-page'>
+        <div className='game-page container'>
             <div className='game-layout'>
-                <GamePageInfo game={game}/>
+                <div className='game-info'>
+                    <GamePageInfo game={game}/>
+                </div>
 
                 <div className='game-primary'>
                     <GameSummary game={game}/>
