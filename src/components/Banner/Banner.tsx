@@ -6,6 +6,7 @@ import {GameCard} from '../GameCard/GameCard';
 import { ChevronLeft, ChevronRight } from '@zcorpo/react-material-symbols/400/rounded';
 
 import './Banner.css';
+import '../../styles/carousel-arrow.css';
 
 interface BannerProps {
     games: Game[];

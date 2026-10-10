@@ -35,30 +35,6 @@
     padding: var(--spacing-lg);
 }
 
-.banner .carousel-arrow {
-    width: 48px;
-    background: var(--color-arrow-bg);
-    flex-shrink: 0;
-    border-radius: var(--radius-sm);
-    
-}
-
-.banner .carousel-arrow .svg-arrow {
-    width: 48px;
-    height: 48px;
-}
-
-.banner .carousel-arrow:focus-visible:not(:disabled),
-.banner .carousel-arrow:active:not(:disabled) {
-    background: var(--color-arrow-bg-hover);
-}
-
-@media (hover: hover) {
-    .banner .carousel-arrow:hover:not(:disabled) {
-        background: var(--color-arrow-bg-hover);
-    }
-}
-
 .banner .banner-card {
     flex: 1;
 }
@@ -67,13 +43,6 @@
     border-radius: var(--radius-sm);
 }
 
-.carousel-arrow-prev {
-    left: 0;
-}
-
-.carousel-arrow-next {
-    right: 0;
-}
 
 
 @media (max-width: 640px) {
@@ -91,27 +60,5 @@
 
     .banner .banner-card {
         min-width: 0;
-    }
-
-    .banner .carousel-arrow {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 32px;
-        height: 48px;
-        background: rgb(0 0 0 / 0.6);
-    }
-
-    .banner .carousel-arrow .svg-arrow {
-        width: 24px;
-        height: 24px;
-    }
-
-    .banner .carousel-arrow-prev {
-        left: var(--spacing-md);
-    }
-
-    .banner .carousel-arrow-next {
-        right: var(--spacing-md);
     }
 }
