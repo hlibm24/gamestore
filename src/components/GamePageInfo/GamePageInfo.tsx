@@ -1,8 +1,8 @@
 import { type Game } from "../../type/Game";
 
 import { ScreenshotBanner } from "../ScreenshotBanner/ScreenshotBanner";
-import { GameDescription } from "../GameDescription";
-import { GameRequirements } from "../GameRequirements";
+import { GameDescription } from "../GameDescriptions/GameDescription";
+import { GameRequirements } from "../GameRequirements/GameRequirements";
 
 import './GamePageInfo.css';
 

@@ -28,7 +28,7 @@ export const GamePage = ({games}:GamePageProps) => {
     return (
         <div className='game-page container'>
             <div className='game-layout'>
-                <div className='game-info'>
+                <div className='game-page-info'>
                     <GamePageInfo game={game}/>
                 </div>
 
