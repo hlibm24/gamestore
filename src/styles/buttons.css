@@ -1,0 +1,75 @@
+.btn {
+    padding: var(--spacing-sm) var(--spacing-lg);
+    border-radius: var(--radius-sm);
+    border: 1px solid transparent;
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-medium);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Primary button */
+.btn-primary {
+    background-color: var(--color-green-button);
+    border-color:var(--color-green-button);
+}
+
+.btn-primary:active,
+.btn-primary:focus-visible {
+    background-color: var(--color-green-button-hover);
+}
+
+/* Secondary button */
+.btn-secondary {
+    background: transparent;
+    border-color:var(--color-green-button);
+    color: var(--color-green-button);
+}
+
+.btn-secondary:active,
+.btn-secondary:focus-visible {
+    background-color: rgb(59 196 110 / 0.15);
+}
+
+/* Transparent button */
+.btn-transparent {
+    background: transparent;
+    border-color:var(--color-border-dark);
+    color: var(--color-text-secondary);
+}
+
+.btn-transparent:active,
+.btn-transparent:focus-visible {
+    background-color: rgb(160 170 200 / 0.12);
+}
+
+/* Muted button */
+.btn-muted {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.btn-muted:active,
+.btn-muted:focus-visible {
+    background-color: rgba(255, 255, 255, 0.16);
+}
+
+@media(hover: hover) {
+    .btn-primary:hover {
+        background-color: var(--color-green-button-hover);
+        border-color: var(--color-green-button-hover);
+    }
+
+    .btn-secondary:hover {
+        border-color: var(--color-green-button-hover);
+        background-color: rgb(59 196 110 / 0.15);
+    }
+
+    .btn-transparent:hover {
+        background-color: rgb(160 170 200 / 0.12);
+    }
+
+    .btn-muted:hover {
+        background-color: rgba(255, 255, 255, 0.16);
+    }
+}
