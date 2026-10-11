@@ -1,0 +1,10 @@
+.purchase-box {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.purchase-box h3 {
+    margin: 0;
+    font-size: var(--font-size-xl);
+}

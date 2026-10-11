@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom';
-import { type Game } from "../type/Game";
-import { useCart } from "../context/CartContext";
-import { usePurchased } from "../context/PurchasedContext";
-import { useBuyModal } from "../context/BuyModalContext";
+import { type Game } from "../../type/Game";
+import { useCart } from "../../context/CartContext";
+import { usePurchased } from "../../context/PurchasedContext";
+import { useBuyModal } from "../../context/BuyModalContext";
+
+import './PurchaseBox.css';
+import '../../styles/buttons.css';
 
 interface PurchaseBoxProps {
     game: Game;
@@ -57,8 +60,8 @@ export const PurchaseBox = ({game}:PurchaseBoxProps) => {
         return (
             <div className="purchase-box">
                 <h3>In your library</h3>
-                <Link to="/library">
-                    <button>Go to Library</button>
+                <Link to="/library" className='btn'>
+                    Go to Library
                 </Link>
             </div>
         )
@@ -67,15 +70,15 @@ export const PurchaseBox = ({game}:PurchaseBoxProps) => {
     if(isFree) return (
         <div className="purchase-box">
             <h3>Free</h3>
-            <button onClick={handleAddToLibrary}>Add to library</button>
+            <button onClick={handleAddToLibrary} className='btn btn-primary'>Add to library</button>
         </div>
     )
 
     return (
         <div className="purchase-box">
-            <h3>{game.price}</h3>
-            <button onClick={handleBuyNow}>Buy now</button>
-            <button onClick={handleCartClick}>{inCart ? 'Remove from cart' : 'Add to cart'}</button>
+            <h3>${game.price}</h3>
+            <button onClick={handleBuyNow} className='btn btn-primary'>Buy now</button>
+            <button onClick={handleCartClick} className={`btn ${inCart ? 'btn-transparent' : 'btn-secondary'}`}>{inCart ? 'Remove from cart' : 'Add to cart'}</button>
         </div>
     )
 }

@@ -6,6 +6,7 @@ import { useCart } from "../../context/CartContext";
 import { useBuyModal } from "../../context/BuyModalContext";
 
 import './Cart.css';
+import '../../styles/buttons.css';
 
 export const Cart = () => {
     const {openBuyModal} = useBuyModal();
@@ -39,7 +40,7 @@ export const Cart = () => {
                             </div>
                             <button onClick={() =>removeFromCart(item.appID)
                             }
-                            className='remove-btn'
+                            className='btn btn-muted'
                             aria-label={`Delete ${item.name} from cart`}>Remove</button>
                         </li>
                     ))}
@@ -47,7 +48,7 @@ export const Cart = () => {
                 <div className='buying-zone'>
                     <h3>Total: ${total}</h3>
                     <button onClick={()=>openBuyModal(cartItems)}
-                    className='buy-btn'>Buy the Games</button>
+                    className=' btn btn-primary'>Buy the Games</button>
                 </div>
             </div>
         </section>

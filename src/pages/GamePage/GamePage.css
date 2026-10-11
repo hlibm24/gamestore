@@ -27,6 +27,9 @@
 
 .game-primary {
     grid-area: primary;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
 }
 
 .game-details {

@@ -4,9 +4,9 @@ import { GamePageInfo } from '../../components/GamePageInfo/GamePageInfo';
 import { GenreRow } from '../../components/GenreRow/GenreRow';
 import { Page404 } from '../Page404';
 
-import { GameSummary } from '../../components/GameSummary';
-import { ContentNotice } from '../../components/ContentNotice';
-import { PurchaseBox } from '../../components/PurchaseBox';
+import { GameSummary } from '../../components/GameSummary/GameSummary';
+import { ContentNotice } from '../../components/ContentNotice/ContentNotice';
+import { PurchaseBox } from '../../components/PurchaseBox/PurchaseBox';
 import { AboutGame } from '../../components/AboutGame';
 import { LanguagesInfo } from '../../components/LanguagesInfo';
 
