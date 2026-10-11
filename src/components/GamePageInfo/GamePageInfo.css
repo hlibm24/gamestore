@@ -1,11 +1,5 @@
 .game-info {
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-md);
-}
-
-.game-info h2 {
-    margin: 0px;
-    font-weight: var(--font-weight-medium);
-    font-size: var(--font-size-2xl);
+    gap: var(--spacing-lg);
 }

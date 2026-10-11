@@ -14,7 +14,6 @@ export const GamePageInfo = ({game}:GamePageInfoProps) => {
     
     return (
         <section className="game-info">
-            <h2>{game.name}</h2>
             <ScreenshotBanner screenshots={game.screenshots} />
             
             <GameDescription game={game}/>

@@ -10,7 +10,7 @@
     border-radius: var(--radius-md);
 }
 
-.game-requirements > h2 {
+.game-requirements .game-requirements-title {
     margin: 0;
     grid-area: title;
     font-size: var(--font-size-xl);

@@ -5,9 +5,15 @@
     padding-block: var(--spacing-lg);
 }
 
+.game-page h2 {
+    margin: 0px;
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-2xl);
+}
+
 .game-layout {
     display: grid;
-    grid-template-columns: 1fr 340px;
+    grid-template-columns: 1fr 400px;
     grid-template-areas: 
     'info primary'
     'info details';
