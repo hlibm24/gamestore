@@ -7,7 +7,7 @@ import { Page404 } from '../Page404';
 import { GameSummary } from '../../components/GameSummary/GameSummary';
 import { ContentNotice } from '../../components/ContentNotice/ContentNotice';
 import { PurchaseBox } from '../../components/PurchaseBox/PurchaseBox';
-import { AboutGame } from '../../components/AboutGame';
+import { AboutGame } from '../../components/AboutGame/AboutGame';
 import { LanguagesInfo } from '../../components/LanguagesInfo';
 
 import { useSimilarGames } from '../../hooks/useSimilarGames';

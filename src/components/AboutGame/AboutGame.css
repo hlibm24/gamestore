@@ -1,0 +1,31 @@
+.about-game {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.about-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    margin: 0;
+}
+
+.about-row {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--spacing-md);
+}
+
+.about-row dt {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    flex-shrink: 0;
+}
+
+.about-row dd {
+    margin: 0;
+    text-align: right;
+}
