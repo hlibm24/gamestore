@@ -1,5 +1,5 @@
 import { useBuyModal } from "../context/BuyModalContext";
-import { BuyModal } from "./BuyModal";
+import { BuyModal } from "./BuyModal/BuyModal";
 
 export const BuyModalHost = () => {
     const {buyingGames} = useBuyModal();

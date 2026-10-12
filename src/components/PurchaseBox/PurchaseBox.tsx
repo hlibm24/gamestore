@@ -5,7 +5,6 @@ import { usePurchased } from "../../context/PurchasedContext";
 import { useBuyModal } from "../../context/BuyModalContext";
 
 import './PurchaseBox.css';
-import '../../styles/buttons.css';
 
 interface PurchaseBoxProps {
     game: Game;

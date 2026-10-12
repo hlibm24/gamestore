@@ -2,7 +2,6 @@ import { useScreenshotCarousel } from "../../hooks/useScreenshotCarousel";
 import { ChevronLeft, ChevronRight } from '@zcorpo/react-material-symbols/400/rounded';
 
 import './ScreenshotBanner.css';
-import '../../styles/carousel-arrow.css';
 
 interface ScreenshotBannerProps {
     screenshots: string;

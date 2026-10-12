@@ -6,7 +6,6 @@ import { useCart } from "../../context/CartContext";
 import { useBuyModal } from "../../context/BuyModalContext";
 
 import './Cart.css';
-import '../../styles/buttons.css';
 
 export const Cart = () => {
     const {openBuyModal} = useBuyModal();
