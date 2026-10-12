@@ -59,7 +59,7 @@ export const PurchaseBox = ({game}:PurchaseBoxProps) => {
         return (
             <div className="purchase-box">
                 <h3>In your library</h3>
-                <Link to="/library" className='btn'>
+                <Link to="/library" className='library-link'>
                     Go to Library
                 </Link>
             </div>

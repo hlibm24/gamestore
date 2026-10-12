@@ -1,10 +1,27 @@
 .purchase-box {
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-sm);
+    gap: var(--spacing-md);
 }
 
 .purchase-box h3 {
     margin: 0;
     font-size: var(--font-size-xl);
+}
+
+.purchase-box .library-link {
+    align-self: flex-start;
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+.library-link:active,
+.library-link:focus-visible {
+    color: var(--color-link-hover);
+}
+
+@media(hover: hover) {
+    .library-link:hover {
+        color: var(--color-link-hover);
+    }
 }
