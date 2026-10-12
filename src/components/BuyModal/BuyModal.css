@@ -1,0 +1,126 @@
+.modal-close {
+    position: absolute;
+    padding: 0;
+    top: var(--spacing-md);
+    right: var(--spacing-md);
+    width: var(--spacing-lg);
+    height: var(--spacing-lg);
+    display: grid;
+    place-items: center;
+    background: transparent;
+    color: var(--color-text-secondary);
+    border-radius: var(--radius-lg);
+    font-size: var(--font-size-md);
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+
+.modal-close svg {
+    width: var(--spacing-lg);
+    height: var(--spacing-lg);
+}
+
+@media(hover: hover) {
+    .modal-close:hover {
+        background: var(--color-bg);
+        color: var(--color-text);
+    }
+}
+
+.modal-close:active,
+.modal-close:focus-visible {
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+
+.modal-title {
+    margin: 0 0 var(--spacing-md);
+    padding-right: var(--spacing-xl);
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+}
+
+.modal-title-success {
+    color: #4cd07d;
+}
+
+.modal-title-error {
+    color: #ff5c5c;
+}
+
+.modal-games {
+    margin: 0 0 var(--spacing-md);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.modal-game {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-sm);
+    background: #242a35;
+    border: 1px solid #2c323d;
+    border-radius: var(--border-md);
+}
+
+.modal-game img {
+    width: 120px;
+    aspect-ratio: 460 / 215;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    flex-shrink: 0;
+}
+
+.modal-game h3 {
+    flex: 1;
+    margin: 0;
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-medium);
+}
+
+.modal-game-price {
+    margin: 0;
+    font-weight: var(--font-weight-bold);
+    white-space: nowrap;
+}
+
+.modal-balance {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 var(--spacing-md);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--color-border-dark);
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    font-size: var(--font-size-md);
+    letter-spacing: 0.05em;
+}
+
+.modal-balance span {
+    font-weight: var(--font-weight-bold);
+}
+
+.modal-actions {
+    padding-block: var(--spacing-lg);
+    display: flex;
+    justify-content: space-around;
+}
+
+.modal-link {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+.modal-link:active,
+.modal-link:focus-visible {
+    color: var(--color-link-hover);
+}
+
+@media(hover: hover) {
+    .modal-link:hover {
+        color: var(--color-link-hover);
+    }
+}
