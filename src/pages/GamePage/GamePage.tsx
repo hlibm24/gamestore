@@ -8,7 +8,7 @@ import { GameSummary } from '../../components/GameSummary/GameSummary';
 import { ContentNotice } from '../../components/ContentNotice/ContentNotice';
 import { PurchaseBox } from '../../components/PurchaseBox/PurchaseBox';
 import { AboutGame } from '../../components/AboutGame/AboutGame';
-import { LanguagesInfo } from '../../components/LanguagesInfo';
+import { LanguagesInfo } from '../../components/LanguagesInfo/LanguagesInfo';
 
 import { useSimilarGames } from '../../hooks/useSimilarGames';
 
