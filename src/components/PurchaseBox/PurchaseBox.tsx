@@ -68,16 +68,20 @@ export const PurchaseBox = ({game}:PurchaseBoxProps) => {
 
     if(isFree) return (
         <div className="purchase-box">
-            <h3>Free</h3>
-            <button onClick={handleAddToLibrary} className='btn btn-primary'>Add to library</button>
+            <h3>Free to Play</h3>
+            <div className='purchase-btns'>
+                <button onClick={handleAddToLibrary} className='btn btn-primary'>Add to library</button>
+            </div>
         </div>
     )
 
     return (
         <div className="purchase-box">
             <h3>${game.price}</h3>
-            <button onClick={handleBuyNow} className='btn btn-primary'>Buy now</button>
-            <button onClick={handleCartClick} className={`btn ${inCart ? 'btn-transparent' : 'btn-secondary'}`}>{inCart ? 'Remove from cart' : 'Add to cart'}</button>
+            <div className='purchase-btns'>
+                <button onClick={handleBuyNow} className='btn btn-primary'>Buy now</button>
+                <button onClick={handleCartClick} className={`btn ${inCart ? 'btn-transparent' : 'btn-secondary'}`}>{inCart ? 'Remove from cart' : 'Add to cart'}</button>
+            </div>
         </div>
     )
 }
