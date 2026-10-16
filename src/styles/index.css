@@ -26,6 +26,7 @@
 
   --spacing-xs: 4px;
   --spacing-sm: 8px;
+  --spacing-xmd: 12px;
   --spacing-md: 16px;
   --spacing-lg: 24px;
   --spacing-xl: 32px;
@@ -91,7 +92,7 @@ button {
 
 ul {
   list-style-type: none;
-  padding-left: 0;
+  padding: 0;
   margin: 0;
 }
 

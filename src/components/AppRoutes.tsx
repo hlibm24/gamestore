@@ -7,7 +7,7 @@ import { Cart } from '../pages/Cart/Cart';
 import { Wallet } from '../pages/Wallet';
 import { GamePage } from '../pages/GamePage/GamePage';
 import { Page404 } from '../pages/Page404';
-import { SearchResults } from '../pages/SearchResults';
+import { SearchResults } from '../pages/SearchResults/SearchResults';
 
 interface AppRoutesProps {
     games: Game[];
