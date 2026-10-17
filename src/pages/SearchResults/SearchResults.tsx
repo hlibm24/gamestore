@@ -2,7 +2,8 @@ import { useEffect } from "react";
 import {  useNavigate } from "react-router-dom";
 import { type Game } from "../../type/Game";
 import { useGameSearch } from "../../hooks/useGameSearch";
-import { Link } from "react-router-dom";
+
+import { ItemsList } from '../../components/ItemsList/ItemsList';
 
 import './SearchResults.css';
 
@@ -31,19 +32,7 @@ export const SearchResults = ({games}: SearchResultsProps) => {
     return (
         <div className="search-results container">
             <h2>Results for "{query}"</h2>
-            <ul>
-                {matches.map(game=> (
-                    <li key={game.appID}>
-                        <Link to={`/games/${game.slug}`} className="search-result">
-                            <img src={game.header_image} alt={game.name} />
-                            <div className="search-result-info">
-                                <h3 title={game.name}>{game.name}</h3>
-                                <p>{game.price}</p>
-                            </div>
-                        </Link>
-                    </li>
-                ))}
-            </ul>
+            <ItemsList games={matches} showPrice />
         </div>
     )
 

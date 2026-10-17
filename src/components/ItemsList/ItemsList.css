@@ -1,0 +1,5 @@
+ .items-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xmd);
+}

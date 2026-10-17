@@ -1,4 +1,3 @@
-/* ===== Пустой результат ===== */
 .no-results {
     margin: 0;
     padding-block: var(--spacing-2xl);
@@ -13,84 +12,4 @@
 
 .search-results h2 {
     margin-block: 0 var(--spacing-lg);
-}
-
-.search-results ul {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-xmd);
-}
-
-.search-result {
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-md);
-    background-color: var(--color-bg-gray);
-    border-radius: var(--radius-md);
-    overflow: hidden;
-    text-decoration: none;
-    color: var(--color-text);
-    transition: background-color 0.2s ease;
-}
-
-.search-result img {
-    width: clamp(140px, 30%, 240px);
-    aspect-ratio: 460 / 215;
-    object-fit: cover;
-    flex-shrink: 0;
-}
-
-.search-result-info {
-    flex: 1;
-    min-width: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: var(--spacing-md);
-    padding-right: var(--spacing-md);
-}
-
-.search-result-info h3 {
-    margin: 0;
-    min-width: 0;
-    font-weight: var(--font-weight-medium);
-    font-size: var(--font-size-md);
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
-    overflow: hidden;
-    overflow-wrap: anywhere;
-}
-
-.search-result-info p {
-    white-space: nowrap;
-    flex-shrink: 0;
-}
-
-@media (hover: hover) {
-    .search-result:hover {
-        background-color: var(--color-hover);
-    }
-}
-
-.search-result:active,
-.search-result:focus-visible {
-    background-color: var(--color-hover);
-}
-
-@media (max-width: 600px) {
-    .search-result {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 0;
-    }
-
-    .search-result img {
-        width: 100%;
-    }
-
-    .search-result-info {
-        padding: var(--spacing-xmd) var(--spacing-md);
-    }
 }
