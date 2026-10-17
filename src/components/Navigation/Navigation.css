@@ -34,8 +34,9 @@
     border-bottom: 2px solid var(--color-link);
 }
 
-.nav-link:not(.active):active {
-    color: red;
+.nav-link:not(.active):active,
+.nav-link:not(.active):focus-visible {
+    color: rgb(255 255 255 / 0.8);
 }
 
 @media (hover: hover) {
