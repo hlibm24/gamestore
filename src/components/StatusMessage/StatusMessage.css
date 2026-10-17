@@ -1,0 +1,36 @@
+.status-message {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+    padding-block: var(--spacing-lg);
+    align-items: center;
+    text-align: center;
+}
+
+.status-message h1 {
+    margin: 0;
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-text-secondary);
+}
+
+.status-message p {
+    margin: 0;
+    color: var(--color-text-secondary);
+}
+
+.back-to-store-link {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+.back-to-store-link:active,
+.back-to-store-link:focus-visible {
+    color: var(--color-link-hover);
+}
+
+@media(hover: hover) {
+    .back-to-store-link:hover {
+        color: var(--color-link-hover);
+    }
+}

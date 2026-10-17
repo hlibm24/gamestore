@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useMemo } from 'react';
 import { roundMoney } from '../../utils/roundMoney';
+import { StatusMessage } from '../../components/StatusMessage/StatusMessage';
 
 import { useCart } from "../../context/CartContext";
 import { useBuyModal } from "../../context/BuyModalContext";
@@ -14,10 +15,9 @@ export const Cart = () => {
 
     if(cartItems.length === 0) {
         return (
-            <section className='cart-section container'>
-                <h2>Your cart is empty</h2>
-                <Link to="/" className='back-to-store-link'>Back to the store</Link>
-            </section>
+            <StatusMessage title='Your cart is empty'>
+                <Link to="/" className="back-to-store-link">Back to the store</Link>
+            </StatusMessage>
         )
     }
 

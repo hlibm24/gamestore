@@ -128,20 +128,3 @@
         align-self: flex-end ;
     }
 }
-
-.back-to-store-link {
-    align-self: flex-start;
-    color: var(--color-link);
-    text-decoration: none;
-}
-
-.back-to-store-link:active,
-.back-to-store-link:focus-visible {
-    color: var(--color-link-hover);
-}
-
-@media(hover: hover) {
-    .back-to-store-link:hover {
-        color: var(--color-link-hover);
-    }
-}

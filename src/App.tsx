@@ -7,6 +7,7 @@ import {Footer} from './components/Footer/Footer';
 import { AppRoutes } from './components/AppRoutes';
 import { BuyModalHost } from './components/BuyModalHost';
 import { Spinner } from './components/Spinner/Spinner';
+import { StatusMessage } from './components/StatusMessage/StatusMessage';
 
 import { useGames } from './hooks/useGames';
 
@@ -26,10 +27,9 @@ function App() {
 
   if(error) {
     return (
-      <div>
-        <p>{error.message}</p>
-        <button onClick={refetch}>Try again</button>
-      </div>
+      <StatusMessage text={error.message}>
+        <button onClick={refetch} className="btn btn-muted">Try again</button>
+      </StatusMessage>
     )
   }
 
