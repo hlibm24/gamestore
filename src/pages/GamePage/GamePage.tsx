@@ -2,7 +2,7 @@ import { type Game } from '../../type/Game';
 import { useParams } from 'react-router-dom';
 import { GamePageInfo } from '../../components/GamePageInfo/GamePageInfo';
 import { GenreRow } from '../../components/GenreRow/GenreRow';
-import { Page404 } from '../Paga404/Page404';
+import { Page404 } from '../Page404';
 
 import { GameSummary } from '../../components/GameSummary/GameSummary';
 import { ContentNotice } from '../../components/ContentNotice/ContentNotice';

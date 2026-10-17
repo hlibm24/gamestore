@@ -1,4 +1,4 @@
-import { useWallet } from "../context/WalletContext";
+import { useWallet } from "../../context/WalletContext";
 
 export const Wallet = () => {
     const {balance, transactions} = useWallet();
@@ -17,7 +17,7 @@ export const Wallet = () => {
                     {transactions.map((transaction)=> (
                         <li key={transaction.id}>
                             <p>{transaction.description}</p>
-                            <p>-{transaction.amount}</p>
+                            <p>-${transaction.amount}</p>
                             <p>{new Date(transaction.date).toLocaleString()}</p>
                         </li>
                     ))}
