@@ -2,7 +2,7 @@ import {Routes, Route} from 'react-router-dom';
 import {type Game} from '../type/Game';
 
 import { Store } from '../pages/Store';
-import { Library } from '../pages/Library';
+import { Library } from '../pages/Library/Library';
 import { Cart } from '../pages/Cart/Cart';
 import { Wallet } from '../pages/Wallet';
 import { GamePage } from '../pages/GamePage/GamePage';
