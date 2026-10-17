@@ -28,5 +28,4 @@ if(!currentScreenshot) return null;
             </button>
         </div>
     )
-
 }

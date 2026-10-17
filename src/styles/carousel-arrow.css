@@ -36,10 +36,10 @@
     }
 
     .carousel-arrow-prev {
-        left: var(--spacing-md);
+        left: 0;
     }
 
     .carousel-arrow-next {
-        right: var(--spacing-md);
+        right: 0;
     }
 }

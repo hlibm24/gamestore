@@ -68,4 +68,12 @@
         height: 48px;
         background: rgb(0 0 0 / 0.6);
     }
+
+    .banner .carousel-arrow-prev {
+    left: var(--spacing-md);
+    }
+
+    .banner .carousel-arrow-next {
+        right: var(--spacing-md);
+    }
 }
