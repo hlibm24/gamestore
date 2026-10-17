@@ -1,0 +1,118 @@
+.no-transactions {
+    color: var(--color-text-secondary);
+}
+
+.wallet-page {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xl);
+    padding-block: var(--spacing-lg);
+}
+
+.wallet-page h2 {
+    margin: 0;
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-small);
+}
+
+.balance-info,
+.transaction-history {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.balance-info p {
+    color: var(--color-text-secondary);
+}
+
+.balance-box {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    width: fit-content;
+    min-width: 220px;
+    padding: var(--spacing-md) var(--spacing-lg);
+    border-radius: var(--radius-md);
+    background-color: var(--color-bg-gray);
+    border: 1px solid var(--color-border-dark);
+}
+
+.balance-label {
+    font-size: var(--font-size-sm);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-secondary);
+}
+
+.balance-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--spacing-lg);
+}
+
+.balance-value {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-medium);
+}
+
+.balance-rate {
+    padding: 2px var(--spacing-sm);
+    border-radius: 999px;
+    font-size: var(--font-size-sm);
+    color: var(--color-green-button);
+    background-color: rgb(59 196 110 / 0.15);
+}
+
+.transaction-history ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xmd);
+}
+
+.transaction {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md) var(--spacing-lg);
+    border-radius: var(--radius-md);
+    background-color: var(--color-bg-gray);
+}
+
+.transaction p {
+    margin: 0;
+}
+
+.transaction-description {
+    flex: 1;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.transaction-amount,
+.transaction-date {
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.transaction-date {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+@media (max-width: 560px) {
+    .transaction {
+        flex-wrap: wrap;
+        gap: var(--spacing-xs) var(--spacing-md);
+        padding: var(--spacing-md);
+    }
+
+    .transaction-description {
+        flex-basis: 100%;
+    }
+
+    .transaction-date {
+        margin-left: auto;
+    }
+}
