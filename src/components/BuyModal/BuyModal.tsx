@@ -30,7 +30,7 @@ export const BuyModal = ({buyingGames}: BuyModalProps) => {
     const [screen, setScreen] = useState<Screen>('confirm');
 
     const gamesPrice = roundMoney(buyingGames.reduce((sum, item)=> sum + item.price, 0));
-    const gamesNames = buyingGames.map((game)=> game.name).join(',');
+    const gamesNames = buyingGames.map((game)=> game.name).join(', ');
 
     const handleBuyResultModal = () => {
         const result = spend(gamesPrice, gamesNames);
