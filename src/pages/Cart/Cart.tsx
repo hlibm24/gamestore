@@ -47,7 +47,7 @@ export const Cart = () => {
                 <div className='buying-zone'>
                     <h3>Total: ${total}</h3>
                     <button onClick={()=>openBuyModal(cartItems)}
-                    className=' btn btn-primary'>Buy the Games</button>
+                    className=' btn btn-primary'>Continue</button>
                 </div>
             </div>
         </section>
