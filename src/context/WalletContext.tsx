@@ -1,6 +1,7 @@
 import { createContext, useState, useContext, type ReactNode, useEffect } from 'react'; 
 import { type Transaction } from '../type/Transaction';
 import { roundMoney } from '../utils/roundMoney';
+import { loadFromStorage, saveToStorage } from '../utils/storage';
 
 interface WalletContextType {
     transactions: Transaction[];
@@ -18,25 +19,24 @@ export const WalletProvider =({children}: {children: ReactNode}) => {
     const BALANCE_KEY = 'balance';
     const EARN_AMOUNT = 5; 
     const EARN_INTEVAL_MS = 60000;
+    
 
-    const [transactions, setTransactions] = useState<Transaction[]>(()=> {
-        const saved = localStorage.getItem(ALL_TRANSACTIONS);
-        return saved ? JSON.parse(saved) : [];
-    });
+    const [transactions, setTransactions] = useState<Transaction[]>(() => 
+        loadFromStorage<Transaction[]>(ALL_TRANSACTIONS, [])
+    );
 
-    useEffect(()=> {
-        localStorage.setItem(ALL_TRANSACTIONS, JSON.stringify(transactions));
+    useEffect(() => {
+        saveToStorage(ALL_TRANSACTIONS, transactions);
     }, [transactions]);
 
 
-    const [balance, setBalance] = useState<number>(()=> {
-        const saved = localStorage.getItem(BALANCE_KEY);
-        return saved ? JSON.parse(saved) : 0;
-    });
+    const [balance, setBalance] = useState<number>(() => loadFromStorage<number>(BALANCE_KEY, 0)
+    );
 
-    useEffect(()=> {
-        localStorage.setItem(BALANCE_KEY, JSON.stringify(balance));
+    useEffect(() => {
+        saveToStorage(BALANCE_KEY, balance);
     }, [balance]);
+
 
     const addBalance = (addSum: number) => {
         setBalance(prev => roundMoney(prev + addSum));

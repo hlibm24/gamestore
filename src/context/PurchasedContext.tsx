@@ -1,5 +1,6 @@
 import { createContext, useState, useEffect, useContext, type ReactNode } from 'react';
 import { type CartItem } from '../type/CartItem';
+import { loadFromStorage, saveToStorage } from '../utils/storage';
 
 interface PurchasedContextType {
     purchased: CartItem[];
@@ -11,14 +12,14 @@ const PurchasedContext = createContext<PurchasedContextType | undefined>(undefin
 const STORAGE_KEY = 'purchased'
 
 export const PurchasedProvider = ({children}: {children: ReactNode}) => {
-    const [purchased, setPurchased] = useState<CartItem[]>(()=> {
-        const saved = localStorage.getItem(STORAGE_KEY);
-        return saved ? JSON.parse(saved) : [];
-    });
+    const [purchased, setPurchased] = useState<CartItem[]>(()=> 
+        loadFromStorage<CartItem[]>(STORAGE_KEY, [])
+    );
 
     useEffect(()=> {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(purchased));
+        saveToStorage(STORAGE_KEY, purchased);
     }, [purchased]);
+
 
     const addPurchase = (game: CartItem) => {
         setPurchased((prev)=> {
