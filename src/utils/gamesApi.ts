@@ -29,6 +29,14 @@ export async function fetchGames(signal?: AbortSignal): Promise<GamesResult> {
         }
 
         const data: Game[] = await res.json();
+
+        if(data.length === 0) {
+            return {
+                data: null,
+                error: {type: 'not_found', message: `Server doesn't respond`}
+            }
+        }
+
         return {data, error: null};
     } catch(err) {
         if(err instanceof DOMException && err.name === 'AbortError') {
