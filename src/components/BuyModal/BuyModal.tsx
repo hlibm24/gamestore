@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {Link} from 'react-router-dom';
 import { Close } from '@zcorpo/react-material-symbols/400/rounded';
 import { roundMoney } from "../../utils/roundMoney";
@@ -28,6 +28,24 @@ export const BuyModal = ({buyingGames}: BuyModalProps) => {
 
     type Screen = 'confirm' | 'insufficient' | 'success';
     const [screen, setScreen] = useState<Screen>('confirm');
+
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.key !== 'Escape') return;
+
+            if (screen === 'insufficient') {
+                setScreen('confirm');
+            } else {
+                closeBuyModal();
+            }
+        };
+
+        document.addEventListener('keydown', handleKeyDown);
+
+        return () => {
+            document.removeEventListener('keydown', handleKeyDown);
+        };
+    }, [screen, closeBuyModal]);
 
     const gamesPrice = roundMoney(buyingGames.reduce((sum, item)=> sum + item.price, 0));
     const gamesNames = buyingGames.map((game)=> game.name).join(', ');
