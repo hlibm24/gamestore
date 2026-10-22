@@ -14,7 +14,9 @@ export const ListItem = ({game, showPrice = false}: ListItemProps) => {
             <img src={game.header_image} alt={game.name} />
             <div className="item-info">
                 <h3 title={game.name}>{game.name}</h3>
-                {showPrice && <p>${game.price}</p>}
+                {showPrice && (
+                    <p>{game.price > 0 ? `$${game.price}` : 'Free to play'}</p>
+                )}
             </div>
         </Link>
     )
