@@ -12,13 +12,21 @@ interface BannerProps {
     games: Game[];
 }
 
+type BannerStyle = React.CSSProperties & {
+    '--bg-image': string;
+}
+
 export const Banner = ({games}: BannerProps) => {
     const {currentGame, next, prev, pause, resume} = useBanner(games);
+
+    const style: BannerStyle = {
+        '--bg-image': `url('${currentGame.header_image}')`,
+    }
 
     if(!currentGame) return null;
 
     return (
-        <section className='recommends-banner' style={{ '--bg-image': `url(${currentGame.header_image})` } as React.CSSProperties}>
+        <section className='recommends-banner' style={style}>
 
             <div className='recommends-banner-inner'>
                 <h2>Store creator recommends</h2>
