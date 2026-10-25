@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "server": "json-server db.json"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@zcorpo/react-material-symbols": "^0.1.5",
