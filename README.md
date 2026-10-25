@@ -30,7 +30,7 @@ A video game store simulation built with React and TypeScript. Browse and search
 
 Requires [Node.js](https://nodejs.org/) (v20.19 or newer).
 
-​```bash
+```bash
 git clone https://github.com/hlibm24/gamestore.git
 cd gamestore
 npm install
