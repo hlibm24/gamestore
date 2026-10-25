@@ -4,7 +4,9 @@ A video game store simulation built with React and TypeScript. Browse and search
 
 **[Live demo](https://gamestoreapp.vercel.app/)**
 
-<!-- video here -->
+https://github.com/user-attachments/assets/e14cedaa-9b49-47b7-a051-d07e239ba8e6
+
+
 
 ## Features
 
