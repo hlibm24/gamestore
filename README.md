@@ -16,7 +16,7 @@ A learning project inspired by Steam and Epic Games. I wanted to understand how 
 - Home page with a banner and a genre carousel, plus search and navigation
 - Game page with screenshots, description, system requirements and other details
 - Cart: save games to buy later
-- Wallet that is topped up automatically every minute and transactions history
+- Wallet with automatic top-up every minute and transactions history
 - Library of purchased games; bought games are marked as "Purchased" on their pages
 
 > This is a simulation project: no real payments are made.
@@ -40,4 +40,4 @@ git clone https://github.com/hlibm24/gamestore.git
 cd gamestore
 npm install
 npm run dev
-​```
+```
