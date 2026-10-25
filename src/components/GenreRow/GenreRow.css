@@ -61,9 +61,9 @@
 
 .genre-row-game-banner {
     position: relative;
-    width: 100%;
-    height: auto;
-    display: block;
+    aspect-ratio: 460 / 215;
+    object-fit: cover;
+    background-color: var(--color-input-bg);
 }
 
 .genre-row-game:focus-visible .genre-row-game-banner {

@@ -9,6 +9,10 @@
   min-width: 0;
   max-width: 100%;
   height: auto;
+  width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    background-color: var(--color-input-bg);
 }
 
 @media (max-width: 640px) {
