@@ -25,15 +25,23 @@ export const useGames = () => {
             } else {
               setGames(data);
             }
-  
-            setLoading(false);
 
           } catch (err) {
-          if(err instanceof DOMException && err.name === 'AbortError') {
-            return;
+            if (
+              controller.signal.aborted ||
+              (err instanceof DOMException && err.name === 'AbortError')
+            ) {
+              return;
+            }
+            setError({
+              type: 'network_error',
+              message: 'Unable to load games. Please try again.'
+            });
+          } finally {
+            if (!controller.signal.aborted) {
+              setLoading(false);
+            }
           }
-          throw err;
-        }
         }
 
         loadGames();
