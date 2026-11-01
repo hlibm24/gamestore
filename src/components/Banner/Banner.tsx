@@ -19,11 +19,11 @@ type BannerStyle = React.CSSProperties & {
 export const Banner = ({games}: BannerProps) => {
     const {currentGame, next, prev, pause, resume} = useBanner(games);
 
+    if(!currentGame) return null;
+
     const style: BannerStyle = {
         '--bg-image': `url('${currentGame.header_image}')`,
     }
-
-    if(!currentGame) return null;
 
     return (
         <section className='recommends-banner' style={style}>
