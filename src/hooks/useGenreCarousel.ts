@@ -9,21 +9,29 @@ export const useGenreCarousel =  (games: Game[], pageSize: number)=> {
     }, [pageSize])
 
     const totalPages = Math.ceil(games.length / pageSize);
+    const safePage = Math.min(currentPage, Math.max(totalPages - 1, 0));
 
     const currentGames = useMemo(() => {
-        const start = currentPage * pageSize;
-        return games.slice(start, start + pageSize);
-    }, [games, currentPage, pageSize]);
+        const count = Math.min(pageSize, games.length);
+        const start = safePage * pageSize;
+
+        return Array.from(
+            { length: count },
+            (_, index) => games[(start + index) % games.length]
+        );
+    }, [games, pageSize, safePage]);
 
     const next = () => {
-        setCurrentPage((prev) => (prev + 1) % totalPages);
+        if(totalPages === 0) return;
+        setCurrentPage((prev) => (Math.min(prev, totalPages - 1) + 1) % totalPages);
     }
 
     const prev = () => {
-        setCurrentPage((prev) => (prev - 1 + totalPages) % totalPages);
+        if(totalPages === 0) return;
+        setCurrentPage((prev) => (Math.min(prev, totalPages - 1) - 1 + totalPages) % totalPages);
     }
 
     const isDisabled = totalPages <= 1;
 
-    return {currentGames, next, prev, currentPage, totalPages, isDisabled};
+    return {currentGames, next, prev, currentPage: safePage, totalPages, isDisabled};
 }
