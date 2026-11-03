@@ -10,9 +10,18 @@ export const usePageSize = () => {
     const [size, setSize] = useState(getSize);
 
     useEffect(()=> {
-        const onResize = () => setSize(getSize());
-        window.addEventListener('resize', onResize);
-        return () => window.removeEventListener('resize', onResize);
+        const mobile = window.matchMedia('(max-width: 640px)');
+        const tablet = window.matchMedia('(max-width: 1024px)');
+
+        const updateSize = () => setSize(getSize());
+
+        mobile.addEventListener('change', updateSize);
+        tablet.addEventListener('change', updateSize);
+
+        return () => {
+            mobile.removeEventListener('change', updateSize);
+            tablet.removeEventListener('change', updateSize);
+        }
     }, []);
 
     return size;
