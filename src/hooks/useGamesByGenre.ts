@@ -4,7 +4,7 @@ import { parseCommaList } from '../utils/parseCommaList';
 
 export const useGamesByGenre = (games: Game[]) => {
 
-    const gamesByGenre = useMemo(()=> {
+    const gamesWithEnoughGames = useMemo(()=> {
         const result: Record<string, Game[]> = {};
         
         games.forEach((game)=> {
@@ -19,13 +19,12 @@ export const useGamesByGenre = (games: Game[]) => {
                 result[genre].push(game);
             });
         });
-        return result;
+        return Object.entries(result).filter(
+            ([, genreGames]) => genreGames.length >= 5
+        );
 
     }, [games]);
     
-    const genresWithEnoughGames = Object.entries(gamesByGenre).filter(
-        ([, games]) => games.length >= 5
-    );
        
-    return genresWithEnoughGames;
+    return gamesWithEnoughGames;
 }
