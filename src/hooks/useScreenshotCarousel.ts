@@ -15,8 +15,10 @@ export const useScreenshotCarousel = (screenshotsString: string) => {
         const total = screenshots.length;
         if(total === 0) return;
 
-        [1, 2, -1].forEach((offset) => {
-            const src = screenshots[(currentIndex + offset + total) % total];
+        const sourcesToPreload = new Set(
+            [1, 2, -1].map((offset) => screenshots[(currentIndex + offset + total) % total])
+        );
+        sourcesToPreload.forEach((src) => {
             const img = new Image();
             img.src = src;
         })
