@@ -3,7 +3,7 @@ import { type Game } from "../type/Game";
 const BASE_URL = 'https://6aa29578ccb3db9689a6ba71.mockapi.io/api/gamestore';
 
 export type GamesError = {
-    type: 'network_error' | 'not_found' | 'http_error';
+    type: 'network_error' | 'not_found' | 'http_error' | 'invalid_response';
     message: string;
 }
 
@@ -28,16 +28,28 @@ export async function fetchGames(signal?: AbortSignal): Promise<GamesResult> {
             }
         }
 
-        const data: Game[] = await res.json();
-
-        if(data.length === 0) {
+        let data: unknown;
+        try {
+            data = await res.json();
+        } catch(err) {
+            if(err instanceof DOMException && err.name === 'AbortError') {
+                throw err;
+            }
             return {
                 data: null,
-                error: {type: 'not_found', message: `Server doesn't respond`}
-            }
+                error: {type: 'invalid_response', message: 'Server returned an invalid response'}
+            };
         }
 
-        return {data, error: null};
+        if(!Array.isArray(data)) {
+            return {
+                data: null,
+                error: {type: 'invalid_response', message: 'Server returned an invalid response'}
+            };
+        }
+
+        return {data: data as Game[], error: null};
+
     } catch(err) {
         if(err instanceof DOMException && err.name === 'AbortError') {
             throw err;
@@ -48,5 +60,3 @@ export async function fetchGames(signal?: AbortSignal): Promise<GamesResult> {
         }
     }
 }
-
-
