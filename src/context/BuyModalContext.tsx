@@ -1,4 +1,10 @@
-import { createContext, useContext, useState, type ReactNode } from "react";
+import { createContext,
+    useContext,
+    useState,
+    useCallback,
+    useMemo,
+    type ReactNode 
+} from "react";
 import { type CartItem } from "../type/CartItem";
 
 interface BuyModalContextType {
@@ -12,16 +18,21 @@ const BuyModalContext = createContext<BuyModalContextType | undefined>(undefined
 export const BuyModalProvider = ({children}: {children: ReactNode}) => {
     const [buyingGames, setBuyingGames] = useState<CartItem[] | null>(null);
 
-    const openBuyModal = (games: CartItem[]) => {
+    const openBuyModal = useCallback((games: CartItem[]) => {
         setBuyingGames(games);
-    }
+    }, []);
 
-    const closeBuyModal = () => {
+    const closeBuyModal = useCallback(() => {
         setBuyingGames(null);
-    }
+    }, []);
+
+    const value = useMemo(
+        () => ({buyingGames, openBuyModal, closeBuyModal}),
+        [buyingGames, openBuyModal, closeBuyModal]
+    );
 
     return (
-        <BuyModalContext.Provider value={{buyingGames, openBuyModal, closeBuyModal}}>
+        <BuyModalContext.Provider value={value}>
             {children}
         </BuyModalContext.Provider>
     )
