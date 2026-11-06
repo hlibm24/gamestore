@@ -11,6 +11,49 @@ export type GamesResult =
     | {data: Game[]; error: null}
     | {data: null; error: GamesError};
 
+function isRecord(value: unknown): value is Record<string, unknown> {
+    return typeof value === 'object' && value !== null && !Array.isArray(value);
+}
+
+function isSystemRequirements(value: unknown): value is Game['minimum_requirements'] {
+    return isRecord(value) &&
+        typeof value.OS === 'string' &&
+        typeof value.PROCESSOR === 'string' &&
+        typeof value.MEMORY === 'string' &&
+        typeof value.GRAPHICS === 'string' &&
+        typeof value.DIRECTX === 'string' &&
+        typeof value.STORAGE === 'string';
+}
+
+function isGame(value: unknown): value is Game {
+    return isRecord(value) &&
+        typeof value.appID === 'number' &&
+        typeof value.name === 'string' &&
+        typeof value.slug === 'string' &&
+        typeof value.isFeatured === 'boolean' &&
+        typeof value.release_date === 'string' &&
+        typeof value.required_age === 'string' &&
+        typeof value.price === 'number' &&
+        typeof value.detailed_description === 'string' &&
+        typeof value.short_description === 'string' &&
+        isSystemRequirements(value.minimum_requirements) &&
+        isSystemRequirements(value.recommended_requirements) &&
+        typeof value.supported_languages === 'string' &&
+        typeof value.full_audio_languages === 'string' &&
+        typeof value.reviews === 'string' &&
+        typeof value.header_image === 'string' &&
+        typeof value.notes === 'string' &&
+        typeof value.developers === 'string' &&
+        typeof value.publishers === 'string' &&
+        typeof value.genres === 'string' &&
+        typeof value.screenshots === 'string' &&
+        typeof value.categories === 'string';
+}
+
+function isGameArray(value: unknown): value is Game[] {
+    return Array.isArray(value) && value.every(isGame);
+}
+
 
 export async function fetchGames(signal?: AbortSignal): Promise<GamesResult> {
     try {
@@ -41,14 +84,14 @@ export async function fetchGames(signal?: AbortSignal): Promise<GamesResult> {
             };
         }
 
-        if(!Array.isArray(data)) {
+        if(!isGameArray(data)) {
             return {
                 data: null,
                 error: {type: 'invalid_response', message: 'Server returned an invalid response'}
             };
         }
 
-        return {data: data as Game[], error: null};
+        return {data, error: null};
 
     } catch(err) {
         if(err instanceof DOMException && err.name === 'AbortError') {
