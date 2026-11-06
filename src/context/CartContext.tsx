@@ -1,6 +1,16 @@
-import { createContext, useState, useContext, type ReactNode, useEffect } from 'react';
-import { type CartItem } from '../type/CartItem';
-import { loadFromStorage, saveToStorage } from '../utils/storage';
+import {
+    createContext,
+    useState,
+    useContext,
+    useEffect,
+    useCallback,
+    useMemo,
+    type ReactNode,
+} from 'react';
+import { isCartItem, type CartItem } from '../type/CartItem';
+import { loadArrayFromStorage, saveToStorage } from '../utils/storage';
+
+const STORAGE_KEY = 'cart_items';
 
 interface CartContextType {
     cartItems: CartItem[];
@@ -11,44 +21,43 @@ interface CartContextType {
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
 
-export const CartProvider = ({children}: { children: ReactNode }) => {
-    const STORAGE_KEY = 'cart_items';
-    
+export const CartProvider = ({ children }: { children: ReactNode }) => {
+    const [cartItems, setCartItems] = useState<CartItem[]>(() =>
+        loadArrayFromStorage(STORAGE_KEY, isCartItem),
+    );
 
-    const [cartItems, setCartItems] = useState<CartItem[]>(() => 
-        loadFromStorage<CartItem[]>(STORAGE_KEY, [])
-    )
-
-    useEffect(()=> {
+    useEffect(() => {
         saveToStorage(STORAGE_KEY, cartItems);
     }, [cartItems]);
 
-
-    const addToCart = (item: CartItem) => {
+    const addToCart = useCallback((item: CartItem) => {
         setCartItems((prev) => {
-            const alreadyInCart = prev.some((cartItem) => cartItem.appID === item.appID);
-            if(alreadyInCart) return prev;
+            if (prev.some((cartItem) => cartItem.appID === item.appID)) return prev;
             return [...prev, item];
-        })
-    };
+        });
+    }, []);
 
-    const removeFromCart = (appID: number) => {
+    const removeFromCart = useCallback((appID: number) => {
         setCartItems((prev) => prev.filter((item) => item.appID !== appID));
-    }
+    }, []);
 
-    const isInCart = (appID: number) => cartItems.some((item) => item.appID === appID);
+    const isInCart = useCallback(
+        (appID: number) => cartItems.some((item) => item.appID === appID),
+        [cartItems],
+    );
 
-    return (
-        <CartContext.Provider value={{ cartItems, addToCart, removeFromCart, isInCart }}>
-            {children}
-        </CartContext.Provider>
-    )
-}
+    const value = useMemo(
+        () => ({ cartItems, addToCart, removeFromCart, isInCart }),
+        [cartItems, addToCart, removeFromCart, isInCart],
+    );
+
+    return <CartContext.Provider value={value}>{children}</CartContext.Provider>;
+};
 
 export const useCart = () => {
     const context = useContext(CartContext);
-    if(!context) {
-        throw new Error('useCart must be used within a CartProvider')
+    if (!context) {
+        throw new Error('useCart must be used within a CartProvider');
     }
     return context;
-}
+};

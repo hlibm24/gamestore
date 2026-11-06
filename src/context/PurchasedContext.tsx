@@ -1,6 +1,16 @@
-import { createContext, useState, useEffect, useContext, type ReactNode } from 'react';
-import { type CartItem } from '../type/CartItem';
-import { loadFromStorage, saveToStorage } from '../utils/storage';
+import {
+    createContext,
+    useState,
+    useEffect,
+    useContext,
+    useCallback,
+    useMemo,
+    type ReactNode,
+} from 'react';
+import { isCartItem, type CartItem } from '../type/CartItem';
+import { loadArrayFromStorage, saveToStorage } from '../utils/storage';
+
+const STORAGE_KEY = 'purchased';
 
 interface PurchasedContextType {
     purchased: CartItem[];
@@ -9,30 +19,36 @@ interface PurchasedContextType {
 }
 
 const PurchasedContext = createContext<PurchasedContextType | undefined>(undefined);
-const STORAGE_KEY = 'purchased'
 
 export const PurchasedProvider = ({children}: {children: ReactNode}) => {
-    const [purchased, setPurchased] = useState<CartItem[]>(()=> 
-        loadFromStorage<CartItem[]>(STORAGE_KEY, [])
+    const [purchased, setPurchased] = useState<CartItem[]>(() =>
+        loadArrayFromStorage(STORAGE_KEY, isCartItem),
     );
 
-    useEffect(()=> {
+    useEffect(() => {
         saveToStorage(STORAGE_KEY, purchased);
     }, [purchased]);
 
-
-    const addPurchase = (game: CartItem) => {
-        setPurchased((prev)=> {
-            const alreadyPurhcased = prev.some((item) => item.appID === game.appID);
-            if(alreadyPurhcased) return prev;
+    const addPurchase = useCallback((game: CartItem) => {
+        setPurchased((prev) => {
+            const alreadyPurchased = prev.some((item) => item.appID === game.appID);
+            if (alreadyPurchased) return prev;
             return [...prev, game];
-        })
-    };
+        });
+    }, []);
 
-    const isPurchased = (appID: number) => purchased.some((item) => item.appID === appID);
+    const isPurchased = useCallback(
+        (appID: number) => purchased.some((item) => item.appID === appID),
+        [purchased],
+    );
+
+    const value = useMemo(
+        () => ({ purchased, addPurchase, isPurchased }),
+        [purchased, addPurchase, isPurchased],
+    );
 
     return (
-        <PurchasedContext.Provider value={{purchased, addPurchase, isPurchased}}>
+        <PurchasedContext.Provider value={value}>
             {children}
         </PurchasedContext.Provider>
     )
